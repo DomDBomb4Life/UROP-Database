@@ -1,0 +1,474 @@
+[
+
+  {
+    "title": "AI + Chaotic System",
+    "department": "Electrical Eng & Computer Sci (EECS)",
+    "overview": "This project explores AI methods for chaotic systems, which are inherently unstable: even a tiny perturbation in initial conditions can lead to dramatically different outcomes, fundamentally limiting predictability. Our goal is to develop foundational machine learning models that serve as universal representations for ergodic systems, with applications in weather forecasting, climate engineering, and extreme event prediction.\n\nLarge-scale simulations in fields such as turbulence and lithography often involve millions to billions of mesh points. Capturing these multi-scale phenomena accurately is challenging, as traditional single-scale models struggle with consistency across scales. To address this, we aim to build a multi-scale foundation model that leverages the principle of consistency\u2014a property of many PDEs in which solutions on larger domains, when restricted to subdomains, align with solutions computed directly on those subdomains. By incorporating this principle, our approach has the potential to dramatically improve the efficiency, accuracy, and generalizability of data-driven PDE solvers. Beyond enabling robust generalization across different scales, this research raises a deeper question: Can we uncover emergent behaviors that manifest only beyond the training scale?\n\nResponsibilities:\n- Conduct literature reviews on modern AI/ML approaches in science.\n- Design and implement machine learning models.\n- Deploy models on GPU/TPU clusters.\n- Validate models on large-scale scientific datasets.\n- Collaborate with the research team and participate in group meetings.\n\nPreferred Skills?\n- Previous search experience in machine learning and generative models.\n- Proficiency in PyTorch (required); experience with JAX preferred.\n- Mathematical maturity (numerical analysis, partial differential equations). \n- Background in computational fluid mechanics and partial differential equations preferred.\n- Additional knowledge in earth, atmosphere and ocean science is a plus.\n\n\nAdditional Information?\n- Applicants must apply for course credit.\n- This UROP has the possibility of extending into the winter and spring.\n- To apply, please submit a CV and transcript to Zongyi Li (zongyili@mit.edu).",
+    "prerequisites": null,
+    "contact": "Zongyi Li",
+    "contact_email": "zongyili@mit.edu",
+    "sponsor": "Kaiming He",
+    "eligible_years": [
+      "First Year",
+      "Sophomores",
+      "Juniors",
+      "Seniors"
+    ]
+  },
+  {
+    "title": "AI and the Future of Work",
+    "department": "Sloan School of Management",
+    "overview": "Where and how can AI be used \u2014 and what does this mean for people, jobs, and organizations? Today, many are excited about AI\u2019s potential, but lack a systematic way to identify where it can augment or automate human labor. At the same time, this uncertainty drives widespread anxiety about job displacement.\n\nOur initiative is developing a systematic ontology of work activities that enables sophisticated forecasting of where AI can be applied to human job tasks. Our ontology is an online knowledge base that represents the activities humans and AI systems can perform, the actors (different human and AI agents) who perform them, and the different process flows they can use. This ontology enables us to:\n(1) Forecast which activities may be automated vs. augmented.\n(2) Predict human, AI, and human-AI team performance on new tasks.\n(3) Design programs, policies, and tools to help workers flourish during this transition.\n(4) Support reskilling by pointing toward the next most valuable skills and tasks.\n\nWe are hiring 2-3 UROPs to contribute to the following areas of the project:\n\n(1) Human-in-the-loop Data Ingestion Software\n(a) Develop automated and human-in-the-loop systems for ingesting new task datasets to expand and refine the ontology.\n(b) Skills: Python, NLP, knowledge representation, human-in-the-loop systems.\n\n(2) Ontology Content Development\n(a) Populate and classify ontology content using semantic and linguistic skills.\n(b) Skills: strong writing/analytical skills; linguistics, philosophy, or cognitive science background a plus.\n\n(3) Economic Analysis & Forecasting\n(a) Analyze, model, and forecast labor market impacts of AI-driven task automation and augmentation using the ontology as a foundation.\n(b) Skills: economics or applied quantitative background; statistical modeling (e.g., regression, panel data, or simulation), Python/R/Stata; experience with labor economics and economic datasets (e.g. BLS, O*NET) a plus.\n\nQUALIFICATIONS\n* Interest in future of work and human-AI collaboration.\n* Strong communication and teamwork skills; timeliness in progress.\nRelevant coding or research background depending on track.\n\n\nHOW TO APPLY\nApplicants should fill out the form: https://forms.gle/Xj7wQaDwjiJigA4UA. After applying you may be contacted for an interview. Applications are considered on a rolling basis, but decisions will be made before 2/3/2026.",
+    "prerequisites": null,
+    "contact": "Alice Cai",
+    "contact_email": "caia@mit.edu",
+    "sponsor": "Thomas W Malone",
+    "eligible_years": []
+  },
+  {
+    "title": "AI for Finance, Science and Systems",
+    "department": "Computer Sci. & Artificial Int Lab (CSAIL)",
+    "overview": "The AI revolution is reshaping numerous industries and exerting a profound influence on society. While AI has made significant advancements in areas like natural language processing (NLP) and computer vision (CV), there remain domains where its impact has been limited despite substantial potential.\n\nThis project aims to leverage AI/ML technologies for enhancing financial security, advancing scientific computing, and refining computer system design. For example, AI holds promise in identifying illicit activities within financial transaction networks, facilitating scientific breakthroughs, and optimizing the efficiency of software and hardware systems.\n\nFor more information, visit: [Project Details](https://chenxuhao.github.io/student-oppo.html)\n\nEstimated Hours Per Week: \nSpring, Fall, IAP: 10\nSummer (Full time): 40\nSummer (Part time): 20\n\nPlease check https://urop.mit.edu/deadlines/ for UROP  application deadlines for the upcoming semesters. \n\nQualifications:\n- Proficiency in Python and C/C++ programming languages\n- Experience in algorithm design and analysis (e.g., MIT 6.1220, previously 6.046)\n- Knowledge of deep learning frameworks like PyTorch is advantageous\n- Experience in performance engineering (e.g., MIT 6.1060, previously 6.172) is a plus\n\nThis project offers the potential to develop into an MEng thesis and is open to participants in the 6-A program. Interested individuals are encouraged to send their CV to cxh@mit.edu. \n\nPlease specify your preferred commencement date and indicate whether you seek direct funding, course credit, or volunteer participation in your email.",
+    "prerequisites": null,
+    "contact": "Xuhao Chen",
+    "contact_email": "xchen@csail.mit.edu",
+    "sponsor": "Arvind Arvind",
+    "eligible_years": [
+      "First Year",
+      "Sophomores",
+      "Juniors",
+      "Seniors"
+    ]
+  },
+  {
+    "title": "AICube: Using AI-Optimized Processors on Earth-Observing CubeSats for Autonomous Image Analysis and Intelligent Data Handling",
+    "department": "Aeronautics and Astronautics",
+    "overview": "We\u2019re looking for one researcher to own the Versal AI Engine (AIE) software stack for MIT AI Cube (AICube), an AI CubeSat payload focused on autonomous on-orbit image processing for ocean monitoring.\n\nGoal: Run a complete on-device pipeline on Xilinx Versal (32 AI Engines) that can process image keyframes and decide if something interesting changed (e.g., using K-means clustering or similar lightweight ML), so only useful data is prioritized for downlink. Work is performance- and power-aware.\n\nWhat you will do\n\nImplement and optimize AIE kernels in C/C++ (image pre-processing, feature extraction, clustering primitives).\n\nBuild the AIE dataflow graph and integrate with PS/PL for moving data (DMA, buffers, throughput tuning).\n\nDevelop Python tooling for golden reference, unit tests, dataset replay, and performance/accuracy evaluation.\n\nDeliver a repeatable build/run flow and clear documentation so the pipeline is reproducible on hardware.\n\nRequired\n\nStrong C/C++ (systems/performance coding)\n\nStrong Python (testing/validation tooling)\n\nFamiliarity with image processing and working with existing ML models\n\nNice to have\n\nVitis AIE / Versal / Zynq experience\n\nEmbedded systems experience (debugging, microcontrollers)\n\nPetaLinux / Linux / device tree familiarity",
+    "prerequisites": "Ideally 6.205 6.S965 Digital Systems 1 and 2 \nand Intro to ML, But all are welcome to apply",
+    "contact": "Carissma McGee",
+    "contact_email": "ahmadtak@mit.edu",
+    "sponsor": "Kerri Cahoy",
+    "eligible_years": [
+      "Juniors",
+      "Seniors"
+    ]
+  },
+  {
+    "title": "Agentic AI for Streamlining the Power Grid Interconnection Process",
+    "department": "MIT Energy Initiative (MITEI)",
+    "overview": "Project Background:\n The U.S. electric grid is facing unprecedented interconnection backlogs, with more than 2,600 GW of generation and storage projects waiting in queues nationwide. Under FERC Order 2023 and related reforms, grid operators (ISOs/RTOs) have transitioned to cluster-based studies, yet bottlenecks remain due to repeated restudies, document-heavy workflows, heterogeneous modeling requirements, and coordination overhead.\nThis project explores how Large Language Models (LLMs) and multi-agent AI systems can streamline critical parts of the interconnection process. The goal is to develop an agentic workflow composed of structured LLM agents (prompt parsing, data curation, planning/optimization, and output handling) that:\n\u2022\tParse developer project descriptions into structured datasets\n\u2022\tIntegrate them with grid modeling data (PTDFs, network topology, generator fleets)\n\u2022\tSolve simplified deliverability and network upgrade screening models\n\u2022\tProvide decision-oriented summaries and cost proxies\nThe current prototype is implemented in Python using a multi-agent framework and includes optimization-based screening for transmission overloads under worst-case dispatch scenarios. The goal is to expand this into a robust, modular decision-support platform for developers and planners.\n\n",
+    "prerequisites": "Required:\n\u2022\tStrong Python programming skills\n\u2022\tExperience building structured software systems (not just scripts)\n\u2022\tInterest in LLM-based systems and agentic workflows\nHighly Preferred:\n\u2022\tExperience with agent frameworks (e.g., AutoGen, LangChain, CrewAI, etc.)\n\u2022\tExposure to optimization (linear programming, mixed-integer programming)\n\u2022\tExperience with UI frameworks (PySide6, Streamlit, etc.)\nBeneficial but Not Required:\n\u2022\tExposure to power systems, energy systems, or electricity markets\n",
+    "contact": "Rahman Khorramfar",
+    "contact_email": "rahman.khorramfar@gmail.com",
+    "sponsor": "Saurabh Amin",
+    "eligible_years": [
+      "Juniors",
+      "Seniors"
+    ]
+  },
+  {
+    "title": "AttentivU: AI/ML",
+    "department": "Media Lab (MAS)",
+    "overview": "Direct Supervisor: Nataliya Kosmyna, Ph.D nkosmyna@media.mit.edu\n\nMin. 2 years of experience. \n\nExperience in Artificial Intelligence using programming languages such as Python and platforms such as TensorFlow, Caffe, Torch, etc.\n\nTools/Frameworks/Platforms: Rust, React Native, React.js, Node.js, Java RESTful API, Docker, AWS/GCP, Git.\n\nOther experience: \napp development (frontend/backend); prior work with real-time physiological data; wearable platforms and/or IoT.\n\nWhile today's pervasive digital devices put the world\u2019s information at our fingertips, they do not help us with some of the cognitive skills that are arguably more important to leading a successful and fulfilling life, such as attention, memory, motivation, creativity, mindful behavior, and emotion regulation. Building upon insights from psychology and neuroscience, we create systems and interfaces for cognitive enhancement. Our designs enhance cognitive ability by teaching users to exploit and develop the untapped powers of their minds and by seamlessly supplementing users' natural cognitive abilities. The solutions we design are compact and wearable to support real-life studies and\ninterventions, rather than for use in laboratory settings. Our work is highly interdisciplinary and combines insights and methods from human computer interaction, body sensor technologies, machine learning, brain computer interfaces, psychology, and neuroscience to create new opportunities for studying and intervening in human\npsychology in-the-wild.\nOne of the projects we aim to find a collaborator is AttentivU. AttentivU is a wearable device in a form-factor of a pair of glasses which use brain activity (electroencephalography - EEG) as well as eye movements (electrooculography - EOG) sensors to measure different cognitive states of a person in real-time like attention and fatigue.",
+    "prerequisites": null,
+    "contact": "Nataliya Kosmyna",
+    "contact_email": "nkosmyna@media.mit.edu",
+    "sponsor": "Patricia Maes",
+    "eligible_years": []
+  },
+  {
+    "title": "BASS: Big-data Algorithms & Scalable Systems",
+    "department": "Computer Sci. & Artificial Int Lab (CSAIL)",
+    "overview": "The AI revolution is transforming various industries and having a significant impact on society. However, AI is computationally expensive and hard to scale, which poses a great challenge in computer system design. Our lab is broadly interested in computer systems, architectures, high performance computing for AI and machine learning.\n\nIn this project we will design and build efficient software and hardware computer systems to enable scalable AI computing. Specifically, we build software programming systems (e.g., APIs, compilers, runtime systems) for AI/ML algorithms, e.g., graph neural networks (GNN), on multicore CPUs and GPUs. We also use FPGAs for acceleration, and even design customized hardware accelerators (ASICs) to further improve efficiency. \n\nEstimated Hours Per Week: \nSpring, Fall, IAP: 10\nSummer (Full time): 40\nSummer (Part time): 20\n\nPlease check https://urop.mit.edu/deadlines/ for UROP  application deadlines for the upcoming semester. \n\nFor more details please go to https://chenxuhao.github.io/student-oppo.html\n\nOur lab (https://bass-research-group.github.io/) works on high performance computer systems. In particular, we design fast algorithms and build efficient software/hardware systems for AI & machine learning, security & privacy, science and finance. \n\nQualifications:\n\u2022 Strong programming skills in C/C++\n\u2022 Experience with design and analysis of algorithms, e.g., MIT 6.1220 (previously 6.046)\n\u2022 Experience with performance engineering is a plus, e.g., MIT 6.1060 (previously 6.172)\n\u2022 GPU/CUDA programming is a plus\n\nThis project has the potential to become an MEng thesis. Please send your CV to cxh@mit.edu if you are interested. In the email please also specify when you want to start.\n\nPlease specify in the email if you look for direct funding, course credit or volunteering.",
+    "prerequisites": null,
+    "contact": "Xuhao Chen",
+    "contact_email": "xchen@csail.mit.edu",
+    "sponsor": "Charles E. Leiserson",
+    "eligible_years": [
+      "First Year",
+      "Sophomores",
+      "Juniors",
+      "Seniors"
+    ]
+  },
+
+  {
+    "title": "Building Interactive AI Agents for Biological Data Exploration in Mantis",
+    "department": "Computer Sci. & Artificial Int Lab (CSAIL)",
+    "overview": "Join our team in creating advanced AI agents that enhance the Mantis platform\u2014a cutting-edge tool designed to revolutionize how researchers interact with complex biological data. Mantis integrates structured and unstructured datasets into dynamic, interactive visualizations, offering a versatile environment for data-driven discovery. In this project, you will help develop AI agents that provide real-time data orchestration, computational augmentation, and interactive, context-aware insights to guide researchers through high-dimensional biological landscapes.\nKey Features of Mantis and AI Agents Integration:\nNarrator Agent: Provides real-time, contextual explanations of data, guiding researchers through complex visualizations and highlighting key biological concepts, patterns, and insights. The agent uses advanced NLP models, including GPT-based systems, fine-tuned on scientific literature to interpret and narrate data exploration paths.\nOrchestrator Agent: Manages complex tasks by decomposing them into subtasks distributed among specialized agents, coordinating outputs, and fusing them into unified, actionable insights. The Orchestrator automates background processes, continuously monitors data for significant patterns, and dynamically adjusts workflows based on user interactions.\nSandbox Integration: The agents are integrated with Mantis\u2019s Sandbox environment, a Jupyter-like computation tool that supports real-time analysis, statistical testing, and visualization. The agents trigger and manage computational tasks such as differential expression analysis and structural mapping directly within the Sandbox, providing seamless transitions between visualization, computation, and interpretation.\nResponsibilities:\nAgent Development: Design and implement the Narrator and Orchestrator agents using machine learning frameworks like PyTorch and TensorFlow, developing algorithms for real-time data interpretation, task decomposition, and integration of outputs across diverse data types.\nComputational Enhancement: Work on integrating AI-driven computations with the Sandbox environment, ensuring smooth execution of analyses, dynamic feedback loops, and real-time updates that guide users through data exploration.\nAdaptive Learning Modules: Develop adaptive learning capabilities for agents, allowing them to refine their interactions based on user feedback and research context, using reinforcement learning pipelines and context-aware adaptation techniques.\nAutomated Insights and Alerts: Implement systems for continuous data monitoring and anomaly detection, enabling the agents to provide automatic insights and recommendations, enhancing the platform\u2019s role in supporting dynamic, data-driven hypothesis testing.\nSkills Required:\nTechnical Proficiency: Strong programming skills in Python, with experience in machine learning libraries such as PyTorch, TensorFlow, or Scikit-learn. Proficiency in NLP frameworks like Hugging Face Transformers is highly desirable for developing interactive, narrative-driven agents.\nData Science and Visualization: Familiarity with data visualization tools (e.g., Matplotlib, Plotly, PyMOL) and computational techniques, including graph neural networks, contrastive learning, and dimensionality reduction (e.g., t-SNE, UMAP).\nBiological Data Integration: Knowledge of multi-modal data integration, computational biology, and the ability to handle high-dimensional datasets. Familiarity with knowledge graphs, co-expression networks, and perturbation analysis is a plus.\nCollaborative Mindset: Strong problem-solving skills, attention to detail, and the ability to work collaboratively in a fast-paced, interdisciplinary environment. Clear communication skills are essential for documenting work and contributing to methodological discussions.\nExpected Impact:\nBy joining this project, you will be at the forefront of developing next-generation AI agents that transform how researchers interact with and interpret biological data. Your contributions will help drive the integration of dynamic, real-time insights and computational capabilities, setting new standards for AI-assisted research environments.\nHow to Apply: Submit your CV, your transcript, a brief statement of interest highlighting relevant experience in computational biology, data visualization, or software development, and any past projects demonstrating your skills to Professor Manolis Kellis (kellis-admin@mit.edu). Join us in shaping the future of interactive computational environments for biological discovery!\n",
+    "prerequisites": null,
+    "contact": "Amy Grayson",
+    "contact_email": "kellis-admin@mit.edu",
+    "sponsor": "Manolis Kellis",
+    "eligible_years": [
+      "First Year",
+      "Sophomores",
+      "Juniors",
+      "Seniors"
+    ]
+  },
+  {
+    "title": "Building a Culture of AI Security in Organizations",
+    "department": "Sloan School of Management",
+    "overview": "In the contemporary AI-enabled workplace, AI tools are being adopted for better productivity. The temptation to use AI is overwhelming, but at the same time, these tools introduce risk that is often overlooked because of the anticipated seductive gains. Vulnerabilities from hallucinating, bias, deskilling, deep fakes, misinformation, data poisoning, data leakage, privacy violations and more create a new set of human risk factors that must be managed.  In this project, we will study the human risks and vulnerabilities introduced by AI.  We will conduct primary research on what employees know about AI security risks, and how managers are dealing with these risks.",
+    "prerequisites": "Intense curiosity, critical thinking, and disciplined persistence, combined with strong communication (speaking and writing) skills, and the ability to work both independently and collaboratively.  Would be helpful if the student has skills to use Qualtrics, analyze survey data, create charts and tables.",
+    "contact": "Keri Pearlson",
+    "contact_email": null,
+    "sponsor": "Keri Pearlson",
+    "eligible_years": [
+      "First Year",
+      "Sophomores",
+      "Juniors",
+      "Seniors"
+    ]
+  },
+  {
+    "title": "Building an Interactive AI Agents Compute Augmentation platform for Biological Data Exploration and Quantitative Integration",
+    "department": "Computer Sci. & Artificial Int Lab (CSAIL)",
+    "overview": "This project is dedicated to creating a versatile data science workbench that integrates advanced visualization, AI-driven analysis, and interactive computation within a unified platform. A central feature of this aim is the Sandbox Environment, a Jupyter-like computational tool that allows users to dynamically explore biological data, perform custom analyses, and develop novel insights directly within the Mantis cognitive maps. This project aims to empower researchers by providing a seamless interface for real-time, data-driven hypothesis testing, linking computational outputs with interactive visualizations to foster a more intuitive and impactful research experience.\nKey Responsibilities:\nDevelop Interactive Computational Tools: Design and implement computational modules within the Sandbox, enabling users to perform advanced analyses on selected data subsets. These modules will support tasks such as differential gene expression testing, pathway enrichment analysis, structural comparisons, and other quantitative biological computations, integrated directly into the Mantis environment.\nCustom Visualization Integration: Work with visualization libraries such as PyMOL, nglview, Py3Dmol for 3D protein structure rendering; Matplotlib, Seaborn, Plotly for gene expression and single-cell data visualizations; and Scanpy for advanced single-cell exploration. Develop customized visual outputs that link computational results with visual representations, enhancing the interpretability of complex datasets.\nAI-Driven Contextual Exploration: Integrate AI-powered agents that provide contextual narrative insights and interpret computational results. These agents will interact with users, answering questions in natural language about the data and underlying models, providing an intuitive entry point for exploring complex biological phenomena.\nDynamic Analysis and Real-Time Hypothesis Testing: Implement features that allow users to dynamically adjust computational parameters, refine analyses, and visualize the impact of changes in real-time. This includes building interfaces for generating on-the-fly statistical plots, calculating pathway scores, and overlaying quantitative results onto interactive maps, creating a responsive and flexible environment for biological discovery.\nInteractive Model Integration and Plugin Development: Support the integration of custom models and plugins into the Sandbox, allowing users to bring in specialized tools developed within Mantis or their own computational workflows. This feature will enable seamless exploration of custom latent embeddings, structural models, and other advanced datasets directly within the platform, supporting a diverse range of research applications.\nIdeal Candidate Profile:\nSkills and Background: Proficiency in Python and experience with computational tools such as Jupyter notebooks, data visualization libraries, and machine learning frameworks (e.g., PyTorch, TensorFlow). Familiarity with biological data types, statistical analysis, and computational modeling is a plus. Prior experience with interactive data visualization, plugin development, or computational biology software will be highly valuable.\nLearning Opportunity: Engage in hands-on development of an innovative computational environment at the intersection of AI, machine learning, and biological research. Gain experience working with advanced visualization tools, interactive AI agents, and cutting-edge data science methods, contributing to a platform designed to transform how researchers explore and interpret complex biological data.\nResearch Environment: Collaborate within a multidisciplinary team of computational biologists, software engineers, and AI researchers. This UROP offers a unique opportunity to develop and refine computational tools that directly impact scientific discovery, bridging the gap between data analysis, visualization, and interactive exploration.\nWhy Join? This UROP provides an unparalleled opportunity to work on a highly innovative project that is redefining the landscape of biological research. By contributing to the development of the Mantis Sandbox, you will play a crucial role in creating a platform that empowers researchers to explore data in new ways, bridging computational and biological insights in real time. Your work will directly enhance the platform\u2019s capabilities, making advanced data science accessible to the broader research community.\nHow to Apply: Submit your CV, your transcript, a brief statement of interest highlighting relevant experience in computational biology, data visualization, or software development, and any past projects demonstrating your skills to Professor Manolis Kellis (kellis-admin@mit.edu). Join us in shaping the future of interactive computational environments for biological discovery!\n",
+    "prerequisites": null,
+    "contact": "Amy Grayson",
+    "contact_email": "kellis-admin@mit.edu",
+    "sponsor": "Manolis Kellis",
+    "eligible_years": [
+      "First Year",
+      "Sophomores",
+      "Juniors",
+      "Seniors"
+    ]
+  },
+  {
+    "title": "Computer Vision for Automating Colony Counting in Biology Laboratories",
+    "department": "Institute for Medical Engineering and Science (IMES)",
+    "overview": "WHO WE ARE: \n\nThe Fluid & Health (FH) Network at MIT is an intellectual community of faculty, students, and staff interested in long-standing challenges at the intersection of fundamental fluid physics, health & disease, clinical and environmental applications. To solve such grand challenges, new fully integrated and multidisciplinary approaches are needed that draw from the relevant basic science and engineering disciplines (physics, mathematics, electrical engineering and computer science, biology, biological engineering, chemistry, chemical engineering) to develop novel methodologies, tools, and engineering solutions. The FH Network brings together such rich combination of fields participating laboratories to enable uniquely stimulating and creative intellectual exchanges to accelerate problem solving and provide for an open-learning environment that transcends the traditional boundaries of the typical single PI.\n\n\nPROJECT AND SCOPE:\n\nWe are looking for a student to lead the next phase of an already mature project on automating the tracking and quantification of bacterial colonies. Colony counting is one of the most widely used assays in biology because it provides the essential quantitative basis for understanding microbial growth and the effect of different treatments and genetic perturbations. Despite major advancements in computer vision over the last decade, most laboratories still rely on manual, human counting of colony forming units (CFUs), for example. Automating this process has the potential to accelerate the cycle of experimentation and analysis in biology laboratories, including drug discovery and formulation, and could dramatically improve reproducibility by eliminating human-to-human variability in quantifying one of the fundamental metrics of fitness and life in biology, and thus enable a next generation of higher-throughput experiments. \n\nThis project will build on an existing state-of-the-art foundation model for image segmentation. Without any modifications, the base model struggles to segment CFUs with large variability of growth on Petri dish images, due to variability in packing, morphological irregularity, overlaps, or conditions of growth and substrate properties. We are looking for a student to push this work forward by fine-tuning the existing model, scaling training to larger portions of our dataset, incorporating ideas from classical computer vision, exploring architectural modifications to the model, or contributing any other original ideas for improving the method. This project will provide the UROP student with the opportunity think critically about how to contend with uncertainty in the manually counted \u201cground truth\u201d data, including inter-annotator variability, ambiguous colony boundaries, etc, in addition to computer vision mathematical principles. \n\nOur vision is that this work will culminate in the following deliverables:\n\n- A dataset and methodology paper that (1) presents a new benchmark dataset for algorithmic colony counting, (2) describes the algorithm we have developed, and (3) provides a detailed comparison to human performance\n\n- A practical integrated software and hardware pipeline for counting CFUs that can be integrated into the standard operating procedures of FH Network laboratories, which cover a range of micro-organisms, for expanded deployment testing and proof-of-concept of integration \u201cin the field\u201d. \n\nDepending on the student\u2019s background, interests, and time commitment, this project will also open up opportunities to explore fundamental scientific questions about microbial growth, behavior, and the biophysics involved, incorporating dynamics of bacterial growth through the segmentation of time-lapse videos. By quantifying features such as shape, size, and spatial proximity between colonies, this methodology can allow us to do novel studies of colony growth behavior at scale. More broadly, we hope the student will have the chance to interact with the Fluids and Health Network team to catalyze conversations about how computer vision can be leveraged to improve existing experimental workflows or enable new avenues of research.\n\n\nYOUR BACKGROUND:\n\n- Knowledge about and/or experience with computer vision, foundation models, and fine-tuning from coursework, research experience, or personal projects\n\n- Experience working on a computing cluster\n\n-Experience with Python and PyTorch\n\n- Some MATLAB experience would be a plus, but is not strictly necessary\n\n\nWHAT YOU WILL GAIN:\n\n- Experience taking an algorithm from benchmarking directly to the laboratory bench.\n\n- Hands-on experience fine-tuning foundation models, an increasingly important skill for careers in science, technology, and industry.\n\n- The opportunity to contribute to both a publication and a software tool that will directly impact the day-to-day operations of several laboratories.\n\n- Experience in professional and scientific level presentations and translational teamwork. \n\nREQUIREMENT and PREFERENCES: \n\n- Minimum of 10 hours on average per week during Fall term to ensure meaningful learning and integration experience is feasible. \n\n- Preferred 12-15 hours per week minimum in non-exam weeks. \n\n- Preferred continuation over IAP-Spring-Summer \n\n\nHOW TO APPLY: \nPlease complete this form to apply, submitting, your CV, full transcript, and list of classes in the indicated locations and explaining why you think you would be a good fit for this position: \nhttps://docs.google.com/forms/d/e/1FAIpQLSfhTd6MdJxNj0dUa0awqzKoViQk3v8wUQPbZApz368-C7Bi1w/viewform\n\nOnce we receive it, our team will review your responses and follow up regarding a potential meeting as part of the second phase of our evaluation and interview process, which will take place shortly thereafter.\n\n\n(Contacts for questions: Kaylie Hausknecht (kaylie@mit.edu), Profs. Lydia Bourouiba (lbouro@mit.edu), and Thomas Heldt (thomas@mit.edu), and CC Ms. Michelle McManus (bgadmin@mit.edu) and Dora Pereli (doradora@mit.edu); with subject line [UROP FALL 2025 ML and CFUs])",
+    "prerequisites": null,
+    "contact": "Thomas Heldt",
+    "contact_email": "kaylie@mit.edu",
+    "sponsor": "Lydia Bourouiba",
+    "eligible_years": []
+  },
+
+  {
+    "title": "Deep Gaussian process and ML method for closure modeling of fluid flows",
+    "department": "Mechanical Engineering",
+    "overview": "This project consists of implementing and inserting Deep Gaussian processes and (any other ML/DL method welcome) within existing finite volume solvers to enhance the accuracy of cheap/ coarse numerical simulations. If you join you: \n1. Will run various types of simulations\n2. Will learn about how ML methods are being incorporated into current numerical solvers. \n3. Get to be part of an active research project!",
+    "prerequisites": null,
+    "contact": "Sanaa Mouzahir",
+    "contact_email": null,
+    "sponsor": "Pierre F.J. Lermusiaux",
+    "eligible_years": [
+      "Sophomores",
+      "Juniors",
+      "Seniors"
+    ]
+  },
+
+  {
+    "title": "Deep Learning for Imaging-Genomics-Transcriptomics Single-cell Integration",
+    "department": "Electrical Eng & Computer Sci (EECS)",
+    "overview": "The MIT CompBio lab (compbio.mit.edu) headed by Prof. Manolis Kellis is looking for talented SuperUROP students for computational projects in spatial-transcriptomics integration of imaging data in heart and brain, single-cell genomics, epigenomics, and disease circuitry dissection of brain disorders. Expertise in programming, data analysis, method development, and machine learning will be great strengths for a successful project. We have generated 2.5 million genome-wide single-cell maps across genetic, epigenomic, and transcriptional profiles across post-mortem brain samples from brain. We have already begun analyzing the data across Schizophrenia, Alhzeimer's, ALS, and other neurodegenerative and psychiatric disorders.\n\nThe goal of this UROP project is to help analyze these single-cell datasets in the context of spatial transcriptomics information, and genetic variation from whole-genome sequencing, and phenotypic variation from rich longitudinal profiling and cognitive evaluations, enabling us to discover variants, regulatory regions, genes, pathways, cell types, and brain regions with causal roles in psychiatric disorders. This project is ideal if you like programming, data mining, analyzing cutting-edge genomics data, and interpreting the biological results. You'll work closely with computational and genomic scientists, medical doctors, attend group meetings, and work in a high-collaborative interdisciplinary team. We hope you can join us!",
+    "prerequisites": null,
+    "contact": "Amy Grayson",
+    "contact_email": "kellis-admin@mit.edu",
+    "sponsor": "Manolis Kellis",
+    "eligible_years": [
+      "First Year",
+      "Sophomores",
+      "Juniors",
+      "Seniors"
+    ]
+  },
+  {
+    "title": "Designing Jet Engines with AI: Analyzing Human-LLM Collaboration",
+    "department": "Computer Sci. & Artificial Int Lab (CSAIL)",
+    "overview": "Generative AI is changing how we approach engineering, but how do people actually interact with these systems over sustained periods? This UROP aims to answer that by evaluating students\u2019 usage of Large Language Models (LLMs) during complex engineering tasks.\n\nYou will be working with a first-of-its-kind longitudinal dataset collected during IAP, tracking student teams as they interacted with LLMs to design and build gas turbine engines.\n\nAs a UROP on this project, your core responsibilities will include:\n\nQualitative Analysis: Performing thematic analysis on a large text corpus to synthesize and categorize AI usage characteristics.\n\nQuantitative Analysis: Utilizing text analysis tools to measure conversational fluency and other engagement metrics over time.\n\nTrend Identification: Uncovering interesting patterns, behavioral shifts, and changes in how students collaborate with AI over the course of the 4-week build.\n\n\nRequired Skills:\n-Strong analytical thinking and attention to detail.\n-Proficiency in Python or R for data processing and basic text analysis.\n\nRecommended Skills:\n- Familiarity with qualitative research methods (e.g., thematic analysis, qualitative coding).\n- Experience with data visualization (e.g., Matplotlib, Seaborn, ggplot) to communicate trends over time.\n",
+    "prerequisites": null,
+    "contact": "Nathan Dennler",
+    "contact_email": "",
+    "sponsor": "Andreea Bobu",
+    "eligible_years": []
+  },
+
+  {
+    "title": "Digital Frontlines",
+    "department": "History",
+    "overview": "Since the full-scale Russian invasion of Ukraine in 2022, Russian propaganda has pervasively extended into frontline territories through identity-based influence operations (IOs). This research examines how the media content of Russian IOs spreads on Ukrainian Telegram channels and how it impacts people's sense of identity. We focus specifically on visual media\u2014its rhetoric, participatory reproduction, and the role of bots\u2014to understand how propaganda spreads across different channels and what makes certain messages more viral than others. The goal is to deepen our understanding of how visual content shapes public opinion and identity during wartime.\n\nConcretely, the UROP will gain hands-on experience working with Multimodal Large Language Models (MLLMs). Informed by the team\u2019s strong foundations in psychology, social science, and AI engineering, the UROP will contribute to advancing methods for feature representation, abstraction development, and structuring AIML data pipelines to push the boundaries of visual-oriented semantic reasoning in AI.\n\nThe research also offers the UROP an opportunity to:\n- Join an international collaboration of researchers from leading disinformation research labs (e.g., Cambridge Social Decision-Making Lab, Center for an Informed Public, etc.)\n- Co-author results for high-impact publications\n- Extend the UROP into a Summer \u201826 overseas MISTI internship (Oslo)\n",
+    "prerequisites": null,
+    "contact": "Phil Tinn",
+    "contact_email": "svitkras@mit.edu",
+    "sponsor": "Elizabeth A. Wood",
+    "eligible_years": []
+  },
+  {
+    "title": "Digital Swimming \u2013 High-Speed Video Analysis for Performance Enhancement",
+    "department": "Mechanical Engineering",
+    "overview": "Join our team to help transform high-speed underwater video into real performance insights for athletes. We are seeking a motivated student to automate data extraction from high-frame-rate footage, perform advanced analytics, and contribute to a performance-analysis app for high-performance athletes. Our custom-built ultra\u2013high-speed underwater camera (up to 1000 frames per second) captures swimmer motion with exceptional clarity, revealing details invisible to the naked eye. As part of this UROP, you will collaborate with artists, faculty who developed the camera and motion-analysis methods, and MIT varsity swim coaches and athletes, applying your skills in both research and practice.\n\nThe position involves reviewing high-speed underwater footage of swimmers and applying motion-analysis techniques, developing and implementing code for automated video processing, and applying data analysis methods to quantify swimmer performance. You will also contribute to the design of user-friendly visualizations and reporting tools, and take part in occasional poolside filming sessions.\n\nApplicants should have prior programming experience (Python, MATLAB, or similar), along with strong problem-solving skills and attention to detail. Preferred qualifications include an interest in swimming, sports science, or fluid mechanics, and experience with image or video processing, computer vision, or machine learning.\n\nThe time commitment is approximately 10 hours per week, with work based on campus and occasional sessions at the pool. Compensation is available for-credit or paid, depending on program guidelines. \n\nTo apply, please email Keith Ellenbogen (keithe@mit.edu) with a brief statement of interest, your resume, and any relevant project examples or code samples.\n",
+    "prerequisites": null,
+    "contact": "Keith Ellenbogen",
+    "contact_email": null,
+    "sponsor": "Andrew Bennett",
+    "eligible_years": []
+  },
+  {
+    "title": "Digital Twin of Lunar Recycling System",
+    "department": "Aeronautics and Astronautics",
+    "overview": "To establish a long-term human presence in space, it will be critical to develop sustainable practices that repurpose and recycle waste materials, reducing dependence on Earth-based resupply missions and safeguarding planetary environments from trash accumulation. \n\nTo tackle this challenge, NASA launched the LunaRecycle challenge.  Our team at MIT proposed a versatile framework called CERBERUZ, short for Composites for Extraterrestrial Recycling By Engineering the Reuse and Upcycling of Zotek, which enables the upcycling of complex materials into novel composites, with thermoplastic waste serving as the matrix.\n\nAfter winning the first round of the challenge, the MIT team is now advancing to Phase II, which includes the opportunity to demonstrate our physical system and simulation capabilities in front of NASA experts in the summer of 2026. As part of this effort, several team members are developing a digital twin of the CERBERUZ system. This model is designed to predict future system capabilities, including expanded material inputs and end products, both on Earth and in extraterrestrial environments.\n\nWe are currently seeking members to join our digital twin subteam. As a UROP, your work will focus on expanding the physical modeling capabilities of our simulation framework and training our models using experimental data collected by the testing team. This is an excellent opportunity for students interested in gaining practical experience with modeling and machine learning.",
+    "prerequisites": "Required Skills: \n- Familiarity with programming (MATLAB preferred),\n- Willingness to learn machine learning.\n\nPreferred Skills/Classes:\n- Practical experience with machine learning,\n- Experience with partial differential equations (PDEs).",
+    "contact": "Lilly Etzenbach",
+    "contact_email": "lillyetz@mit.edu",
+    "sponsor": "George Lordos",
+    "eligible_years": []
+  },
+  {
+    "title": "Explainable and Trustworthy AI for Geography and Urban Science",
+    "department": "Urban Studies & Planning (DUSP)",
+    "overview": "AI models have become fundamental tools for analyzing geospatial big data, powering real-world solutions to challenges such as climate change, pollution, transportation optimization, and urban planning. However, despite their effectiveness, the black-box nature of many AI systems introduces significant risks\u2014uncertainty, bias, and a lack of transparency. When an AI model produces biased results that affect real communities, who is responsible? How can we ensure that AI-driven decisions in geography and urban science are fair, explainable, and trustworthy?\n\nThis research project focuses on developing the next generation of Explainable and Trustworthy GeoAI models that can not only predict urban and environmental patterns, but also explain the underlying reasoning in a transparent and scientifically grounded way. Students will explore how AI models interpret geospatial big data\u2014including satellite imagery, street networks, human mobility traces, and environmental measurements\u2014and will design methods to reveal why models make certain decisions, where uncertainties come from, and how biases can be detected and mitigated.\n\nApplications span a wide range of topics: urbanization dynamics, infrastructure risk assessment, disaster resilience, environmental monitoring, and socio-spatial inequality. UROP students will gain hands-on experience with machine learning, spatial analysis, and real-world datasets, contributing directly to cutting-edge research at the intersection of AI, geography, and urban science.",
+    "prerequisites": null,
+    "contact": "Peng Luo",
+    "contact_email": null,
+    "sponsor": "Fabio Duarte",
+    "eligible_years": []
+  },
+  {
+    "title": "Interactive Idea Navigator Collaborative Space: AI-Enhanced Team Interaction and Collaboration",
+    "department": "Electrical Eng & Computer Sci (EECS)",
+    "overview": "The future of work is rapidly evolving with the advent of deep learning and artificial intelligence (AI) technologies. This one-year undergraduate research project aims to investigate the potential impact of AI-powered productivity and collaboration tools, new modes of human-machine collaboration, and human-machine interaction incorporating uncertainty, trust, and behavioral biases. The research will involve exploring and developing novel approaches to enhance productivity and collaboration in the workplace using deep learning techniques. This includes gamification of tasks to enhance motivation and engagement, summarization of meetings and emails for efficient information digestion, word-clouds and task-lists for better visualization of goals, and incorporating social aspects into task lists to encourage collaboration and team bonding. The research will also involve investigating new modes of human-machine collaboration, such as typing autocomplete with multiple suggestions to foster creativity, beam search of conceptual options for idea completion, and personalization of AI systems based on individual and team history. Additionally, the research will explore human-machine interaction incorporating uncertainty, trust, and behavioral biases by building trust through explicit AI intentions and processes, visualizing knowledge embeddings and relationships among concepts, and integrating AI systems with various platforms for augmented interactions and seamless user experience. The findings of this research will contribute to understanding the potential of deep learning in shaping the future of work and human-machine interactions, and may have implications for improving productivity, collaboration, and creativity in various professional settings. This research project will provide an opportunity for the undergraduate student to gain hands-on experience in deep learning, human-computer interaction, and AI applications in the workplace, and contribute to the field of AI-driven technologies for work and collaboration.",
+    "prerequisites": null,
+    "contact": "Manolis Kellis",
+    "contact_email": "kellis-admin@mit.edu",
+    "sponsor": "Manolis Kellis",
+    "eligible_years": [
+      "First Year",
+      "Sophomores",
+      "Juniors",
+      "Seniors"
+    ]
+  },
+  {
+    "title": "LEANSense: Real-Time Sensor Streaming for Energy-Efficient Autonomy",
+    "department": "Electrical Eng & Computer Sci (EECS)",
+    "overview": "The MIT Low-Energy Autonomy and Navigation (LEAN) Group (lean.mit.edu) explores how autonomous robots can see, think, and act \u2014 all while consuming minimal power as low as milliwatts. We focus on co-designing algorithms and custom hardware (FPGA and ASICs) to enable miniature or long-duration robots for environmental monitoring, space exploration, and other real-world missions.\n\nWe\u2019re looking for a sharp, self-driven undergraduate to help build LEANSense, a real-time, untethered sensor streaming framework that enables cutting-edge algorithm and chip testing on the move. Using the sensing and communication capabilities of modern smartphones (RGB-D, IMU, LiDAR, etc.), LEANSense will provide live, multi-modal data to power autonomy pipelines in complex indoor and outdoor environments. This project lies at the intersection of system integration, embedded development, and autonomy \u2014 with numerous opportunities for creativity in design and optimization.\n\nYou\u2019ll work closely with graduate researchers in the lab to develop and integrate this platform with novel LEAN-designed algorithms and hardware. Once the core system is in place, you\u2019ll have the chance to contribute your own algorithmic ideas and test them on the fly \u2014 with potential for future research or even publications at top robotics conferences. This is an excellent opportunity for someone excited by robotics systems, eager to take technical ownership, and looking for a launchpad into deeper research.\n\nRequirements & Preferences:\n- (Required) Solid experience with Python and C++ development.\n- (Highly Preferred) Agentic coding skills.\n- (Highly Preferred) Interest or experience in robotic algorithm design.\n- (Bonus) iOS development in Swift; experience with ARKit is a super plus.\n\nInterested students should contact Dasong Gao (dasongg@mit.edu) with a CV and transcript. Interviews are held on a rolling basis until the position is filled.",
+    "prerequisites": null,
+    "contact": "Dasong Gao",
+    "contact_email": null,
+    "sponsor": "Vivienne Sze",
+    "eligible_years": [
+      "Juniors",
+      "Seniors"
+    ]
+  },
+  {
+    "title": "LLM Agent Benchmarking & Multi-Modal Data Selection",
+    "department": "Media Lab (MAS)",
+    "overview": "As Large Language Models (LLMs) evolve into autonomous AI agents capable of complex task execution, static benchmarks/leaderboards fail to capture how these AI systems will perform in real world scenarios. Our research group at the MIT Media Lab is working on building  infrastructure to rigorously evaluate agents via adaptive interviews and improve them via high-value data selection. We are seeking UROPs to co-design and implement components of these automated evaluators in collaboration with PhD students and postdocs.\n\nYou have the choice to work on two technical tracks. In the Agent Benchmarking track, you will help build the AI interviewer system that adaptively grades an agent based on task completion probing. In the Multi-Modal Data Valuation track, you will focus on scalable data selection strategies to improve LLM/RLHF post-training by extending existing algorithms that quantify the value of  image-text data points.\n\nThis UROP is a good fit if you have experience with or interest in:\n*    Working with LLM Agent APIs and tool-use frameworks.\n*  Writing PyTorch code and managing multi-GPU training workflows.\n*  Researching data-centric machine learning (data valuation, benchmarking).\n*  Building reproducible and scalable systems (Docker, sandboxing).\n*  Designing protocols for a novel \"interview\" evaluation paradigm.",
+    "prerequisites": "We are looking for students with strong coding skills (Python, Bash, Git, PyTorch, LLM APIs) and familiarity with machine learning (e.g. 6.790, 6.7960 or equivalent experience). ",
+    "contact": "Charles Lu",
+    "contact_email": "luchar@mit.edu",
+    "sponsor": "Ramesh Raskar",
+    "eligible_years": [
+      "Juniors",
+      "Seniors"
+    ]
+  },
+  {
+    "title": "Latent Lab: Reimagining the File System with AI",
+    "department": "Media Lab (MAS)",
+    "overview": "The Viral Communications group at the MIT Media Lab is looking for students excited to challenge one of the oldest metaphors in computing: the desktop. Our sub-project, Filescape, extends Latent Lab (https://www.media.mit.edu/projects/latent-lab/overview/) into a new kind of file system - one that organizes and visualizes content associatively rather than hierarchically.\n\nWe already have a working system, but we\u2019re seeking collaborators to help push it further. The goals are twofold:\n\nTechnical Development \u2013 Extend support to additional file types and refine our semantic/visual organization pipeline.\n\nUser Studies \u2013 Design and run comparative studies that test Filescape against emerging AI-assisted file navigation interfaces such as MCP file servers and Apple Intelligence Spotlight.\n\nIf you\u2019ve ever imagined a world where your files feel less like folders in a cabinet and more like living knowledge maps, this project is for you.\n\nRelevant Disciplines:\n- Human-Computer Interaction (HCI)\n- User Interface & User Experience Design\n- AI and Machine Learning (embeddings, NLP, clustering)\n- Web Development and Visualization (React, JavaScript/TypeScript, WebGL)\n- Backend Development (Python, FastAPI, database systems)\n- Cloud & Compute Infrastructure (GCP, CI/CD, containerized environments)\n\nWho We\u2019re Looking For:\nWe value both builders and researchers:\n\n- Builders who want to extend system capabilities (e.g., parsing/embedding new file formats).\n\n- Researchers who want to evaluate how Filescape stacks up against chat- and search-based alternatives.\n\nApplication Requirement:\nTo express interest, please email Kevin Dunnell at dunnell@mit.edu. Your email must include examples of projects you\u2019ve built (class projects, personal projects, or otherwise). Messages without examples will not receive a response.",
+    "prerequisites": null,
+    "contact": "Kevin Dunnell",
+    "contact_email": "dunnell@media.mit.edu",
+    "sponsor": "Andrew B Lippman",
+    "eligible_years": [
+      "Sophomores",
+      "Juniors",
+      "Seniors"
+    ]
+  },
+
+  {
+    "title": "Machine Learning for Fisheries Management",
+    "department": "Mechanical Engineering",
+    "overview": "Project Title: Machine Learning Applications for Fisheries Management \n\nProject Description:\n\nImaging surveys used in fisheries management are challenging in terms of time, accuracy, cost, and resource availability. Currently, humans are required to spend hours manually reviewing images and attempting to identify and quantify species present. Image recognition is one solution, yet challenges in training computers to accurately distinguish and quantify species persist. Information and technology generated from this work will enable resource managers to more accurately assess river herring spawning populations and improve management of sustainable fisheries.\n\nThe project will develop machine learning software for automated identification and quantification of river herring and associated fish species that occur in survey photographs and video. The objective is to develop effective, low cost, and automated image recognition capabilities to better serve the fisheries management community. Students will be supervised by Dr. Robert Vincent, Assistant Director, Advisory Services. Students will be involved with programming, design, testing, and analysis of computer image recognition software. Students will work closely with the project post-doc, with consultations with MIT CSAIL computer science colleagues. There will be a weekly team meeting with Dr. Vincent and project team members to discuss project details and progress, machine learning applications, and student work. \n\nPrerequisites: Interest in AI-machine learning applications to environmental challenges; interest in ocean and aquatic-related environments, environmental conservation, and/or fisheries management. The project involves machine learning programming and development for image recognition. Experience with Matlab, Python, Yolo, Darknet and/or OpenCV, Hough Transformations, and other related AI-machine learning applications would be helpful.\n\nThe position is available Fall (10hrs/week).\n\nPlease submit your application by the posted UROP Direct Funding deadlines.\n\nContact Name: \nRobert Vincent\nContact Email: rvincent@mit.edu\n\n",
+    "prerequisites": null,
+    "contact": "Robert Vincent",
+    "contact_email": "rvincent@mit.edu",
+    "sponsor": "Michael S. Triantafyllou",
+    "eligible_years": [
+      "First Year",
+      "Sophomores",
+      "Juniors",
+      "Seniors"
+    ]
+  },
+
+  {
+    "title": "Machine Learning on Android Phones",
+    "department": "Edgerton Center",
+    "overview": "Our group develops mobile apps that run machine learning algorithms for health diagnostics.\nThe objective is to run machine learning models directly on the smart phone, without the use of any server.  We use Tensorflow Lite for Android, which runs TensorFlow models we previously developed in Python on laptop machines.\n    This project requires experience with Android development or JAVA, as well as some experience with Tensorflow. \n     This work can be done remotely, but we expect approximately 6-8 hours per week  to be devoted to the project.  All UROP students are expected to attend a weekly team and group meeting to review progress and get new assignments.\n     Project can be done for pay or credit.\n    Interested students should send an email and resume to: fletcher@media.mit.edu",
+    "prerequisites": "For this project, it is necessary to have some machine learning experience developing neural net models with Tensorflow.  At least some experience with JAVA/Android is also required.",
+    "contact": "Richard Ribon Fletcher",
+    "contact_email": "fletcher@media.mit.edu",
+    "sponsor": "Richard Ribon Fletcher",
+    "eligible_years": []
+  },
+  {
+    "title": "Mathematics of Big Data & Machine Learning",
+    "department": "Mathematics",
+    "overview": "Big Data describes a new era in the digital age where the volume, velocity, and variety of data created across a wide range of fields is increasing at a rate well beyond our ability to analyze the data.  Machine Learning has emerged as a powerful tool for transforming this data into usable information.  Many technologies (e.g., spreadsheets, databases, graphs, matrices, deep neural networks, ...) have been developed to address these challenges.  The common theme amongst these technologies is the need to store and operate on data as tabular collections instead of as individual data elements, while maintaining the highest regard for privacy.  This project explores the common mathematical foundation of these tabular collections (associative arrays) that apply across a wide range of applications and technologies.  Associative arrays unify and simplify Big Data and Machine Learning.  Understanding these mathematical foundations enables seeing past the differences that lie on the surface of Big Data and Machine Learning applications and technologies and leverage their core mathematical similarities to solve the hardest Big Data and Machine Learning challenges.\nReferences:\n- Mathematics of Big Data (http://mitpress.mit.edu/books/mathematics-big-data)\n- D4M (http://d4m.mit.edu)\n- Julia (https://julialang.org/)\n",
+    "prerequisites": "Matrix Mathematics",
+    "contact": "Jeremy Kepner",
+    "contact_email": "kepner@ll.mit.edu",
+    "sponsor": "Alex Paul Pentland",
+    "eligible_years": [
+      "First Year",
+      "Sophomores",
+      "Juniors",
+      "Seniors"
+    ]
+  },
+  {
+    "title": "Modeling Disease States through Integrated Analysis of Spatial, Molecular, and Clinical Data",
+    "department": "Computer Sci. & Artificial Int Lab (CSAIL)",
+    "overview": "Join our innovative research to explore the intricate relationships between disease states, tissue architecture, and molecular changes using a multi-modal approach. This project focuses on integrating spatial transcriptomics, imaging data, and clinical information to construct detailed disease models that map the spatial organization of gene expression and cellular behavior within tissues. You will develop state-of-the-art computational models that reveal how microenvironmental factors, tissue architecture, and cellular positioning contribute to disease mechanisms, offering a novel approach to understanding complex pathologies at the intersection of spatial biology and clinical insights.\n\nKey Responsibilities:\nIntegration of Spatial and Molecular Data:\nDevelop models that combine spatial transcriptomics with imaging data, including histology, immunofluorescence, and radiology scans. Utilize Vision Transformers (ViTs) and advanced multi-modal transformers to capture spatial relationships between molecular and visual features, linking gene expression with tissue morphology and microenvironmental factors.\n\nGraph-Based Disease Modeling: \nConstruct graph-based models to represent spatial transcriptomics as interconnected nodes, where edges capture spatial proximities and cellular interactions within diseased tissues. Implement Graph Convolutional Networks (GCNs) and Geometric Vector Perceptrons (GVPs) to explore how molecular changes are influenced by tissue architecture, and how these changes drive disease progression.\n\nDynamic Disease State Embeddings:\nDevelop embeddings that integrate clinical data, spatial transcriptomics, and molecular annotations, representing disease states within a unified space. Use Neural ODEs and time-aware embeddings to capture the temporal dynamics of disease progression, modeling how molecular and spatial features evolve over time and correlate with clinical outcomes.\n\nExplainable AI for Spatial Disease Contexts: \nImplement explainable AI techniques such as SHAP values, Integrated Gradients, and spatial attention mechanisms to interpret the spatial and molecular features driving disease states. Generate narrative explanations that connect observed spatial patterns with underlying molecular changes, offering clear insights into the drivers of disease heterogeneity.\n\nSimulating Disease Scenarios with Generative Models: \nDevelop Spatial Generative Adversarial Networks (Spatial GANs) and diffusion models to simulate disease progression and tissue alterations, including tumor invasion, immune infiltration, and fibrosis. These generative models will predict how spatial and molecular dynamics evolve, providing actionable insights into potential intervention points and therapeutic strategies.\n\nIdeal Candidate Profile:\nSkills and Background: \nProficiency in Python, experience with machine learning frameworks (e.g., PyTorch, TensorFlow), and familiarity with computational biology or spatial transcriptomics. A background in multi-modal data integration, imaging analysis, or disease modeling is highly advantageous. Understanding of graph-based models or generative AI techniques will be beneficial.\n\nLearning Opportunity: \nEngage with cutting-edge AI and computational biology methods to dissect how spatial and molecular factors drive disease mechanisms. Gain expertise in multi-modal integration, explainable AI, and dynamic modeling, positioning yourself at the forefront of research into spatially-resolved disease states and precision medicine.\n\nResearch Environment: \nCollaborate in a multidisciplinary team blending computational biology, AI, and bioinformatics. This project provides a unique environment where you will contribute to pioneering work in disease modeling, supported by leading researchers committed to innovation at the intersection of spatial biology and clinical science.\n\nWhy Join? \nThis UROP offers a chance to work on the frontier of disease modeling, developing computational tools that integrate spatial, molecular, and clinical data to unravel complex disease states. By contributing to our understanding of how tissue organization and cellular dynamics shape disease, you will help advance new paradigms in precision medicine and therapeutic discovery.\n\nHow to Apply: \nSubmit your CV, your transcript, a statement highlighting your experience and research interests, and any relevant work in spatial biology, computational disease modeling, or AI to Professor Manolis Kellis (kellis-admin@mit.edu). Join us to explore how spatial and molecular insights can transform our understanding of disease mechanisms and guide new treatment strategies!\n\n",
+    "prerequisites": null,
+    "contact": "Amy Grayson",
+    "contact_email": "kellis-admin@mit.edu",
+    "sponsor": "Manolis Kellis",
+    "eligible_years": [
+      "First Year",
+      "Sophomores",
+      "Juniors",
+      "Seniors"
+    ]
+  },
+
+  {
+    "title": "Physics-Informed and Constraint-Aware Learning for Spacecraft Trajectory Optimization",
+    "department": "Aeronautics and Astronautics",
+    "overview": "Overview\n\nThis project builds on recent learning-based approaches to spacecraft trajectory optimisation and rendezvous, aiming to improve physical consistency, constraint satisfaction, and the generalisation of neural trajectory generators.\n\nThe core idea is to augment data-driven trajectory prediction models with explicit physics-informed losses, including:\n\n- Dynamics loss to enforce consistency with spacecraft equations of motion\n- Constraint loss to penalize violations of safety-critical constraints (e.g., thrust limits, keep-out zones, approach cones)\n    \n\nThe student will help develop and evaluate learning-based trajectory models that  do not replace optimisation, but instead work alongside it, producing trajectories that are physically plausible, constraint-aware, and suitable for safety-critical space missions such as rendezvous, inspection, and docking.\n\n\nProject Goal\n\nDevelop and evaluate a learning-augmented trajectory optimisation pipeline that:\n\n- Learns from optimal or near-optimal spacecraft trajectories\n- Explicitly incorporates dynamics consistency and constraint satisfaction through tailored loss functions\n- Produces trajectories suitable for warm-starting or assisting optimisation-based guidance algorithms\n\n\nWhat you will do\n\n-  Implement a transformer-based framework to solve spacecraft rendezvous problems \n- Implement dynamics loss terms based on discrete-time spacecraft equations of motion\n- Design constraint loss functions for safety-critical constraints (e.g., thrust bounds, collision avoidance, approach geometry)\n- Train and evaluate neural trajectory models (e.g., sequence models, transformers, or recurrent networks)\n- Compare learned trajectories against optimisation baselines in terms of feasibility, fuel use, and constraint violations\n- Build Python-based tooling for training, evaluation, and visualisation of trajectories\n- Document results clearly for reproducibility and potential publication\n\n\nExpected Outcomes: \n- A working prototype of a physics- and constraint-aware learning model\n- Open-source code suitable for reuse in future research\n",
+    "prerequisites": null,
+    "contact": "Minduli Charithma Wijayatunga",
+    "contact_email": null,
+    "sponsor": "Richard Linares",
+    "eligible_years": [
+      "Juniors",
+      "Seniors"
+    ]
+  },
+  {
+    "title": "Predicting Demand in Bike-Sharing Systems",
+    "department": "Media Lab (MAS)",
+    "overview": "Dbizi is the public bike-sharing system of San Sebasti\u00e1n (Spain), and it is currently undergoing a major redesign. Our team is working directly with city partners to combine citizen engagement with data-driven tools that will shape the future of this real mobility service.\n\nAs part of this UROP, you will help develop predictive algorithms that forecast demand using historical trip data. Your models will identify patterns of ridership across stations and times, enabling smarter planning decisions. This is a unique opportunity to apply technical skills to a live urban mobility system where your contributions will directly inform both research outcomes and real-world implementation.",
+    "prerequisites": null,
+    "contact": "Naroa Coretti Sanchez",
+    "contact_email": "naroa@mit.edu",
+    "sponsor": "Kent Larson",
+    "eligible_years": [
+      "First Year",
+      "Sophomores",
+      "Juniors",
+      "Seniors"
+    ]
+  },
+  {
+    "title": "Programming by Example for Agentic AI",
+    "department": "Computer Sci. & Artificial Int Lab (CSAIL)",
+    "overview": "How can we make the computational power of programming more accessible to nontechnical people?\n\nProgramming by Example (PBE) is a technique for instructing computers how to perform procedures, by having a person demonstrate the steps on concrete examples. The system records the steps, and can replay them on a different example. This is like a so-called \"macro recorder\", but the user can also instruct the system to generalize the procedure, so it can work in cases that are different from, but analogous to, the original examples. The user is cast in the role of a teacher, and the computer is a student that learns best by example. \n\nIn the past, PBE has been hampered by the inability of the PBE agent to fully access the functionality of applications and the operating system on the computer. Now, though, Agentic AI is allowing LLMs to access the underlying capabilities of the apps and OS, via facilities like OpenAI's GPT Agent and Anthropic's Computer Use. Could these facilities, combined with the \"vibe coding\" of conversational LLMs, enable a new style of end-user programming that would be accessible to beginning and occasional users?\n\nPlease contact Henry Lieberman, henry@csail.mit.edu\n\n",
+    "prerequisites": null,
+    "contact": "Henry Lieberman",
+    "contact_email": null,
+    "sponsor": "Boris Katz",
+    "eligible_years": [
+      "First Year",
+      "Sophomores",
+      "Juniors",
+      "Seniors"
+    ]
+  },
+  {
+    "title": "Real-Time Generative AI for Musical Improvisation - UROP",
+    "department": "Media Lab (MAS)",
+    "overview": "The Responsive Environments group at the MIT Media Lab is working with multiple professional artists (most recently, GRAMMY-winning visiting artist Jordan Rudess) to develop real-time generative AI agents that can engage in live musical improvisation. We are looking for highly motivated and experienced UROPs, with extensive experience in Machine Learning and Generative AI to help us develop the project. Potential projects include:\n\n- Developing optimized local AI pipelines for real-time processing (using optimized ML frameworks such as ONNX or GGML)\n\n- Developing RL training methods to train new jam_bot models (using rule-based rewards and reward models trained on human feedback)\n\n- Training new jam_bot models with additional input modalities (e.g., audio, gesture)\n\nTo apply or learn more about the project, contact lancelot@media.mit.edu",
+    "prerequisites": null,
+    "contact": "Lancelot Blanchard",
+    "contact_email": null,
+    "sponsor": "Joseph A Paradiso",
+    "eligible_years": []
+  },
+  {
+    "title": "Research on Building an AI-powered Negotiation Assessment Tool",
+    "department": "Sloan School of Management",
+    "overview": "We are seeking a highly motivated, conscientious, and detailed-oriented student to work on a project related to AI and negotiation. Specifically, we are developing an AI-driven tool designed to evaluate core negotiation skills through interactive simulations. This role involves programming, data handling, and AI integration to build an innovative negotiation assessment platform.\n\nThe ideal candidate would have:\n\u2022\tStrong proficiency in Python\n\u2022\tExperience using AI tools (e.g., OpenAI APIs, Claude, Streamlit, etc.)\n\u2022\tExperience with web or app development is preferred, but not required\n\u2022\tProficiency in R is preferred, but not required\n\u2022\tSkills, coursework, prior experience, and/or interest in some or all of the following areas: management, psychology, negotiation\n\u2022\tExcellent communication and problem-solving skills\n\nResearch assistant\u2019s responsibilities include, but are not limited to: \n\u2022\tDevelop and deploy an interactive website or app for the negotiation skill assessment\n\u2022\tImplement AI-driven simulations and integrate APIs for interactive assessments\n\u2022\tDesign and refine user interfaces to ensure an engaging and intuitive experience\n\u2022\tCollect, process, and analyze data from user interactions and negotiation outcomes\n\u2022\tWork collaboratively with faculty and research teams to improve tool functionality\n\u2022\tMaintain and document codebase for reproducibility and future development\n\u2022\tTest and debug applications to ensure reliability and accuracy in assessments\n\n\nTo apply: Interested students should e-mail Laura Changlan Wang at lauracw@mit.edu. Your e-mail should include a copy of your resume and a cover letter indicating your background, interests, year in school, major, and any relevant past experience. Finally, please provide a list of ALL courses you have taken at MIT (course number and name, organized by year) and the final grade you received in each course.  (A copy of your official transcript may be requested at a later date.)  ",
+    "prerequisites": null,
+    "contact": "Laura Wang",
+    "contact_email": null,
+    "sponsor": "Jared Curhan",
+    "eligible_years": []
+  },
+  {
+    "title": "Robotic \"X-Ray\" Vision for Sensing and Manipulation",
+    "department": "Electrical Eng & Computer Sci (EECS)",
+    "overview": "Can we build a robot that can see hidden items, for example inside closed boxes or under clutter? At MIT Signal Kinetics lab, we are building these kinds of robots that have x-ray vision. These two videos show our x-ray vision capabilities:\nhttps://www.youtube.com/watch?v=iqehzw_aLc0\nhttps://www.youtube.com/watch?v=bdUN21ft7G0\n\nAside from being cool, this technology has many applications in logistics, smart manufacturing, smart homes, etc.\n\n\nWhat we are looking for: We are looking for UROPs interested in building algorithms and models for robotic sensing systems. \n\nGeneral Qualifications\nREQUIRED\n- Proficiency in Python and/or C++\n- Ability to work independently, as well as part of a collaborative team\n- Excellent communication skills, both written and verbal\n\nDESIRABLE (Not necessary)\n- Experience with machine learning\n- Experience with signal processing\n- Experience with mmWave radar\n- Experience with ROS \n- Experience with 3D printing\n\nPotential Project Responsibilities May Include:\n- Explore applications of machine learning algorithms on sensor (mmWave radar) data for hidden objects\n- Collect, process, and analyze real-world sensor measurements\n- Analyze and enhance sensor simulator performance to improve model training\n\n",
+    "prerequisites": null,
+    "contact": "Laura Dodds",
+    "contact_email": null,
+    "sponsor": "Fadel Adib",
+    "eligible_years": [
+      "First Year",
+      "Sophomores",
+      "Juniors",
+      "Seniors"
+    ]
+  },
+  {
+    "title": "Robotic Fabrication For Novel Wearable Design ",
+    "department": "Media Lab (MAS)",
+    "overview": "The Critical Matter Group at the MIT Media Lab is seeking motivated UROP students to join an exciting robotics project this fall. We are working with a UR20 robotic arm and developing innovative end-effectors that combine engineering, design, and material exploration.\n\nWe are looking for students with backgrounds in:\n\nMechanical Engineering \u2013 experience in prototyping, mechanical design, and developing custom end-effectors for robotic systems. (Additionally, control robotic tool pathing. )\n\nElectrical Engineering \u2013 skills in electronics prototyping (Arduino, sensors, actuators) and integration with robotic systems.\n\nDesign \u2013 proficiency in 3D modeling and CAD, with an eye for functional yet creative design solutions.\n\nMaterial Science \u2013 knowledge of diverse materials and fabrication methods for building and testing novel robotic components. We are working with various biodegradable materials.\n\nThis is a unique opportunity to collaborate in a highly interdisciplinary environment and contribute to cutting-edge research at the intersection of robotics, design, and materials.\n\nIf interested, please reach out with your CV/portfolio (link to website) and a short note about your skills and interests.",
+    "prerequisites": null,
+    "contact": "Behnaz Farahi",
+    "contact_email": "behnaz_f@media.mit.edu",
+    "sponsor": "Behnaz Farahi",
+    "eligible_years": [
+      "Sophomores",
+      "Juniors",
+      "Seniors"
+    ]
+  },
+
+  {
+    "title": "Tangible AI",
+    "department": "Media Lab (MAS)",
+    "overview": "Join us in developing Tangible AI interactions. Sketchnotes are visual thoughts in motion\u2014what if they could inspire the next generation of innovators? We are currently working on an interface that turns old sketchnotes into interactive, idea-sparking tools using a custom-trained AI. We\u2019re looking for a curious, motivated student to help us prototype, test, and expand this human-AI co-ideation platform. If you are interested in shaping interactions across time and are passionate about creativity, AI, and design, please reach out!",
+    "prerequisites": null,
+    "contact": "Lucy Li",
+    "contact_email": "",
+    "sponsor": "Hiroshi Ishii",
+    "eligible_years": []
+  },
+
+  {
+    "title": "The MIT AI Risk Initiative",
+    "department": "Computer Sci. & Artificial Int Lab (CSAIL)",
+    "overview": "We established the MIT AI Risk Initiative at MIT FutureTech [https://futuretech.mit.edu/] to review and communicate evidence on AI risks and mitigations. We aim to help individuals and organizations understand AI risks, identify & implement effective risk mitigations, and coordinate to reduce systemic & catastrophic risks.\n\nThe Initiative has two projects\u2014supported by several aligned efforts\u2014designed to map the AI-risk landscape end-to-end. First, the AI Risk Repository compiles more than 1,600 individual risks drawn from over 60 published frameworks, organising them under both causal and domain-based taxonomies to create a common language for stakeholders seeking a shared understanding of AI dangers. Complementing this, the AI Risk Index catalogues organisational responses and mitigations, providing a systematic assessment of how key actors across the AI ecosystem are addressing those identified risks.\n\nSince release, our website has received more than 140,000 visits and been referenced over 2,600 times by more than 650 websites (e.g., Amazon, IBM, Forbes, Trend Micro). It has also been widely cited, and used, in related projects (e.g., cited in the 2025 International AI Safety Report and used in the AI Incident Database, and IBM\u2019s Risk Atlas Nexus). Yoshua Bengio describes it as \u201ca valuable database for accessing current and comprehensive information on a wide range of AI-related risks\u201d that \u201cbrings more rigor and transparency to AI risk management\u201d.\n\nStudents will be working in the MIT Futuretech Lab under Peter Slattery with additional guidance from other team members.\n\nWe are seeking expertise in the following areas:\nAI policy & governance \u2013 expertise in crafting, evaluating, and mapping AI-related legislation, standards, and risk-management frameworks.\n\nTechnical AI safety & risk analysis \u2013 deep understanding of AI safety concepts, incident analysis, and methods for assessing and mitigating systemic AI risks.\n\nResearch & evidence synthesis \u2013 strong skills in systematic reviews, quantitative & qualitative methods, data analysis, and turning findings into clear guidance.\n\nDesign, visualisation & communication \u2013 ability to translate complex risk information into engaging content, clear visuals, and user-centred web experiences.\n\nProject, operations & fundraising support \u2013 experience coordinating research projects, managing partnerships, administering grants, and securing funding.\n\nIf interested, please complete this form [https://share.hsforms.com/1vSl3dY4wQoqxAmwHhYrfIwsjzn8] and email pslat@mit.edu; applications will be considered on a rolling basis. ",
+    "prerequisites": null,
+    "contact": "Peter Slattery",
+    "contact_email": null,
+    "sponsor": "Neil Thompson",
+    "eligible_years": []
+  },
+  {
+    "title": "World Models for Robotics from Human Videos",
+    "department": "Electrical Eng & Computer Sci (EECS)",
+    "overview": "The main bottleneck in the path to general purpose robotics is real world embodied data. Two frontier research directions are world modelling and human pose estimation. Together, these two tasks solved properly can turn Youtube videos into a simulator, useful for training robots through reinforcement learning. \n\nIn this project, you will train a simulator for manipulation from human videos. You will investigate state of the art practices for compute-efficient video training (eg see Test time training Tianyuan Zhang), and apply them to human videos.  We have already prepared one of the first large-scale human datasets with clean head poses and hand poses, ready to be ingested by a video training pipeline. You will be guided towards papers to read and assisted with algorithm development and technical issues. The ideal candidate has taken a machine learning course, is comfortable with linear algebra. A bonus is expertise with computer vision and robotics (you will need to use kinematics and basic computer vision models), as well as Pytorch programming expertise.",
+    "prerequisites": null,
+    "contact": "Richard Li",
+    "contact_email": "rli14@mit.edu",
+    "sponsor": "Pulkit Agrawal",
+    "eligible_years": [
+      "First Year",
+      "Sophomores",
+      "Juniors",
+      "Seniors"
+    ]
+  }
+]

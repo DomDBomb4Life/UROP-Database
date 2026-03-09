@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>UROP Command Center</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=DM+Sans:wght@400;500;600;700&display=swap');
+:root{--bg:#08080a;--panel:#0e0e12;--card:#141418;--border:#1e1e25;--text:#c8c8d0;--dim:#65657a;--bright:#eeeef2;--accent:#5b8af5;--accent-dim:#2a3a5a;--green:#4ade80;--green-dim:#1a3a2a;--purple:#a78bfa;--purple-dim:#2a1a4a;--amber:#fbbf24;--amber-dim:#3a2a0a;--mono:'JetBrains Mono',monospace;--sans:'DM Sans',-apple-system,sans-serif}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--sans);background:var(--bg);color:var(--text);display:flex;height:100vh;overflow:hidden}
+.side{width:360px;min-width:360px;background:var(--panel);border-right:1px solid var(--border);display:flex;flex-direction:column}
+.side-hd{padding:16px 18px;border-bottom:1px solid var(--border);background:var(--panel);position:sticky;top:0;z-index:10}
+.logo{font-family:var(--mono);font-size:13px;font-weight:700;color:var(--accent);letter-spacing:1px;text-transform:uppercase;margin-bottom:4px}
+.logo span{color:var(--dim);font-weight:400}
+.stats{font-size:11px;color:var(--dim);margin-bottom:10px;font-family:var(--mono)}
+.stats b{color:var(--accent)}
+.search{width:100%;padding:8px 12px;background:var(--bg);border:1px solid var(--border);border-radius:4px;color:var(--text);font-size:12px;font-family:var(--mono);outline:none}
+.search:focus{border-color:var(--accent)}
+.filters{display:flex;gap:4px;margin-top:8px}
+.fbtn{padding:3px 10px;border-radius:3px;border:1px solid var(--border);background:transparent;color:var(--dim);font-size:10px;font-family:var(--mono);cursor:pointer;transition:all .12s}
+.fbtn:hover{border-color:#444;color:var(--text)}
+.fbtn.on{background:var(--accent-dim);border-color:var(--accent);color:var(--accent)}
+.side-list{flex:1;overflow-y:auto}
+.lab-grp{border-bottom:1px solid var(--border)}
+.lab-hd{padding:8px 16px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;transition:background .1s}
+.lab-hd:hover{background:rgba(255,255,255,.02)}
+.lab-title{font-size:11px;font-weight:600;color:var(--text)}
+.lab-pi{font-size:10px;color:var(--dim);margin-top:1px}
+.lab-badges{display:flex;gap:4px;align-items:center}
+.lab-count{font-size:10px;color:var(--dim);background:var(--bg);padding:1px 6px;border-radius:3px;font-family:var(--mono)}
+.lab-priority{font-size:8px;padding:1px 5px;border-radius:2px;font-family:var(--mono);font-weight:700;text-transform:uppercase}
+.pr-TOP{background:#1a2a1a;color:var(--green)}
+.pr-HIGH{background:#2a2a0a;color:var(--amber)}
+.pr-MEDIUM{background:rgba(255,255,255,.04);color:var(--dim)}
+.chv{font-size:8px;color:var(--dim);transition:transform .12s}
+.lab-grp.collapsed .chv{transform:rotate(-90deg)}
+.lab-grp.collapsed .email-item{display:none}
+.email-item{padding:7px 16px 7px 28px;cursor:pointer;border-bottom:1px solid rgba(255,255,255,.02);transition:background .08s}
+.email-item:hover{background:rgba(255,255,255,.02)}
+.email-item.sel{background:var(--accent-dim);border-left:2px solid var(--accent);padding-left:26px}
+.ei-name{font-size:12px;font-weight:500;color:var(--text)}
+.ei-role{font-size:9px;padding:1px 5px;border-radius:3px;font-family:var(--mono);font-weight:500;margin-left:5px;display:inline-block}
+.role-professor{background:var(--purple-dim);color:var(--purple)}
+.role-grad_student{background:var(--green-dim);color:var(--green)}
+.role-contact{background:var(--amber-dim);color:var(--amber)}
+.ei-email{font-size:10px;color:var(--dim);font-family:var(--mono);margin-top:1px}
+.main{flex:1;overflow-y:auto;background:var(--bg)}
+.empty,.loading{display:flex;align-items:center;justify-content:center;height:100%;color:var(--dim);font-family:var(--mono);font-size:12px}
+.detail{max-width:720px;margin:0 auto;padding:32px 24px}
+.detail-subj{font-size:18px;font-weight:700;color:var(--bright);line-height:1.4;margin-bottom:16px}
+.detail-meta{display:grid;grid-template-columns:55px 1fr;gap:3px 10px;font-size:12px;margin-bottom:16px;font-family:var(--mono)}
+.dm-label{color:var(--dim);text-align:right}
+.dm-val{color:var(--text)}
+.dm-val a{color:var(--accent);text-decoration:none}
+.tabs{display:flex;gap:0;border-bottom:1px solid var(--border);margin-bottom:16px}
+.tab{padding:8px 16px;font-size:11px;font-family:var(--mono);color:var(--dim);cursor:pointer;border-bottom:2px solid transparent;transition:all .12s}
+.tab:hover{color:var(--text)}
+.tab.active{color:var(--accent);border-bottom-color:var(--accent)}
+.tab-content{display:none}
+.tab-content.active{display:block}
+.email-body{background:var(--card);border:1px solid var(--border);border-radius:4px;padding:20px;font-size:13.5px;line-height:1.8;color:var(--text);white-space:pre-wrap}
+.info-section{margin-bottom:16px}
+.info-label{font-size:10px;font-family:var(--mono);color:var(--dim);text-transform:uppercase;letter-spacing:1px;margin-bottom:4px}
+.info-text{font-size:13px;color:var(--text);line-height:1.6}
+.info-links{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.info-link{font-size:11px;font-family:var(--mono);color:var(--accent);text-decoration:none;padding:2px 8px;background:var(--accent-dim);border-radius:3px}
+.info-link:hover{background:rgba(91,138,245,.2)}
+.paper-item{font-size:12px;color:var(--text);padding:4px 0;border-bottom:1px solid rgba(255,255,255,.03);line-height:1.4}
+.elx-card{background:var(--card);border:1px solid var(--border);border-radius:4px;padding:12px;margin-bottom:8px}
+.elx-title{font-size:13px;font-weight:600;color:var(--bright);margin-bottom:4px}
+.elx-meta{font-size:11px;color:var(--dim);font-family:var(--mono)}
+.actions{display:flex;gap:6px;margin-top:16px}
+.btn{padding:7px 14px;border-radius:4px;border:1px solid var(--border);background:var(--card);color:var(--text);font-size:11px;font-family:var(--mono);cursor:pointer;text-decoration:none;display:inline-block;transition:all .1s}
+.btn:hover{background:rgba(255,255,255,.06);border-color:#444;color:var(--bright)}
+.btn-accent{background:var(--accent-dim);border-color:var(--accent);color:var(--accent)}
+.btn-accent:hover{background:rgba(91,138,245,.25)}
+.notes-box{margin-top:12px;padding:8px 12px;background:rgba(251,191,36,.04);border:1px solid rgba(251,191,36,.15);border-radius:4px;font-size:11px;color:var(--dim);font-family:var(--mono)}
+.notes-box b{color:var(--amber)}
+.status{font-size:9px;font-family:var(--mono);padding:2px 6px;border-radius:3px}
+.status-draft{background:rgba(255,255,255,.05);color:var(--dim)}
+.status-sent{background:rgba(91,138,245,.15);color:var(--accent)}
+.status-responded{background:rgba(74,222,128,.15);color:var(--green)}
+</style>
+</head>
+<body>
+<div class="side">
+<div class="side-hd">
+<div class="logo">UROP CMD <span>/ v3</span></div>
+<div class="stats"><b id="ec">-</b> emails · <b id="lc">-</b> labs · <b id="rc">-</b> people</div>
+<input class="search" id="q" placeholder="search labs, names, emails...">
+<div class="filters">
+<button class="fbtn on" data-f="all">All</button>
+<button class="fbtn" data-f="professor">PIs</button>
+<button class="fbtn" data-f="grad_student">PhDs</button>
+<button class="fbtn" data-f="contact">Contacts</button>
+</div></div>
+<div class="side-list" id="list"></div>
+</div>
+<div class="main" id="mp"><div class="loading" id="loader">Loading JSON assets...</div></div>
+
+<script>
+let EMAILS=[],LABS={},sel=null,filt='all',qry='';
+
+Promise.all([
+  fetch('urop_emails.json').then(r=>r.json()),
+  fetch('master_db.json').then(r=>r.json())
+]).then(([ed,md])=>{EMAILS=ed.emails;LABS=md.labs;init()})
+.catch(err=>{document.getElementById('loader').textContent='Error: '+err.message+'. Place urop_emails.json and master_db.json in the same folder as this HTML file.'});
+
+function init(){
+  document.getElementById('loader').style.display='none';
+  document.getElementById('mp').innerHTML='<div class="empty">Select an email</div>';
+  document.getElementById('ec').textContent=EMAILS.length;
+  document.getElementById('lc').textContent=new Set(EMAILS.map(e=>e.batch_id)).size;
+  document.getElementById('rc').textContent=new Set(EMAILS.map(e=>e.to.email)).size;
+  render();
+  document.getElementById('q').addEventListener('input',e=>{qry=e.target.value;render()});
+  document.querySelectorAll('.fbtn').forEach(b=>b.addEventListener('click',()=>{
+    document.querySelectorAll('.fbtn').forEach(x=>x.classList.remove('on'));
+    b.classList.add('on');filt=b.dataset.f;render()}));
+  document.addEventListener('keydown',e=>{
+    if(e.target.tagName==='INPUT')return;
+    const ids=EMAILS.filter(x=>filt==='all'||x.to.role===filt).map(x=>x.id);
+    const i=ids.indexOf(sel);
+    if(e.key==='ArrowDown'&&i<ids.length-1){sel=ids[i+1];render();show(EMAILS.find(x=>x.id===sel));e.preventDefault()}
+    if(e.key==='ArrowUp'&&i>0){sel=ids[i-1];render();show(EMAILS.find(x=>x.id===sel));e.preventDefault()}});
+}
+
+function findLab(piName){for(const[,l]of Object.entries(LABS))if(l.pi&&l.pi.name===piName)return l;return null}
+function esc(s){return(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+function rl(r){return r==='professor'?'PI':r==='grad_student'?'PhD':'Contact'}
+
+function render(){
+  const c=document.getElementById('list');c.innerHTML='';const q=qry.toLowerCase();
+  const batches={};
+  EMAILS.forEach(e=>{if(!batches[e.batch_id])batches[e.batch_id]={lab:e.lab,emails:[]};batches[e.batch_id].emails.push(e)});
+  const sorted=Object.entries(batches).sort((a,b)=>b[1].emails.length-a[1].emails.length);
+  for(const[bid,info]of sorted){
+    const fl=info.emails.filter(e=>{
+      if(filt!=='all'&&e.to.role!==filt)return false;
+      if(q&&!(e.to.name+' '+e.to.email+' '+info.lab.name+' '+info.lab.pi+' '+e.subject).toLowerCase().includes(q))return false;
+      return true});
+    if(!fl.length)continue;
+    const labD=findLab(info.lab.pi);
+    const pr=labD?labD.priority:'MEDIUM';
+    const g=document.createElement('div');g.className='lab-grp';
+    const h=document.createElement('div');h.className='lab-hd';
+    h.innerHTML=`<div><div class="lab-title">${esc(info.lab.name)}</div><div class="lab-pi">${esc(info.lab.pi)}</div></div><div class="lab-badges"><span class="lab-priority pr-${pr}">${pr}</span><span class="lab-count">${fl.length}</span><span class="chv">▼</span></div>`;
+    h.onclick=()=>g.classList.toggle('collapsed');g.appendChild(h);
+    for(const e of fl){
+      const d=document.createElement('div');d.className='email-item'+(e.id===sel?' sel':'');
+      d.innerHTML=`<div><span class="ei-name">${esc(e.to.name)}</span><span class="ei-role role-${e.to.role}">${rl(e.to.role)}</span></div><div class="ei-email">${e.to.email}</div>`;
+      d.onclick=()=>{sel=e.id;render();show(e)};g.appendChild(d)}
+    c.appendChild(g)}}
+
+function show(e){
+  const p=document.getElementById('mp');
+  const t=e.subject.replace(/ -UROP-$/,'');
+  const labD=findLab(e.lab.pi);
+  const ml=`mailto:${e.to.email}?subject=${encodeURIComponent(e.subject)}&body=${encodeURIComponent(e.body)}`;
+  const st=e.tracking.status;
+  let labHTML='',papHTML='',elxHTML='';
+  if(labD){
+    labHTML=`<div class="info-section"><div class="info-label">Summary</div><div class="info-text">${esc(labD.research_summary)}</div></div>
+<div class="info-section"><div class="info-label">Focus</div><div class="info-text">${esc(labD.lab_focus)}</div></div>
+<div class="info-section"><div class="info-label">Category</div><div class="info-text">${esc(labD.category)}</div></div>
+<div class="info-section"><div class="info-label">UROP Relevance</div><div class="info-text">${esc(labD.urop_relevance)}</div></div>
+<div class="info-section"><div class="info-label">Links</div><div class="info-links">${Object.entries(labD.links||{}).map(([k,v])=>`<a class="info-link" href="${v}" target="_blank">${k.replace(/_/g,' ')}</a>`).join('')}</div></div>`;
+    papHTML=(labD.key_papers||[]).map(x=>`<div class="paper-item">${esc(x)}</div>`).join('')||'<div style="color:var(--dim);font-size:12px">None</div>';
+    elxHTML=(labD.elx_urops||[]).map(u=>`<div class="elx-card"><div class="elx-title">${esc(u.title)}</div><div class="elx-meta">${esc(u.contact)} (${esc(u.contact_email||'N/A')}) · ${(u.eligible_years||[]).join(', ')||'Open'}</div></div>`).join('')||'<div style="color:var(--dim);font-size:12px">None</div>';
+  }else{labHTML=papHTML=elxHTML='<div style="color:var(--dim);font-size:12px">Not in master database</div>'}
+  p.innerHTML=`<div class="detail">
+<div class="detail-subj">${esc(t)}</div>
+<div class="detail-meta">
+<div class="dm-label">To</div><div class="dm-val">${esc(e.to.name)} &lt;<a href="mailto:${e.to.email}">${e.to.email}</a>&gt; <span class="ei-role role-${e.to.role}">${rl(e.to.role)}</span> <span class="status status-${st}">${st}</span></div>
+<div class="dm-label">Lab</div><div class="dm-val">${esc(e.lab.name)}</div>
+<div class="dm-label">PI</div><div class="dm-val">${esc(e.lab.pi)}</div>
+<div class="dm-label">Batch</div><div class="dm-val">${e.batch_id}</div>
+</div>
+<div class="tabs"><div class="tab active" data-tab="email">Email</div><div class="tab" data-tab="lab">Lab Info</div><div class="tab" data-tab="papers">Papers (${labD?(labD.key_papers||[]).length:0})</div><div class="tab" data-tab="elx">ELX (${labD?(labD.elx_urops||[]).length:0})</div></div>
+<div class="tab-content active" data-tab="email">
+<div class="email-body">${esc(e.body)}</div>
+${e.notes?`<div class="notes-box"><b>Notes:</b> ${esc(e.notes)}</div>`:''}
+<div class="actions"><a href="${ml}" class="btn btn-accent">Open in Mail</a><button class="btn" id="cpBody">Copy Body</button><button class="btn" id="cpAddr">Copy Address</button><button class="btn" id="cpSubj">Copy Subject</button></div>
+</div>
+<div class="tab-content" data-tab="lab">${labHTML}</div>
+<div class="tab-content" data-tab="papers">${papHTML}</div>
+<div class="tab-content" data-tab="elx">${elxHTML}</div>
+</div>`;
+  // Tabs
+  p.querySelectorAll('.tab').forEach(tab=>tab.addEventListener('click',()=>{
+    p.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+    p.querySelectorAll('.tab-content').forEach(tc=>tc.classList.remove('active'));
+    tab.classList.add('active');p.querySelector(`.tab-content[data-tab="${tab.dataset.tab}"]`).classList.add('active')}));
+  // Copy buttons
+  const cp=(btn,txt)=>{btn.addEventListener('click',()=>{navigator.clipboard.writeText(txt).then(()=>{const o=btn.textContent;btn.textContent='Copied!';setTimeout(()=>btn.textContent=o,1000)})})};
+  cp(document.getElementById('cpBody'),e.body);
+  cp(document.getElementById('cpAddr'),e.to.email);
+  cp(document.getElementById('cpSubj'),e.subject);
+}
+</script>
+</body>
+</html>

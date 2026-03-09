@@ -1,0 +1,1895 @@
+{
+  "metadata": {
+    "description": "MIT LLM/AI Agents UROP Lab Database",
+    "criteria_kept": [
+      "Multimodal models",
+      "AI agents",
+      "LLMs"
+    ],
+    "criteria_eliminated": [
+      "Ethics",
+      "Alignment",
+      "Business (easy)",
+      "Stretch-to-call-LLM (normal ML)"
+    ],
+    "total_labs": 45,
+    "total_eliminated": 32
+  },
+  "labs": {
+    "andreas_lingo": {
+      "lab_id": "andreas_lingo",
+      "lab_name": "LINGO (Language & Intelligence) Group",
+      "lab_url": "https://lingo.csail.mit.edu/",
+      "lab_focus": "LLM reasoning, in-context learning, language-guided planning, multimodal interpretability",
+      "pi": {
+        "name": "Jacob Andreas",
+        "email": "jda@mit.edu",
+        "title": "Associate Professor, EECS",
+        "affiliations": [
+          "CSAIL",
+          "MIT-IBM Watson AI Lab"
+        ]
+      },
+      "category": "Core LLM / NLP",
+      "priority": "TOP",
+      "research_summary": "Leads MIT's most prolific LLM lab. Work spans LLM reasoning and evaluation, self-steering language models, in-context learning, multimodal interpretability agents, and language-guided robot planning. Extensive collaborations with Tenenbaum, Kim, Levy, Torralba.",
+      "links": {
+        "personal_page": "https://www.mit.edu/~jda/",
+        "csail_profile": "https://www.csail.mit.edu/person/jacob-andreas",
+        "lab_page": "https://lingo.csail.mit.edu/",
+        "papers_page": "https://lingo.csail.mit.edu/research.html",
+        "google_scholar": "https://scholar.google.com/citations?user=dnZ8udEAAAAJ",
+        "mit_ibm": "https://mitibmwatsonailab.mit.edu/people/jacob-andreas/",
+        "multimodal_interpretability": "https://multimodal-interpretability.csail.mit.edu/",
+        "cv": "https://www.mit.edu/~jda/docs/jda_cv.pdf"
+      },
+      "key_papers": [
+        "DisCIPL: Self-Steering Language Models (compositional inference with LLMs)",
+        "Breakpoint: Evaluating LLM agents via environment perturbations",
+        "MAIA: Multimodal Automated Interpretability Agent (ICML 2024)",
+        "Reasoning or Reciting? Capabilities of LLMs through counterfactual evals (NAACL 2024)",
+        "The Consensus Game: LM generation via equilibrium search (ICLR 2024 Spotlight)",
+        "OpenEstimate: Evaluating LLMs on reasoning under uncertainty (ICLR 2026)",
+        "Log-Augmented Generation: scaling test-time reasoning (ICLR 2026)",
+        "Learning Linear Attention in Polynomial Time (NeurIPS 2025 Oral)",
+        "A spectral understanding of LoRA fine-tuning (NeurIPS 2025)",
+        "EWoK: Evaluating basic world knowledge in LLMs",
+        "Eliciting Human Preferences with Language Models (ICLR 2025)",
+        "Test-time training for few-shot learning (ICML 2025)",
+        "Beyond binary rewards: training LMs to reason about uncertainty",
+        "Generative AI in the Era of Alternative Facts (EMNLP 2024)",
+        "LaMPP: Language Models as Probabilistic Priors for Perception and Action",
+        "Visual grounding helps learn word meanings (NAACL 2024 Best Paper)",
+        "Whale communication analysis with LLMs (Nature Communications 2024)"
+      ],
+      "urop_relevance": "High - large lab with active undergraduate involvement; co-leads SQI Language and Thought Mission which offers LLM UROPs",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "kim_yoon": {
+      "lab_id": "kim_yoon",
+      "lab_name": "Yoon Kim's NLP Group",
+      "lab_url": "https://people.csail.mit.edu/yoonkim/",
+      "lab_focus": "LLM architectures, efficient transformers, self-adapting LLMs, language model analysis",
+      "pi": {
+        "name": "Yoon Kim",
+        "email": "yoonkim@mit.edu",
+        "title": "Associate Professor, EECS (tenured effective July 2025)",
+        "affiliations": [
+          "CSAIL",
+          "MIT-IBM Watson AI Lab"
+        ]
+      },
+      "category": "Core LLM / NLP",
+      "priority": "TOP",
+      "research_summary": "Core LLM architecture researcher. Works on efficient LLM architectures (gated linear attention), the semantic hub hypothesis (how LLMs share representations across languages), self-adapting LLMs (SEAL), Co-LLM collaborative decoding. Co-teaches NLP with Andreas.",
+      "links": {
+        "personal_page": "https://people.csail.mit.edu/yoonkim/",
+        "csail_profile": "https://www.csail.mit.edu/person/yoon-kim",
+        "google_scholar": "https://scholar.google.com/citations?user=Blzn5rgAAAAJ",
+        "mit_ibm": "https://mitibmwatsonailab.mit.edu/people/yoon-kim/"
+      },
+      "key_papers": [
+        "SEAL: Self-Adapting LLMs via RL-based self-editing (NeurIPS, with UROP co-author)",
+        "Semantic Hub Hypothesis: Language models share semantic representations across languages and modalities",
+        "Co-LLM: collaborative decoding combining general and specialized LLMs",
+        "Gated Linear Attention Transformers: efficient alternative to softmax attention",
+        "Reasoning or Reciting? (NAACL 2024, with Andreas)",
+        "In-context language learning: Architectures and algorithms (with Andreas)",
+        "Beyond binary rewards: training LMs to reason about uncertainty"
+      ],
+      "urop_relevance": "High - SEAL paper had a UROP co-author funded by Stevens Fund",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "khattab_nlp@mit": {
+      "lab_id": "khattab_nlp@mit",
+      "lab_name": "NLP@MIT (Khattab Lab)",
+      "lab_url": "https://omarkhattab.com/",
+      "lab_focus": "LLM programming, retrieval-augmented generation, declarative AI systems, language model compilers",
+      "pi": {
+        "name": "Omar Khattab",
+        "email": "okhattab@mit.edu",
+        "title": "Assistant Professor, EECS (joined Fall 2025)",
+        "affiliations": [
+          "CSAIL"
+        ]
+      },
+      "category": "Core LLM / AI Agents / RAG",
+      "priority": "TOP",
+      "research_summary": "Creator of DSPy (first LLM program compiler, 500K+ monthly downloads) and ColBERT retrieval model. Pioneer of retrieval-augmented generation. Research on composing retrieval and reasoning, automated RAG evaluation (ARES), and LLM programming abstractions. One of MIT's newest and most directly LLM-focused hires - building lab now.",
+      "links": {
+        "personal_page": "https://omarkhattab.com/",
+        "google_scholar": "https://scholar.google.com/citations?user=Lwr5ozgAAAAJ",
+        "github": "https://github.com/okhat",
+        "dspy_repo": "https://github.com/stanfordnlp/dspy",
+        "colbert_repo": "https://github.com/stanford-futuredata/ColBERT",
+        "cv": "https://omarkhattab.com/okhattab_cv.pdf",
+        "twitter": "https://x.com/lateinteraction",
+        "dblp": "https://dblp.org/pid/129/7815.html",
+        "eecs_seminar": "https://www.eecs.mit.edu/eecs-events/omar-khattab-building-more-reliable-and-scalable-ai-systems-with-language-model-programming/"
+      },
+      "key_papers": [
+        "DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines (ICLR 2024 Spotlight)",
+        "DSPy Assertions: Computational Constraints for Self-Refining LM Pipelines",
+        "STORM: Writing Wikipedia-like Articles from Scratch with LLMs (NAACL 2024)",
+        "ARES: Automated Evaluation Framework for RAG Systems (NAACL 2024)",
+        "PAPILLON: Privacy Preservation from LLM Ensembles (NAACL 2025)",
+        "GEPA: Reflective Prompt Evolution Can Outperform RL (2025)",
+        "ColBERT-serve: Efficient Multi-Stage Memory-Mapped Scoring (ECIR 2025)",
+        "WARP: Scalable Retrieval Infrastructure (SIGIR 2025 Best Paper)",
+        "FreshStack: Building Realistic Benchmarks for Retrieval on Technical Documents",
+        "Grounding by Trying: LLMs with RL-Enhanced Retrieval (ICLR 2025)",
+        "PATH and IReRa: state-of-the-art LM pipeline systems",
+        "MIPRO: Multi-prompt Instruction Proposal Optimizer (EMNLP 2024)",
+        "BetterTogether: improving LM pipelines (EMNLP 2024)"
+      ],
+      "urop_relevance": "VERY HIGH - brand new lab, actively recruiting, most likely to need UROPs",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "han_mit": {
+      "lab_id": "han_mit",
+      "lab_name": "MIT HAN Lab",
+      "lab_url": "https://hanlab.mit.edu/",
+      "lab_focus": "Efficient LLM inference, quantization, long-context LLMs, on-device AI, vision-language models",
+      "pi": {
+        "name": "Song Han",
+        "email": "songhan@mit.edu",
+        "title": "Associate Professor (with tenure), EECS",
+        "affiliations": [
+          "CSAIL",
+          "MIT-IBM Watson AI Lab"
+        ]
+      },
+      "category": "Efficient LLMs / LLM Systems",
+      "priority": "TOP",
+      "research_summary": "Leading researcher on efficient LLM inference and deployment. AWQ (19M+ HuggingFace downloads, MLSys 2024 Best Paper), SmoothQuant (W8A8 quantization), StreamingLLM (infinite-length generation), DuoAttention, QServe, LServe, VILA vision-language models. Methods integrated into NVIDIA TensorRT-LLM.",
+      "links": {
+        "personal_page": "https://hanlab.mit.edu/songhan",
+        "lab_page": "https://hanlab.mit.edu/",
+        "lab_team": "https://hanlab.mit.edu/team",
+        "llm_topics": "https://hanlab.mit.edu/topics/llm",
+        "google_scholar": "https://scholar.google.com/citations?user=E0iCaa4AAAAJ",
+        "github": "https://github.com/mit-han-lab",
+        "awq_project": "https://hanlab.mit.edu/projects/awq",
+        "smoothquant_project": "https://hanlab.mit.edu/projects/smoothquant",
+        "streamingllm_project": "https://hanlab.mit.edu/projects/streamingllm",
+        "course_efficientml": "https://hanlab.mit.edu/courses/2024-fall-65940",
+        "awq_github": "https://github.com/mit-han-lab/llm-awq",
+        "smoothquant_github": "https://github.com/mit-han-lab/smoothquant"
+      },
+      "key_papers": [
+        "AWQ: Activation-aware Weight Quantization for LLM Compression (MLSys 2024 Best Paper)",
+        "SmoothQuant: Accurate and Efficient Post-Training Quantization for LLMs (ICML 2023)",
+        "StreamingLLM: Efficient Streaming LM with Attention Sinks",
+        "StreamingVLM: streaming-aware KV cache for infinite video understanding",
+        "QServe: W4A8KV4 Quantization for large-scale LLM Serving",
+        "LServe: Efficient Long-sequence LLM Serving",
+        "DuoAttention: reducing LLM decoding/pre-filling memory with retrieval/streaming heads",
+        "Quest: query-aware sparsity in long-context KV cache",
+        "COAT: Memory efficient FP8 training",
+        "VILA: Vision-Language Models on the edge with AWQ",
+        "DistriFusion: multi-GPU diffusion model acceleration (CVPR 2024 Highlight)",
+        "VLaSH: Real-Time VLAs via Future-state-aware Asynchronous Inference",
+        "Four Over Six: NVFP4 Quantization with Adaptive Block Scaling",
+        "Radial Attention: O(nlogn) Sparse Attention for Long Video Generation (NeurIPS 2025)"
+      ],
+      "urop_relevance": "High - large active lab with many students",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "solar-lezama_computer-aided": {
+      "lab_id": "solar-lezama_computer-aided",
+      "lab_name": "Computer-Aided Programming Group",
+      "lab_url": "https://groups.csail.mit.edu/cap/",
+      "lab_focus": "Program synthesis, LLMs for code generation, neurosymbolic programming, AI agents for software engineering",
+      "pi": {
+        "name": "Armando Solar-Lezama",
+        "email": "asolar@csail.mit.edu",
+        "title": "Distinguished Professor of Computing; CSAIL Associate Director & COO",
+        "affiliations": [
+          "CSAIL"
+        ]
+      },
+      "category": "LLMs for Code / AI Agents",
+      "priority": "HIGH",
+      "research_summary": "Intersection of program synthesis and AI. Extensive work on LLMs for code generation, neurosymbolic programming, and AI agents for software engineering. Developed EnCompass (AI agent search framework), combines LLMs with first-order logic provers (LINC).",
+      "links": {
+        "personal_page": "https://people.csail.mit.edu/asolar/",
+        "csail_profile": "https://www.csail.mit.edu/person/armando-solar-lezama",
+        "group_page": "https://groups.csail.mit.edu/cap/",
+        "google_scholar": "https://scholar.google.com/citations?user=uwpTijQAAAAJ"
+      },
+      "key_papers": [
+        "EnCompass: AI agent search framework for software engineering",
+        "LINC: Combining LLMs with First-Order Logic Provers (EMNLP 2023, with Levy)",
+        "Limits of LLMs for reasoning tasks",
+        "Neurosymbolic programming with language models",
+        "LLM-guided program repair and synthesis"
+      ],
+      "urop_relevance": "Medium-High - established lab",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "kraska_data": {
+      "lab_id": "kraska_data",
+      "lab_name": "Data Systems and AI Lab (DSAIL)",
+      "lab_url": "https://dsg.csail.mit.edu/",
+      "lab_focus": "Agentic AI for data systems, LLM-powered data management, generative AI for databases",
+      "pi": {
+        "name": "Tim Kraska",
+        "email": "kraska@mit.edu",
+        "title": "Associate Professor, EECS; College of Computing Distinguished Professor",
+        "affiliations": [
+          "CSAIL",
+          "DSAIL"
+        ]
+      },
+      "category": "LLM Agents / AI Systems",
+      "priority": "HIGH",
+      "research_summary": "Co-directs MIT Generative AI Impact Consortium. Develops declarative frameworks for AI workloads (Palimpzest), created KramaBench (first benchmark for data-science agents), explores agentic systems with long-context optimization and graph-based reasoning.",
+      "links": {
+        "personal_page": "https://people.csail.mit.edu/kraska/",
+        "csail_profile": "https://www.csail.mit.edu/person/tim-kraska",
+        "lab_page": "https://dsg.csail.mit.edu/",
+        "lab_publications": "https://dsg.csail.mit.edu/publications/",
+        "google_scholar": "https://scholar.google.com/citations?user=BhI6MwoAAAAJ",
+        "mgaic": "https://genai.mit.edu/"
+      },
+      "key_papers": [
+        "Palimpzest: Declarative framework for AI workloads",
+        "KramaBench: First benchmark for data-science agents",
+        "Long-context LLM optimization for agentic systems",
+        "Graph-based reasoning with language models"
+      ],
+      "urop_relevance": "High - leads MGAIC which supports undergraduate research",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "agrawal_improbable": {
+      "lab_id": "agrawal_improbable",
+      "lab_name": "Improbable AI Lab",
+      "lab_url": "https://people.csail.mit.edu/pulkitag/",
+      "lab_focus": "Foundation models for robotics, self-adapting LLMs, robot manipulation",
+      "pi": {
+        "name": "Pulkit Agrawal",
+        "email": "pulkitag@mit.edu",
+        "title": "Associate Professor, EECS",
+        "affiliations": [
+          "CSAIL"
+        ]
+      },
+      "category": "LLMs + Robotics / Foundation Models",
+      "priority": "TOP",
+      "research_summary": "Co-developed SEAL (Self-Adapting LLMs) with Yoon Kim, enabling LLMs to permanently learn from new inputs via RL-based self-editing. Also works on world models for robotics from human videos and foundation models for robotic manipulation.",
+      "links": {
+        "personal_page": "https://people.csail.mit.edu/pulkitag/",
+        "csail_profile": "https://www.csail.mit.edu/person/pulkit-agrawal",
+        "google_scholar": "https://scholar.google.com/citations?user=UpZmJI0AAAAJ",
+        "lab_page": "https://improbable.ai/"
+      },
+      "key_papers": [
+        "SEAL: Self-Adapting LLMs via RL-based self-editing (NeurIPS, UROP co-author)",
+        "World Models for Robotics from Human Videos",
+        "Foundation models for robotic manipulation"
+      ],
+      "urop_relevance": "VERY HIGH - SEAL paper included UROP student; has active UROP listed on ELX",
+      "elx_urops": [
+        {
+          "title": "World Models for Robotics from Human Videos",
+          "department": "Electrical Eng & Computer Sci (EECS)",
+          "contact": "Richard Li",
+          "contact_email": "rli14@mit.edu",
+          "eligible_years": [
+            "First Year",
+            "Sophomores",
+            "Juniors",
+            "Seniors"
+          ],
+          "overview": "The main bottleneck in the path to general purpose robotics is real world embodied data. Two frontier research directions are world modelling and human pose estimation. Together, these two tasks solved properly can turn Youtube videos into a simulator, useful for training robots through reinforcement learning. \n\nIn this project, you will train a simulator for manipulation from human videos. You will investigate state of the art practices for compute-efficient video training (eg see Test time tra...",
+          "prerequisites": null
+        }
+      ],
+      "grad_students": []
+    },
+    "torralba_torralba": {
+      "lab_id": "torralba_torralba",
+      "lab_name": "Torralba Lab (Vision Group)",
+      "lab_url": "https://groups.csail.mit.edu/vision/torralbalab/",
+      "lab_focus": "Multimodal AI, vision-language models, automated interpretability, multi-agent debate for LLM factuality",
+      "pi": {
+        "name": "Antonio Torralba",
+        "email": "torralba@mit.edu",
+        "title": "Delta Electronics Professor; Faculty Head of AI+D",
+        "affiliations": [
+          "CSAIL",
+          "MIT-IBM Watson AI Lab"
+        ]
+      },
+      "category": "Multimodal AI / Vision-Language Models",
+      "priority": "HIGH",
+      "research_summary": "Multimodal AI pioneer. Published MAIA (Multimodal Automated Interpretability Agent), improving LLM factuality through multi-agent debate, vision check-ups for language models, and composable diffusion models. Active at intersection of vision-language foundation models.",
+      "links": {
+        "personal_page": "https://groups.csail.mit.edu/vision/torralbalab/",
+        "csail_profile": "https://www.csail.mit.edu/person/antonio-torralba",
+        "mit_ibm": "https://mitibmwatsonailab.mit.edu/people/antonio-torralba/",
+        "google_scholar": "https://scholar.google.com/citations?user=8cxDHS4AAAAJ",
+        "multimodal_interpretability": "https://multimodal-interpretability.csail.mit.edu/"
+      },
+      "key_papers": [
+        "MAIA: Multimodal Automated Interpretability Agent (ICML 2024)",
+        "Multi-agent debate for improving LLM factuality",
+        "Vision check-ups for language models",
+        "Composable diffusion models",
+        "A spectral understanding of LoRA fine-tuning (NeurIPS 2025, with Andreas)",
+        "LucidSim: synthetic robot training data (with Isola)"
+      ],
+      "urop_relevance": "Medium - large established lab",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "isola_isola": {
+      "lab_id": "isola_isola",
+      "lab_name": "Isola Lab",
+      "lab_url": "http://web.mit.edu/phillipi/",
+      "lab_focus": "Generative AI, diffusion models, representation convergence across modalities, synthetic data for robotics",
+      "pi": {
+        "name": "Phillip Isola",
+        "email": "phillipi@mit.edu",
+        "title": "Associate Professor, EECS",
+        "affiliations": [
+          "CSAIL"
+        ]
+      },
+      "category": "Multimodal AI / Generative Models",
+      "priority": "MEDIUM",
+      "research_summary": "Generative AI and the Platonic Representation Hypothesis (how multimodal models converge on shared representations). Uses generative AI to create synthetic robot training data (LucidSim). Research connects foundation models across vision and language modalities.",
+      "links": {
+        "personal_page": "http://web.mit.edu/phillipi/",
+        "csail_profile": "https://www.csail.mit.edu/person/phillip-isola",
+        "google_scholar": "https://scholar.google.com/citations?user=ROkE-xoAAAAJ"
+      },
+      "key_papers": [
+        "The Platonic Representation Hypothesis (multimodal convergence)",
+        "LucidSim: synthetic robot training data with generative AI",
+        "Diffusion model advances for generation and perception"
+      ],
+      "urop_relevance": "Medium",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "he_kaiming": {
+      "lab_id": "he_kaiming",
+      "lab_name": "Kaiming He Lab",
+      "lab_url": "https://people.csail.mit.edu/kaiming/",
+      "lab_focus": "Visual foundation models, self-supervised learning, scalable representation learning",
+      "pi": {
+        "name": "Kaiming He",
+        "email": "kaiming@mit.edu",
+        "title": "Associate Professor, EECS (joined February 2024)",
+        "affiliations": [
+          "CSAIL"
+        ]
+      },
+      "category": "Foundation Models / Multimodal",
+      "priority": "HIGH",
+      "research_summary": "Pioneering deep learning researcher (ResNet, Masked Autoencoders). Works on visual foundation models, self-supervised learning approaches parallel to LLM pre-training. Sponsors 'AI + Chaotic System' UROP using foundation models.",
+      "links": {
+        "personal_page": "https://people.csail.mit.edu/kaiming/",
+        "csail_profile": "https://www.csail.mit.edu/person/kaiming-he",
+        "google_scholar": "https://scholar.google.com/citations?user=DhtAFkwAAAAJ"
+      },
+      "key_papers": [
+        "Foundation models for chaotic systems and PDE solvers",
+        "Masked Autoencoders (MAE) extensions",
+        "Visual representation learning at scale"
+      ],
+      "urop_relevance": "HIGH - has active ELX UROP listing",
+      "elx_urops": [
+        {
+          "title": "AI + Chaotic System",
+          "department": "Electrical Eng & Computer Sci (EECS)",
+          "contact": "Zongyi Li",
+          "contact_email": "zongyili@mit.edu",
+          "eligible_years": [
+            "First Year",
+            "Sophomores",
+            "Juniors",
+            "Seniors"
+          ],
+          "overview": "This project explores AI methods for chaotic systems, which are inherently unstable: even a tiny perturbation in initial conditions can lead to dramatically different outcomes, fundamentally limiting predictability. Our goal is to develop foundational machine learning models that serve as universal representations for ergodic systems, with applications in weather forecasting, climate engineering, and extreme event prediction.\n\nLarge-scale simulations in fields such as turbulence and lithography ...",
+          "prerequisites": null
+        }
+      ],
+      "grad_students": []
+    },
+    "liang_multisensory": {
+      "lab_id": "liang_multisensory",
+      "lab_name": "Multisensory Intelligence Group",
+      "lab_url": "https://pliang279.github.io/",
+      "lab_focus": "Multimodal AI, RAG-driven multimodal LLMs, social bias in language models, AI for healthcare",
+      "pi": {
+        "name": "Paul Pu Liang",
+        "email": "ppliang@mit.edu",
+        "title": "Assistant Professor, Media Arts & Sciences and EECS (joined September 2024)",
+        "affiliations": [
+          "MIT Media Lab",
+          "EECS"
+        ]
+      },
+      "category": "Multimodal AI / LLMs",
+      "priority": "TOP",
+      "research_summary": "Built theoretical foundations and large-scale resources for multimodal AI widely used in generative models. Published definitive survey on multimodal ML (Computing Surveys 2024). RAG-driven multimodal LLMs, social bias in language models. Forbes 30 Under 30. Teaches 'How to AI (Almost) Anything.'",
+      "links": {
+        "personal_page": "https://pliang279.github.io/",
+        "media_lab_profile": "https://www.media.mit.edu/people/ppliang/overview/",
+        "m3s_profile": "https://m3s.mit.edu/our-team/paul-liang-",
+        "google_scholar": "https://scholar.google.com/citations?user=8gEgmIkAAAAJ",
+        "twitter": "https://x.com/pliang279",
+        "media_lab_announcement": "https://www.media.mit.edu/posts/paul-liang-to-join-mit-media-lab-as-asst/",
+        "course_ocw": "https://ocw.mit.edu/courses/mas-s60-how-to-ai-almost-anything-spring-2025/"
+      },
+      "key_papers": [
+        "Foundations and Recent Trends in Multimodal Machine Learning (Computing Surveys 2024, definitive survey)",
+        "RAG-driven multimodal LLMs for ECG interpretation",
+        "Social bias in language models",
+        "Multimodal AI applications in healthcare and robotics",
+        "How to AI (Almost) Anything (course materials)"
+      ],
+      "urop_relevance": "VERY HIGH - brand new lab, actively recruiting",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "rives_rives": {
+      "lab_id": "rives_rives",
+      "lab_name": "Rives Lab (Protein Language Models)",
+      "lab_url": "https://www.evolutionaryscale.ai/",
+      "lab_focus": "Protein language models, biological sequence generation, evolutionary-scale modeling",
+      "pi": {
+        "name": "Alex Rives",
+        "email": "arives@mit.edu",
+        "title": "Assistant Professor, EECS (joined September 2024)",
+        "affiliations": [
+          "EECS",
+          "Broad Institute"
+        ]
+      },
+      "category": "Language Models for Biology",
+      "priority": "HIGH",
+      "research_summary": "Pioneer of protein language models. Founded ESM team at Meta. ESM3 (Science 2025) is a frontier generative language model that simulated 500M years of evolution and generated a novel fluorescent protein. Demonstrates how transformer architectures extend to biological sequences.",
+      "links": {
+        "eecs_profile": "https://www.eecs.mit.edu/people/alex-rives/",
+        "google_scholar": "https://scholar.google.com/citations?user=vqb78kgAAAAJ",
+        "evolutionary_scale": "https://www.evolutionaryscale.ai/"
+      },
+      "key_papers": [
+        "ESM3: Simulating 500 million years of evolution with a language model (Science 2025)",
+        "ESM-2: Protein language model scaling laws",
+        "Biological sequence generation and protein design with LLMs"
+      ],
+      "urop_relevance": "HIGH - brand new lab, actively recruiting",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "barzilay_nlp": {
+      "lab_id": "barzilay_nlp",
+      "lab_name": "NLP Group (co-lead)",
+      "lab_url": "https://www.csail.mit.edu/research/natural-language-processing-group",
+      "lab_focus": "NLP for drug discovery, clinical AI, computational chemistry",
+      "pi": {
+        "name": "Regina Barzilay",
+        "email": "regina@csail.mit.edu",
+        "title": "School of Engineering Distinguished Professor of AI & Health",
+        "affiliations": [
+          "CSAIL",
+          "MIT Jameel Clinic"
+        ]
+      },
+      "category": "NLP / AI for Science",
+      "priority": "MEDIUM",
+      "research_summary": "Co-leads MIT CSAIL NLP Group. Pioneer in NLP applied to drug discovery, clinical AI, and computational chemistry. Foundational NLP work includes decipherment of dead languages, cross-lingual transfer.",
+      "links": {
+        "personal_page": "https://www.regina.csail.mit.edu",
+        "csail_profile": "https://www.csail.mit.edu/person/regina-barzilay",
+        "google_scholar": "https://scholar.google.com/citations?user=MV3PpFoAAAAJ",
+        "nlp_group": "https://www.csail.mit.edu/research/natural-language-processing-group"
+      },
+      "key_papers": [
+        "NLP for drug discovery and molecular generation",
+        "Clinical AI with language models",
+        "Cross-lingual and cross-domain NLP transfer"
+      ],
+      "urop_relevance": "Medium",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "barzilay_mit": {
+      "lab_id": "barzilay_mit",
+      "lab_name": "MIT Jameel Clinic",
+      "lab_url": "https://www.jclinic.mit.edu/",
+      "lab_focus": "AI for healthcare",
+      "pi": {
+        "name": "Regina Barzilay",
+        "email": "regina@csail.mit.edu",
+        "title": "School of Engineering Distinguished Professor of AI & Health",
+        "affiliations": [
+          "CSAIL",
+          "MIT Jameel Clinic"
+        ]
+      },
+      "category": "NLP / AI for Science",
+      "priority": "MEDIUM",
+      "research_summary": "Co-leads MIT CSAIL NLP Group. Pioneer in NLP applied to drug discovery, clinical AI, and computational chemistry. Foundational NLP work includes decipherment of dead languages, cross-lingual transfer.",
+      "links": {
+        "personal_page": "https://www.regina.csail.mit.edu",
+        "csail_profile": "https://www.csail.mit.edu/person/regina-barzilay",
+        "google_scholar": "https://scholar.google.com/citations?user=MV3PpFoAAAAJ",
+        "nlp_group": "https://www.csail.mit.edu/research/natural-language-processing-group"
+      },
+      "key_papers": [
+        "NLP for drug discovery and molecular generation",
+        "Clinical AI with language models",
+        "Cross-lingual and cross-domain NLP transfer"
+      ],
+      "urop_relevance": "Medium",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "jaakkola_nlp": {
+      "lab_id": "jaakkola_nlp",
+      "lab_name": "NLP Group (co-lead)",
+      "lab_url": "https://www.csail.mit.edu/research/natural-language-processing-group",
+      "lab_focus": "Statistical inference, generative models, NLP for computational chemistry",
+      "pi": {
+        "name": "Tommi Jaakkola",
+        "email": "tommi@csail.mit.edu",
+        "title": "Thomas Siebel Professor, EECS and IDSS",
+        "affiliations": [
+          "CSAIL"
+        ]
+      },
+      "category": "NLP / Generative Models",
+      "priority": "MEDIUM",
+      "research_summary": "Co-leads MIT CSAIL NLP Group. Work spans statistical inference, generative models (PFGM++), conformal language modeling, and cooperative rationalization. His methods underlie modern approaches to scalable inference relevant to LLM training.",
+      "links": {
+        "personal_page": "https://people.csail.mit.edu/tommi/",
+        "nlp_page": "https://people.csail.mit.edu/tommi/nlp.html",
+        "csail_profile": "https://www.csail.mit.edu/person/tommi-jaakkola",
+        "google_scholar": "https://scholar.google.com/citations?user=saSInm0AAAAJ"
+      },
+      "key_papers": [
+        "PFGM++: generative model advances",
+        "Conformal language modeling",
+        "Learning Diffusion Models with Flexible Representation Guidance (NeurIPS 2025)",
+        "NLP for computational chemistry and functional genomics"
+      ],
+      "urop_relevance": "Medium",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "sontag_clinical": {
+      "lab_id": "sontag_clinical",
+      "lab_name": "Clinical ML Group",
+      "lab_url": "https://clinicalml.org/",
+      "lab_focus": "Clinical NLP with LLMs, zero-shot clinical extraction, collaborative LLMs",
+      "pi": {
+        "name": "David Sontag",
+        "email": "dsontag@mit.edu",
+        "title": "Professor, EECS",
+        "affiliations": [
+          "CSAIL",
+          "MIT-IBM Watson AI Lab"
+        ]
+      },
+      "category": "LLMs for Healthcare",
+      "priority": "MEDIUM",
+      "research_summary": "Clinical NLP with LLMs. Developed zero-shot clinical information extraction using GPT-style models. Co-authored Co-LLM (combining general and expert LLMs for improved factuality).",
+      "links": {
+        "personal_page": "https://clinicalml.org/",
+        "csail_profile": "https://www.csail.mit.edu/person/david-sontag",
+        "google_scholar": "https://scholar.google.com/citations?user=5EaVp7UAAAAJ"
+      },
+      "key_papers": [
+        "Co-LLM: combining general and expert LLMs",
+        "Zero-shot clinical information extraction using LLMs",
+        "LLMs for deciphering clinical notes and extracting medication regimens"
+      ],
+      "urop_relevance": "Medium",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "kaelbling_learning": {
+      "lab_id": "kaelbling_learning",
+      "lab_name": "Learning and Intelligent Systems (LIS)",
+      "lab_url": "https://lis.csail.mit.edu/",
+      "lab_focus": "LLMs for hierarchical robot planning, embodied AI, foundation models for decision-making",
+      "pi": {
+        "name": "Leslie Kaelbling",
+        "email": "lpk@csail.mit.edu",
+        "title": "Panasonic Professor, EECS",
+        "affiliations": [
+          "CSAIL"
+        ]
+      },
+      "category": "LLM Agents / Robotics",
+      "priority": "MEDIUM",
+      "research_summary": "Uses LLMs for hierarchical robot planning. Developed HiP framework where an LLM serves as the language reasoner in a three-pronged planning system. Integrates foundation models into embodied decision-making.",
+      "links": {
+        "personal_page": "https://people.csail.mit.edu/lpk/",
+        "csail_profile": "https://www.csail.mit.edu/person/leslie-kaelbling",
+        "group_page": "https://lis.csail.mit.edu/",
+        "google_scholar": "https://scholar.google.com/citations?user=UGSmSAAAAAAJ"
+      },
+      "key_papers": [
+        "HiP: Hierarchical Planning with LLM language reasoner for robot manipulation",
+        "Foundation models for embodied decision-making",
+        "Language-guided robot planning and task decomposition"
+      ],
+      "urop_relevance": "Medium",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "rus_distributed": {
+      "lab_id": "rus_distributed",
+      "lab_name": "Distributed Robotics Lab",
+      "lab_url": "https://danielarus.csail.mit.edu/",
+      "lab_focus": "LLMs for robot task generation, generative AI for robotics, whale communication analysis",
+      "pi": {
+        "name": "Daniela Rus",
+        "email": "rus@csail.mit.edu",
+        "title": "Andrew & Erna Viterbi Professor; CSAIL Director",
+        "affiliations": [
+          "CSAIL"
+        ]
+      },
+      "category": "LLMs + Robotics",
+      "priority": "MEDIUM",
+      "research_summary": "CSAIL Director integrating generative AI into robotics. Lab uses LLMs for robot task generation (GenSim), applies language models to sperm whale communication analysis. Co-founded LiquidAI.",
+      "links": {
+        "personal_page": "https://danielarus.csail.mit.edu/",
+        "csail_profile": "https://www.csail.mit.edu/person/daniela-rus",
+        "google_scholar": "https://scholar.google.com/citations?user=910z20QAAAAJ"
+      },
+      "key_papers": [
+        "GenSim: LLMs for robot task generation",
+        "Whale communication analysis with language models (Nature Communications 2024)",
+        "LGA: Language-Guided Abstraction for robot planning (with Shah)"
+      ],
+      "urop_relevance": "Medium",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "shah_interactive": {
+      "lab_id": "shah_interactive",
+      "lab_name": "Interactive Robotics Group",
+      "lab_url": "https://interactive.mit.edu/",
+      "lab_focus": "Language-guided robot planning, human-robot collaboration, LLM-driven task abstraction",
+      "pi": {
+        "name": "Julie Shah",
+        "email": "julie_a_shah@csail.mit.edu",
+        "title": "Professor; Head, AeroAstro Department",
+        "affiliations": [
+          "CSAIL"
+        ]
+      },
+      "category": "LLM Agents / Robotics",
+      "priority": "MEDIUM",
+      "research_summary": "Co-authored LGA (Language-Guided Abstraction) framework that uses natural language to help LLMs create planning representations for robotics. Bridges language models and embodied AI.",
+      "links": {
+        "personal_page": "https://interactive.mit.edu/",
+        "csail_profile": "https://www.csail.mit.edu/person/julie-shah",
+        "google_scholar": "https://scholar.google.com/citations?user=PbFXSa0AAAAJ"
+      },
+      "key_papers": [
+        "LGA: Language-Guided Abstraction for robot planning (CoRL 2024)",
+        "ALGAE: Adaptive Language-Guided Abstraction from Contrastive Explanations (with Bobu)",
+        "Preference-Conditioned Language-Guided Abstraction (HRI 2024)"
+      ],
+      "urop_relevance": "Medium",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "bobu_clear": {
+      "lab_id": "bobu_clear",
+      "lab_name": "CLEAR Lab",
+      "lab_url": "https://www.mit.edu/~abobu/",
+      "lab_focus": "LLMs for robotics and human-robot interaction, VLM-guided robot learning",
+      "pi": {
+        "name": "Andreea Bobu",
+        "email": "abobu@mit.edu",
+        "title": "Assistant Professor, AeroAstro (joined July 2024)",
+        "affiliations": [
+          "CSAIL"
+        ]
+      },
+      "category": "LLM Agents / Robotics",
+      "priority": "HIGH",
+      "research_summary": "Uses LLMs extensively for robotics and human-robot interaction. Developed ALGAE (Adaptive Language-Guided Abstraction from Contrastive Explanations, CoRL 2024). Uses LLMs to infer task goals from open-ended dialog. MGAIC-funded project on VLM-guided robot learning augmentation.",
+      "links": {
+        "personal_page": "https://www.mit.edu/~abobu/",
+        "csail_profile": "https://www.csail.mit.edu/person/andreea-bobu",
+        "google_scholar": "https://scholar.google.com/citations?user=rL80EhoAAAAJ"
+      },
+      "key_papers": [
+        "ALGAE: Adaptive Language-Guided Abstraction from Contrastive Explanations (CoRL 2024)",
+        "LLMs for inferring task goals from open-ended dialog",
+        "VLM-guided robot learning augmentation (MGAIC)",
+        "Designing Jet Engines with AI: Analyzing Human-LLM Collaboration"
+      ],
+      "urop_relevance": "VERY HIGH - new lab, has active ELX UROP listing, MGAIC-funded",
+      "elx_urops": [
+        {
+          "title": "Designing Jet Engines with AI: Analyzing Human-LLM Collaboration",
+          "department": "Computer Sci. & Artificial Int Lab (CSAIL)",
+          "contact": "Nathan Dennler",
+          "contact_email": "",
+          "eligible_years": [],
+          "overview": "Generative AI is changing how we approach engineering, but how do people actually interact with these systems over sustained periods? This UROP aims to answer that by evaluating students\u2019 usage of Large Language Models (LLMs) during complex engineering tasks.\n\nYou will be working with a first-of-its-kind longitudinal dataset collected during IAP, tracking student teams as they interacted with LLMs to design and build gas turbine engines.\n\nAs a UROP on this project, your core responsibilities wil...",
+          "prerequisites": null
+        }
+      ],
+      "grad_students": []
+    },
+    "mansinghka_probabilistic": {
+      "lab_id": "mansinghka_probabilistic",
+      "lab_name": "Probabilistic Computing Project",
+      "lab_url": "https://www.csail.mit.edu/person/vikash-mansinghka",
+      "lab_focus": "Probabilistic programming for LLM control, self-steering language models, generative AI for databases",
+      "pi": {
+        "name": "Vikash Mansinghka",
+        "email": "vkm@mit.edu",
+        "title": "Principal Research Scientist, BCS / CSAIL",
+        "affiliations": [
+          "CSAIL",
+          "BCS"
+        ]
+      },
+      "category": "LLM Programming / Control",
+      "priority": "MEDIUM",
+      "research_summary": "Developed LLaMPPL, a programming language for controlling language models central to the DisCIPL framework. Co-authored work on self-steering language models and GenSQL (generative AI for databases).",
+      "links": {
+        "csail_profile": "https://www.csail.mit.edu/person/vikash-mansinghka",
+        "google_scholar": "https://scholar.google.com/citations?user=8YC2wOMAAAAJ"
+      },
+      "key_papers": [
+        "LLaMPPL: programming language for controlling language models",
+        "DisCIPL: self-steering language models framework",
+        "GenSQL: generative AI for databases"
+      ],
+      "urop_relevance": "Medium",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "cafarella_data": {
+      "lab_id": "cafarella_data",
+      "lab_name": "Data Systems Group",
+      "lab_url": "https://dsg.csail.mit.edu/",
+      "lab_focus": "LLM reasoning, data science agents, log-augmented generation",
+      "pi": {
+        "name": "Michael Cafarella",
+        "email": "micMDC@csail.mit.edu",
+        "title": "Principal Research Scientist, CSAIL",
+        "affiliations": [
+          "CSAIL"
+        ]
+      },
+      "category": "LLM Reasoning / AI Agents",
+      "priority": "MEDIUM",
+      "research_summary": "Co-authored Log-Augmented Generation (scaling test-time reasoning in LLMs, ICLR 2026) and OpenEstimate (evaluating LLMs on reasoning under uncertainty, ICLR 2026). Works with Andreas on LLM reasoning systems.",
+      "links": {
+        "csail_profile": "https://www.csail.mit.edu/person/michael-cafarella",
+        "dsg_publications": "https://dsg.csail.mit.edu/publications/",
+        "google_scholar": "https://scholar.google.com/citations?user=PxZSMUEAAAAJ"
+      },
+      "key_papers": [
+        "Log-Augmented Generation: scaling test-time reasoning in LLMs (ICLR 2026)",
+        "OpenEstimate: evaluating LLMs on reasoning under uncertainty (ICLR 2026)",
+        "Palimpzest: declarative AI workloads (with Kraska)"
+      ],
+      "urop_relevance": "Medium",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "oliva_oliva": {
+      "lab_id": "oliva_oliva",
+      "lab_name": "Oliva Lab / MIT-IBM Watson AI Lab",
+      "lab_url": "https://olivalab.mit.edu/audeoliva.html",
+      "lab_focus": "LLM fine-tuning, vision-language models, parameter-efficient methods",
+      "pi": {
+        "name": "Aude Oliva",
+        "email": "oliva@mit.edu",
+        "title": "Senior Research Scientist; MIT Director, MIT-IBM Watson AI Lab",
+        "affiliations": [
+          "CSAIL",
+          "MIT-IBM Watson AI Lab"
+        ]
+      },
+      "category": "LLM Fine-tuning / Multimodal",
+      "priority": "MEDIUM",
+      "research_summary": "Published Trans-LoRA (NeurIPS 2024), a data-free transferable parameter-efficient finetuning method for LLMs. Supervised UROP students on data-free LLM fine-tuning. Also works on vision-language models (ConMe, NeurIPS 2024).",
+      "links": {
+        "personal_page": "https://olivalab.mit.edu/audeoliva.html",
+        "csail_profile": "https://www.csail.mit.edu/person/aude-oliva",
+        "mit_ibm": "https://mitibmwatsonailab.mit.edu/people/aude-oliva/",
+        "google_scholar": "https://scholar.google.com/citations?user=6cAZ028AAAAJ"
+      },
+      "key_papers": [
+        "Trans-LoRA: data-free transferable parameter-efficient LLM finetuning (NeurIPS 2024)",
+        "ConMe: Vision-Language Models (NeurIPS 2024)"
+      ],
+      "urop_relevance": "HIGH - has supervised UROPs on LLM fine-tuning",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "rinard_rinard": {
+      "lab_id": "rinard_rinard",
+      "lab_name": "Rinard Research Group",
+      "lab_url": "https://people.csail.mit.edu/rinard/",
+      "lab_focus": "LLM world models, program repair with LLMs, simulations of reality in LLMs",
+      "pi": {
+        "name": "Martin Rinard",
+        "email": "rinard@csail.mit.edu",
+        "title": "Professor, EECS",
+        "affiliations": [
+          "CSAIL"
+        ]
+      },
+      "category": "LLM World Models",
+      "priority": "MEDIUM",
+      "research_summary": "Discovered simulations of reality developing deep within LLMs, indicating understanding beyond simple mimicry. Works on LLM world models and program repair. Co-developed GenSQL with Mansinghka.",
+      "links": {
+        "personal_page": "https://people.csail.mit.edu/rinard/",
+        "csail_profile": "https://www.csail.mit.edu/person/martin-rinard",
+        "google_scholar": "https://scholar.google.com/citations?user=KN8txFkAAAAJ"
+      },
+      "key_papers": [
+        "LLMs develop their own understanding of reality as language abilities improve",
+        "GenSQL: generative AI for databases"
+      ],
+      "urop_relevance": "Medium",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "karger_haystack": {
+      "lab_id": "karger_haystack",
+      "lab_name": "Haystack Group",
+      "lab_url": "https://www.csail.mit.edu/person/david-karger",
+      "lab_focus": "LLMex project, AI-based memory prosthetics, information management with LLMs",
+      "pi": {
+        "name": "David Karger",
+        "email": "karger@mit.edu",
+        "title": "Professor, EECS",
+        "affiliations": [
+          "CSAIL"
+        ]
+      },
+      "category": "LLM Applications",
+      "priority": "MEDIUM",
+      "research_summary": "Co-leads the LLMex project implementing Vannevar Bush's Memex vision using LLMs - building AI-based memory prosthetics that use LLMs to help individuals track information and proactively suggest relevant content.",
+      "links": {
+        "csail_profile": "https://www.csail.mit.edu/person/david-karger",
+        "haystack": "https://haystack.csail.mit.edu/",
+        "google_scholar": "https://scholar.google.com/citations?user=2vQRGrYAAAAJ"
+      },
+      "key_papers": [
+        "LLMex: Implementing Memex vision with LLMs",
+        "AI-based memory prosthetics with language models"
+      ],
+      "urop_relevance": "Medium",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "tenenbaum_computational": {
+      "lab_id": "tenenbaum_computational",
+      "lab_name": "Computational Cognitive Science Group",
+      "lab_url": "http://web.mit.edu/cocosci/josh.html",
+      "lab_focus": "Neurosymbolic LLM approaches, rational AI agents, common-sense reasoning",
+      "pi": {
+        "name": "Joshua Tenenbaum",
+        "email": "jbt@mit.edu",
+        "title": "Professor of Computational Cognitive Science",
+        "affiliations": [
+          "CSAIL",
+          "BCS",
+          "CBMM"
+        ]
+      },
+      "category": "Neurosymbolic AI / LLM Agents",
+      "priority": "MEDIUM",
+      "research_summary": "Bridges cognitive science and AI. Co-leads major work on neurosymbolic approaches (LILO, Ada, DisCIPL) combining LLMs with symbolic planning. Studies LLMs for building rational agents and common-sense reasoning. MGAIC-funded 'Rational Generative AI' project.",
+      "links": {
+        "personal_page": "http://web.mit.edu/cocosci/josh.html",
+        "csail_profile": "https://www.csail.mit.edu/person/joshua-tenenbaum",
+        "google_scholar": "https://scholar.google.com/citations?user=rRJ9wTJMUB8C"
+      },
+      "key_papers": [
+        "DisCIPL: self-steering language models (with Andreas, Mansinghka)",
+        "LILO: Language-inspired library of operators",
+        "Rational agents that explore and act like people (ICLR 2026)",
+        "Language and experience: computational model of social learning (ICLR 2026)",
+        "Loose LIPS: Battleship with language-informed program sampling (CogSci 2024)",
+        "MGAIC Rational Generative AI project"
+      ],
+      "urop_relevance": "Medium",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "levy_computational": {
+      "lab_id": "levy_computational",
+      "lab_name": "Computational Psycholinguistics Lab",
+      "lab_url": "https://www.mit.edu/~rplevy/",
+      "lab_focus": "Computational linguistics, LLM evaluation, LLM world knowledge, language processing",
+      "pi": {
+        "name": "Roger Levy",
+        "email": "rplevy@mit.edu",
+        "title": "Professor, BCS; Chair of MIT Faculty (2025-2027)",
+        "affiliations": [
+          "BCS",
+          "CSAIL"
+        ]
+      },
+      "category": "Computational Linguistics / LLM Evaluation",
+      "priority": "MEDIUM",
+      "research_summary": "Central to computational linguistics and NLP. Published LINC (combining LLMs with first-order logic provers, EMNLP 2023), studies prompting vs. probability measurements in LLMs, and evaluates LLM world knowledge (EWoK). Extensively collaborates with Andreas, Kim, Solar-Lezama.",
+      "links": {
+        "personal_page": "https://www.mit.edu/~rplevy/",
+        "bcs_profile": "https://bcs.mit.edu/directory/roger-levy",
+        "sqi_profile": "https://sqi.mit.edu/about/people/roger-levy",
+        "google_scholar": "https://scholar.google.com/citations?user=JDmOXiIAAAAJ"
+      },
+      "key_papers": [
+        "LINC: Combining LLMs with first-order logic provers (EMNLP 2023)",
+        "EWoK: Evaluating basic world knowledge in language models",
+        "Prompting vs. probability measurements in LLMs",
+        "Learning phonotactics from linguistic informants (ICML 2024 Oral, with Andreas)"
+      ],
+      "urop_relevance": "Medium",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "maes_fluid": {
+      "lab_id": "maes_fluid",
+      "lab_name": "Fluid Interfaces Group",
+      "lab_url": "https://www.media.mit.edu/groups/fluid-interfaces/overview/",
+      "lab_focus": "LLMs for mixed reality, wearable AI memory, LLM agents, cognitive enhancement",
+      "pi": {
+        "name": "Patricia (Pattie) Maes",
+        "email": "pattie@media.mit.edu",
+        "title": "Germeshausen Professor of Media Arts and Sciences",
+        "affiliations": [
+          "MIT Media Lab"
+        ]
+      },
+      "category": "LLM Applications / AI Agents",
+      "priority": "HIGH",
+      "research_summary": "One of the most active Media Lab faculty in LLM research. LLMR (LLM for Mixed Reality, CHI 2024), Memoro (wearable AI memory using LLMs), studies of LLM agent behavior vs humans (NeurIPS 2024), RAG-driven multimodal LLMs for ECG, LLM-based language learning chatbots.",
+      "links": {
+        "media_lab_profile": "https://www.media.mit.edu/people/pattie/overview/",
+        "group_page": "https://www.media.mit.edu/groups/fluid-interfaces/overview/",
+        "aha_program": "https://www.media.mit.edu/posts/introducing-aha/",
+        "google_scholar": "https://scholar.google.com/citations?user=QIR4bocAAAAJ"
+      },
+      "key_papers": [
+        "LLMR: LLM for Real-time Prompting of Interactive Worlds (CHI 2024 Honorable Mention)",
+        "Memoro: Wearable AI memory assistant using LLMs",
+        "How LLM agents deviate from human choices (NeurIPS 2024)",
+        "RAG-driven multimodal LLMs for ECG interpretation",
+        "LLM-based language learning chatbots for growth mindset",
+        "Generative AI Creative Applications (course)"
+      ],
+      "urop_relevance": "HIGH - has ELX UROP (AttentivU), but that specific one is BCI-focused",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "maes_aha": {
+      "lab_id": "maes_aha",
+      "lab_name": "AHA (Advancing Humans with AI) Program",
+      "lab_url": "https://www.media.mit.edu/posts/introducing-aha/",
+      "lab_focus": "Human-AI collaboration research",
+      "pi": {
+        "name": "Patricia (Pattie) Maes",
+        "email": "pattie@media.mit.edu",
+        "title": "Germeshausen Professor of Media Arts and Sciences",
+        "affiliations": [
+          "MIT Media Lab"
+        ]
+      },
+      "category": "LLM Applications / AI Agents",
+      "priority": "HIGH",
+      "research_summary": "One of the most active Media Lab faculty in LLM research. LLMR (LLM for Mixed Reality, CHI 2024), Memoro (wearable AI memory using LLMs), studies of LLM agent behavior vs humans (NeurIPS 2024), RAG-driven multimodal LLMs for ECG, LLM-based language learning chatbots.",
+      "links": {
+        "media_lab_profile": "https://www.media.mit.edu/people/pattie/overview/",
+        "group_page": "https://www.media.mit.edu/groups/fluid-interfaces/overview/",
+        "aha_program": "https://www.media.mit.edu/posts/introducing-aha/",
+        "google_scholar": "https://scholar.google.com/citations?user=QIR4bocAAAAJ"
+      },
+      "key_papers": [
+        "LLMR: LLM for Real-time Prompting of Interactive Worlds (CHI 2024 Honorable Mention)",
+        "Memoro: Wearable AI memory assistant using LLMs",
+        "How LLM agents deviate from human choices (NeurIPS 2024)",
+        "RAG-driven multimodal LLMs for ECG interpretation",
+        "LLM-based language learning chatbots for growth mindset",
+        "Generative AI Creative Applications (course)"
+      ],
+      "urop_relevance": "HIGH - has ELX UROP (AttentivU), but that specific one is BCI-focused",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "raskar_camera": {
+      "lab_id": "raskar_camera",
+      "lab_name": "Camera Culture Group",
+      "lab_url": "https://www.media.mit.edu/groups/camera-culture/overview/",
+      "lab_focus": "LLM agent benchmarking, multimodal data selection",
+      "pi": {
+        "name": "Ramesh Raskar",
+        "email": "raskar@mit.edu",
+        "title": "Associate Professor; Associate Director, MIT Media Lab",
+        "affiliations": [
+          "MIT Media Lab"
+        ]
+      },
+      "category": "LLM Agents / Multimodal",
+      "priority": "TOP",
+      "research_summary": "PI of NANDA, building foundational infrastructure for an 'Internet of AI Agents' extending Anthropic's MCP and Google's Agent-to-Agent protocols. Also leads LLM agent benchmarking and multimodal data selection.",
+      "links": {
+        "media_lab_profile": "https://www.media.mit.edu/people/raskar/overview/",
+        "group_page": "https://www.media.mit.edu/groups/camera-culture/overview/",
+        "nanda_project": "https://www.media.mit.edu/projects/mit-nanda/overview/",
+        "google_scholar": "https://scholar.google.com/citations?user=zJMoHgkAAAAJ"
+      },
+      "key_papers": [
+        "NANDA: Algorithms to Unlock The Internet of AI Agents",
+        "Agent-based models (multiple AAMAS 2023-2025 papers)",
+        "Differentiable agent-based modeling",
+        "LLM agent benchmarking frameworks"
+      ],
+      "urop_relevance": "VERY HIGH - has active ELX UROP on LLM Agent Benchmarking",
+      "elx_urops": [
+        {
+          "title": "LLM Agent Benchmarking & Multi-Modal Data Selection",
+          "department": "Media Lab (MAS)",
+          "contact": "Charles Lu",
+          "contact_email": "luchar@mit.edu",
+          "eligible_years": [
+            "Juniors",
+            "Seniors"
+          ],
+          "overview": "As Large Language Models (LLMs) evolve into autonomous AI agents capable of complex task execution, static benchmarks/leaderboards fail to capture how these AI systems will perform in real world scenarios. Our research group at the MIT Media Lab is working on building  infrastructure to rigorously evaluate agents via adaptive interviews and improve them via high-value data selection. We are seeking UROPs to co-design and implement components of these automated evaluators in collaboration with Ph...",
+          "prerequisites": "We are looking for students with strong coding skills (Python, Bash, Git, PyTorch, LLM APIs) and familiarity with machine learning (e.g. 6.790, 6.7960 or equivalent experience). "
+        }
+      ],
+      "grad_students": []
+    },
+    "raskar_nanda": {
+      "lab_id": "raskar_nanda",
+      "lab_name": "NANDA (Networked Agents and Decentralized AI)",
+      "lab_url": "https://www.media.mit.edu/projects/mit-nanda/overview/",
+      "lab_focus": "Internet of AI Agents, agent-to-agent protocols, decentralized AI infrastructure",
+      "pi": {
+        "name": "Ramesh Raskar",
+        "email": "raskar@mit.edu",
+        "title": "Associate Professor; Associate Director, MIT Media Lab",
+        "affiliations": [
+          "MIT Media Lab"
+        ]
+      },
+      "category": "LLM Agents / Multimodal",
+      "priority": "TOP",
+      "research_summary": "PI of NANDA, building foundational infrastructure for an 'Internet of AI Agents' extending Anthropic's MCP and Google's Agent-to-Agent protocols. Also leads LLM agent benchmarking and multimodal data selection.",
+      "links": {
+        "media_lab_profile": "https://www.media.mit.edu/people/raskar/overview/",
+        "group_page": "https://www.media.mit.edu/groups/camera-culture/overview/",
+        "nanda_project": "https://www.media.mit.edu/projects/mit-nanda/overview/",
+        "google_scholar": "https://scholar.google.com/citations?user=zJMoHgkAAAAJ"
+      },
+      "key_papers": [
+        "NANDA: Algorithms to Unlock The Internet of AI Agents",
+        "Agent-based models (multiple AAMAS 2023-2025 papers)",
+        "Differentiable agent-based modeling",
+        "LLM agent benchmarking frameworks"
+      ],
+      "urop_relevance": "VERY HIGH - has active ELX UROP on LLM Agent Benchmarking",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "roy_center": {
+      "lab_id": "roy_center",
+      "lab_name": "Center for Constructive Communication",
+      "lab_url": "https://www.ccc.mit.edu/",
+      "lab_focus": "LLMs for public narrative understanding, NLP for social systems, generative AI for communication",
+      "pi": {
+        "name": "Deb Roy",
+        "email": "dkroy@media.mit.edu",
+        "title": "Professor of Media Arts and Sciences",
+        "affiliations": [
+          "MIT Media Lab"
+        ]
+      },
+      "category": "NLP / LLM Applications",
+      "priority": "MEDIUM",
+      "research_summary": "Extensive NLP and LLM research: LLMs for Public Narrative Understanding (NAACL 2025), LLM Targeted Underperformance (AAAI 2026), LLMs for legal concept learning (ACL 2024), LLM speech summarization. Teaches 'Generative AI for Constructive Communication.'",
+      "links": {
+        "media_lab_profile": "https://www.media.mit.edu/people/dkroy/overview/",
+        "publications": "https://www.media.mit.edu/people/dkroy/publications/",
+        "ccc": "https://www.ccc.mit.edu/",
+        "ccc_publications": "https://www.ccc.mit.edu/publications/",
+        "course": "https://ai4comm.media.mit.edu/",
+        "google_scholar": "https://scholar.google.com/citations?user=k-kkXEcAAAAJ"
+      },
+      "key_papers": [
+        "LLMs for Public Narrative Understanding (NAACL 2025)",
+        "LLM Targeted Underperformance Disproportionately Impacts Vulnerable Users (AAAI 2026)",
+        "Leveraging LLMs for Learning Complex Legal Concepts through Storytelling (ACL 2024)",
+        "LLM-based speech summarization (Interspeech 2024)"
+      ],
+      "urop_relevance": "Medium",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "breazeal_personal": {
+      "lab_id": "breazeal_personal",
+      "lab_name": "Personal Robots Group",
+      "lab_url": "https://www.media.mit.edu/groups/personal-robots/overview/",
+      "lab_focus": "LLM/GenAI in social robotics, empathy in LLMs, AI tutoring",
+      "pi": {
+        "name": "Cynthia Breazeal",
+        "email": "cynthiab@media.mit.edu",
+        "title": "Professor; MIT Dean for Digital Learning; Associate Director, Media Lab",
+        "affiliations": [
+          "MIT Media Lab"
+        ]
+      },
+      "category": "LLM + Social Robotics",
+      "priority": "MEDIUM",
+      "research_summary": "Uses LLM/generative AI in social robotics for long-term interactions. Published HEART-felt Narratives (EMNLP 2024) on empathy in LLMs. MGAIC-funded project on AI-driven calculus tutoring.",
+      "links": {
+        "media_lab_profile": "https://www.media.mit.edu/people/cynthiab/overview/",
+        "group_page": "https://www.media.mit.edu/groups/personal-robots/overview/",
+        "raise": "https://raise.mit.edu/",
+        "google_scholar": "https://scholar.google.com/citations?user=0IuWkBYAAAAJ"
+      },
+      "key_papers": [
+        "HEART-felt Narratives: empathy in LLMs (EMNLP 2024)",
+        "Foundation models for medical AI",
+        "AI-driven calculus tutoring (MGAIC)"
+      ],
+      "urop_relevance": "Medium-High",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "breazeal_mit": {
+      "lab_id": "breazeal_mit",
+      "lab_name": "MIT RAISE",
+      "lab_url": "https://raise.mit.edu/",
+      "lab_focus": "Responsible AI for education",
+      "pi": {
+        "name": "Cynthia Breazeal",
+        "email": "cynthiab@media.mit.edu",
+        "title": "Professor; MIT Dean for Digital Learning; Associate Director, Media Lab",
+        "affiliations": [
+          "MIT Media Lab"
+        ]
+      },
+      "category": "LLM + Social Robotics",
+      "priority": "MEDIUM",
+      "research_summary": "Uses LLM/generative AI in social robotics for long-term interactions. Published HEART-felt Narratives (EMNLP 2024) on empathy in LLMs. MGAIC-funded project on AI-driven calculus tutoring.",
+      "links": {
+        "media_lab_profile": "https://www.media.mit.edu/people/cynthiab/overview/",
+        "group_page": "https://www.media.mit.edu/groups/personal-robots/overview/",
+        "raise": "https://raise.mit.edu/",
+        "google_scholar": "https://scholar.google.com/citations?user=0IuWkBYAAAAJ"
+      },
+      "key_papers": [
+        "HEART-felt Narratives: empathy in LLMs (EMNLP 2024)",
+        "Foundation models for medical AI",
+        "AI-driven calculus tutoring (MGAIC)"
+      ],
+      "urop_relevance": "Medium-High",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "pataranutaporn_cyborg": {
+      "lab_id": "pataranutaporn_cyborg",
+      "lab_name": "Cyborg Psychology Group / NeuraFutures",
+      "lab_url": "https://www.media.mit.edu/people/patpat/overview/",
+      "lab_focus": "LLM psychology, false memories from AI, generative AI for education, AI-human interaction",
+      "pi": {
+        "name": "Pat Pataranutaporn",
+        "email": "patpat@media.mit.edu",
+        "title": "Assistant Professor of Media Arts and Sciences (2025)",
+        "affiliations": [
+          "MIT Media Lab"
+        ]
+      },
+      "category": "LLM Applications / AI-Human Interaction",
+      "priority": "MEDIUM",
+      "research_summary": "Prolific researcher at AI-psychology intersection. False memory formation from LLM chatbots (IUI 2025), overtrust of AI-generated medical advice (NEJM AI 2025), FutureYou (AI version of future self), generative AI for vocabulary learning (CHI 2024). Co-director of AHA program.",
+      "links": {
+        "media_lab_profile": "https://www.media.mit.edu/people/patpat/overview/",
+        "google_scholar": "https://scholar.google.com/citations?user=ULUbCYcAAAAJ"
+      },
+      "key_papers": [
+        "False memory formation from LLM chatbots (IUI 2025)",
+        "Overtrust of AI-generated medical advice (NEJM AI 2025)",
+        "FutureYou: AI version of future self",
+        "Generative AI for vocabulary learning (CHI 2024)"
+      ],
+      "urop_relevance": "HIGH - NeuraFutures has listed UROP openings",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "paradiso_responsive": {
+      "lab_id": "paradiso_responsive",
+      "lab_name": "Responsive Environments Group",
+      "lab_url": "https://www.media.mit.edu/groups/responsive-environments/overview/",
+      "lab_focus": "Generative AI for music, LLMs for mixed reality, AI agents for collaborative robots",
+      "pi": {
+        "name": "Joseph Paradiso",
+        "email": "joep@media.mit.edu",
+        "title": "Alexander W. Dreyfoos Professor; Academic Head, MAS",
+        "affiliations": [
+          "MIT Media Lab"
+        ]
+      },
+      "category": "Generative AI / LLM Agents",
+      "priority": "MEDIUM",
+      "research_summary": "Co-authored publications on LLMs for mixed reality (LLMR) and enabling waypoint generation for collaborative robots using LLMs. Develops real-time generative AI agents for musical improvisation.",
+      "links": {
+        "media_lab_profile": "https://www.media.mit.edu/people/joep/overview/",
+        "group_page": "https://www.media.mit.edu/groups/responsive-environments/overview/",
+        "google_scholar": "https://scholar.google.com/citations?user=4aJfSwMAAAAJ"
+      },
+      "key_papers": [
+        "LLMR: LLMs for Mixed Reality (with Maes)",
+        "Waypoint generation for collaborative robots using LLMs",
+        "Real-time generative AI agents for musical improvisation (MGAIC, with Anna Huang)"
+      ],
+      "urop_relevance": "HIGH - has active ELX UROP on Real-Time Generative AI for Musical Improvisation",
+      "elx_urops": [
+        {
+          "title": "Real-Time Generative AI for Musical Improvisation - UROP",
+          "department": "Media Lab (MAS)",
+          "contact": "Lancelot Blanchard",
+          "contact_email": null,
+          "eligible_years": [],
+          "overview": "The Responsive Environments group at the MIT Media Lab is working with multiple professional artists (most recently, GRAMMY-winning visiting artist Jordan Rudess) to develop real-time generative AI agents that can engage in live musical improvisation. We are looking for highly motivated and experienced UROPs, with extensive experience in Machine Learning and Generative AI to help us develop the project. Potential projects include:\n\n- Developing optimized local AI pipelines for real-time processi...",
+          "prerequisites": null
+        }
+      ],
+      "grad_students": []
+    },
+    "huang_huang": {
+      "lab_id": "huang_huang",
+      "lab_name": "Huang Lab",
+      "lab_url": "https://czhuang.github.io/",
+      "lab_focus": "Music Transformer, real-time collaborative AI agents for music, generative AI",
+      "pi": {
+        "name": "Anna Huang",
+        "email": "czhuang@mit.edu",
+        "title": "Associate Professor, EECS & Music and Theater Arts (joined September 2024)",
+        "affiliations": [
+          "EECS",
+          "MTA"
+        ]
+      },
+      "category": "Generative AI / AI Agents",
+      "priority": "MEDIUM",
+      "research_summary": "Created Music Transformer (ICLR 2018), first successful adaptation of transformer architecture to music. Developing real-time collaborative AI agents for live musical improvisation (jam_bots, MGAIC-funded). 8 years at Google Brain/DeepMind Magenta team.",
+      "links": {
+        "personal_page": "https://czhuang.github.io/",
+        "google_scholar": "https://scholar.google.com/citations?user=6DnrmM8AAAAJ"
+      },
+      "key_papers": [
+        "Music Transformer: Generating Music with Long-Term Structure (ICLR 2018)",
+        "jam_bots: Real-time collaborative AI agents for musical improvisation (MGAIC)",
+        "Developing symbiotic virtuosity with AI-augmented instruments"
+      ],
+      "urop_relevance": "HIGH - new lab, MGAIC-funded, actively recruiting",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "katz_infolab": {
+      "lab_id": "katz_infolab",
+      "lab_name": "InfoLab Group",
+      "lab_url": "https://groups.csail.mit.edu/infolab/",
+      "lab_focus": "Natural language understanding, agentic AI, programming by example",
+      "pi": {
+        "name": "Boris Katz",
+        "email": "boris@csail.mit.edu",
+        "title": "Principal Research Scientist, CSAIL",
+        "affiliations": [
+          "CSAIL"
+        ]
+      },
+      "category": "NLU / Agentic AI",
+      "priority": "HIGH",
+      "research_summary": "Created START natural language system. Current research includes vision-language models, agentic AI through programming by example. Co-PI on 'Programming by Example for Agentic AI' UROP.",
+      "links": {
+        "csail_profile": "https://www.csail.mit.edu/person/boris-katz",
+        "group_page": "https://groups.csail.mit.edu/infolab/",
+        "google_scholar": "https://scholar.google.com/citations?user=fPShTdYAAAAJ"
+      },
+      "key_papers": [
+        "Programming by Example for Agentic AI",
+        "Vision-language models for question answering",
+        "Neural network guidance for NLU"
+      ],
+      "urop_relevance": "HIGH - has active ELX UROP on Agentic AI",
+      "elx_urops": [
+        {
+          "title": "Programming by Example for Agentic AI",
+          "department": "Computer Sci. & Artificial Int Lab (CSAIL)",
+          "contact": "Henry Lieberman",
+          "contact_email": null,
+          "eligible_years": [
+            "First Year",
+            "Sophomores",
+            "Juniors",
+            "Seniors"
+          ],
+          "overview": "How can we make the computational power of programming more accessible to nontechnical people?\n\nProgramming by Example (PBE) is a technique for instructing computers how to perform procedures, by having a person demonstrate the steps on concrete examples. The system records the steps, and can replay them on a different example. This is like a so-called \"macro recorder\", but the user can also instruct the system to generalize the procedure, so it can work in cases that are different from, but ana...",
+          "prerequisites": null
+        }
+      ],
+      "grad_students": []
+    },
+    "kellis_mit": {
+      "lab_id": "kellis_mit",
+      "lab_name": "MIT CompBio Lab",
+      "lab_url": "https://compbio.mit.edu/",
+      "lab_focus": "Genome language models, AI agents for biological data exploration, computational genomics",
+      "pi": {
+        "name": "Manolis Kellis",
+        "email": "manoli@mit.edu",
+        "title": "Professor of Computer Science, EECS",
+        "affiliations": [
+          "CSAIL",
+          "Broad Institute"
+        ]
+      },
+      "category": "Language Models for Biology / AI Agents",
+      "priority": "HIGH",
+      "research_summary": "Teaches ML for Computational Biology covering genome language models and foundation models for drug discovery. Multiple AI agent UROPs (Mantis platform) on ELX. Uses transformer architectures on genomic sequences.",
+      "links": {
+        "personal_page": "https://compbio.mit.edu/",
+        "csail_profile": "https://www.csail.mit.edu/person/manolis-kellis",
+        "google_scholar": "https://scholar.google.com/citations?user=IHm3M3QAAAAJ"
+      },
+      "key_papers": [
+        "AI agents for biological data exploration (Mantis platform)",
+        "Genome language models for drug discovery",
+        "Machine Learning for Computational Biology (course covering LLMs for biology)"
+      ],
+      "urop_relevance": "VERY HIGH - multiple active ELX UROPs (AI agents for bio data)",
+      "elx_urops": [
+        {
+          "title": "Building Interactive AI Agents for Biological Data Exploration in Mantis",
+          "department": "Computer Sci. & Artificial Int Lab (CSAIL)",
+          "contact": "Amy Grayson",
+          "contact_email": "kellis-admin@mit.edu",
+          "eligible_years": [
+            "First Year",
+            "Sophomores",
+            "Juniors",
+            "Seniors"
+          ],
+          "overview": "Join our team in creating advanced AI agents that enhance the Mantis platform\u2014a cutting-edge tool designed to revolutionize how researchers interact with complex biological data. Mantis integrates structured and unstructured datasets into dynamic, interactive visualizations, offering a versatile environment for data-driven discovery. In this project, you will help develop AI agents that provide real-time data orchestration, computational augmentation, and interactive, context-aware insights to g...",
+          "prerequisites": null
+        },
+        {
+          "title": "Building an Interactive AI Agents Compute Augmentation platform for Biological Data Exploration and Quantitative Integration",
+          "department": "Computer Sci. & Artificial Int Lab (CSAIL)",
+          "contact": "Amy Grayson",
+          "contact_email": "kellis-admin@mit.edu",
+          "eligible_years": [
+            "First Year",
+            "Sophomores",
+            "Juniors",
+            "Seniors"
+          ],
+          "overview": "This project is dedicated to creating a versatile data science workbench that integrates advanced visualization, AI-driven analysis, and interactive computation within a unified platform. A central feature of this aim is the Sandbox Environment, a Jupyter-like computational tool that allows users to dynamically explore biological data, perform custom analyses, and develop novel insights directly within the Mantis cognitive maps. This project aims to empower researchers by providing a seamless in...",
+          "prerequisites": null
+        },
+        {
+          "title": "Interactive Idea Navigator Collaborative Space: AI-Enhanced Team Interaction and Collaboration",
+          "department": "Electrical Eng & Computer Sci (EECS)",
+          "contact": "Manolis Kellis",
+          "contact_email": "kellis-admin@mit.edu",
+          "eligible_years": [
+            "First Year",
+            "Sophomores",
+            "Juniors",
+            "Seniors"
+          ],
+          "overview": "The future of work is rapidly evolving with the advent of deep learning and artificial intelligence (AI) technologies. This one-year undergraduate research project aims to investigate the potential impact of AI-powered productivity and collaboration tools, new modes of human-machine collaboration, and human-machine interaction incorporating uncertainty, trust, and behavioral biases. The research will involve exploring and developing novel approaches to enhance productivity and collaboration in t...",
+          "prerequisites": null
+        }
+      ],
+      "grad_students": []
+    },
+    "ishii_tangible": {
+      "lab_id": "ishii_tangible",
+      "lab_name": "Tangible Media Group",
+      "lab_url": "https://www.media.mit.edu/groups/tangible-media/overview/",
+      "lab_focus": "Tangible AI interactions, generative AI for HCI",
+      "pi": {
+        "name": "Hiroshi Ishii",
+        "email": "ishii@media.mit.edu",
+        "title": "Jerome B. Wiesner Professor; Associate Director, MIT Media Lab",
+        "affiliations": [
+          "MIT Media Lab"
+        ]
+      },
+      "category": "Generative AI / HCI",
+      "priority": "MEDIUM",
+      "research_summary": "Co-organized CHI 2024 SIG on 'Transforming HCI Research Cycles using Generative AI.' Has active Tangible AI UROP using GenAI for sketch-to-innovation interfaces.",
+      "links": {
+        "media_lab_profile": "https://www.media.mit.edu/people/ishii/overview/",
+        "group_page": "https://www.media.mit.edu/groups/tangible-media/overview/"
+      },
+      "key_papers": [
+        "CHI 2024 SIG: Transforming HCI Research with Generative AI",
+        "Tangible AI: sketch-to-innovation interfaces"
+      ],
+      "urop_relevance": "HIGH - has active ELX UROP",
+      "elx_urops": [
+        {
+          "title": "Tangible AI",
+          "department": "Media Lab (MAS)",
+          "contact": "Lucy Li",
+          "contact_email": "",
+          "eligible_years": [],
+          "overview": "Join us in developing Tangible AI interactions. Sketchnotes are visual thoughts in motion\u2014what if they could inspire the next generation of innovators? We are currently working on an interface that turns old sketchnotes into interactive, idea-sparking tools using a custom-trained AI. We\u2019re looking for a curious, motivated student to help us prototype, test, and expand this human-AI co-ideation platform. If you are interested in shaping interactions across time and are passionate about creativity...",
+          "prerequisites": null
+        }
+      ],
+      "grad_students": []
+    },
+    "lippman_viral": {
+      "lab_id": "lippman_viral",
+      "lab_name": "Viral Communications Group",
+      "lab_url": "https://www.media.mit.edu/groups/viral-communications/overview/",
+      "lab_focus": "AI-reimagined file systems, generative AI for media",
+      "pi": {
+        "name": "Andrew B. Lippman",
+        "email": "lip@media.mit.edu",
+        "title": "Senior Research Scientist; Associate Director, MIT Media Lab",
+        "affiliations": [
+          "MIT Media Lab"
+        ]
+      },
+      "category": "Generative AI / Applications",
+      "priority": "MEDIUM",
+      "research_summary": "Co-authored 'AI-Generated Media for Exploring Alternate Realities' (CHI 2024). Leads Latent Lab project reimagining the file system with AI.",
+      "links": {
+        "media_lab_profile": "https://www.media.mit.edu/people/lip/overview/",
+        "group_page": "https://www.media.mit.edu/groups/viral-communications/overview/",
+        "latent_lab": "https://www.media.mit.edu/projects/latent-lab/overview/"
+      },
+      "key_papers": [
+        "AI-Generated Media for Exploring Alternate Realities (CHI 2024)",
+        "Latent Lab: Reimagining the File System with AI"
+      ],
+      "urop_relevance": "HIGH - has active ELX UROP (Latent Lab)",
+      "elx_urops": [
+        {
+          "title": "Latent Lab: Reimagining the File System with AI",
+          "department": "Media Lab (MAS)",
+          "contact": "Kevin Dunnell",
+          "contact_email": "dunnell@media.mit.edu",
+          "eligible_years": [
+            "Sophomores",
+            "Juniors",
+            "Seniors"
+          ],
+          "overview": "The Viral Communications group at the MIT Media Lab is looking for students excited to challenge one of the oldest metaphors in computing: the desktop. Our sub-project, Filescape, extends Latent Lab (https://www.media.mit.edu/projects/latent-lab/overview/) into a new kind of file system - one that organizes and visualizes content associatively rather than hierarchically.\n\nWe already have a working system, but we\u2019re seeking collaborators to help push it further. The goals are twofold:\n\nTechnical ...",
+          "prerequisites": null
+        }
+      ],
+      "grad_students": []
+    },
+    "amin_resilient": {
+      "lab_id": "amin_resilient",
+      "lab_name": "Resilient Infrastructure Networks Lab",
+      "lab_url": "https://cee.mit.edu/people_individual/saurabh-amin/",
+      "lab_focus": "Agentic AI for power grid, LLM multi-agent systems for infrastructure",
+      "pi": {
+        "name": "Saurabh Amin",
+        "email": "amins@mit.edu",
+        "title": "Associate Professor, Civil & Environmental Engineering; LIDS PI",
+        "affiliations": [
+          "CEE",
+          "LIDS"
+        ]
+      },
+      "category": "LLM Agents / Infrastructure",
+      "priority": "MEDIUM",
+      "research_summary": "PI of 'Agentic AI for Streamlining the Power Grid Interconnection Process' - using LLMs and multi-agent AI systems to streamline critical parts of grid interconnection. Developed multi-agent workflow with structured LLM agents.",
+      "links": {
+        "cee_profile": "https://cee.mit.edu/people_individual/saurabh-amin/",
+        "google_scholar": "https://scholar.google.com/citations?user=0JqkwY0AAAAJ"
+      },
+      "key_papers": [
+        "Agentic AI for power grid interconnection (multi-agent LLM systems)",
+        "A Bayesian Framework for Human-AI Collaboration"
+      ],
+      "urop_relevance": "HIGH - has active ELX UROP on Agentic AI",
+      "elx_urops": [
+        {
+          "title": "Agentic AI for Streamlining the Power Grid Interconnection Process",
+          "department": "MIT Energy Initiative (MITEI)",
+          "contact": "Rahman Khorramfar",
+          "contact_email": "rahman.khorramfar@gmail.com",
+          "eligible_years": [
+            "Juniors",
+            "Seniors"
+          ],
+          "overview": "Project Background:\n The U.S. electric grid is facing unprecedented interconnection backlogs, with more than 2,600 GW of generation and storage projects waiting in queues nationwide. Under FERC Order 2023 and related reforms, grid operators (ISOs/RTOs) have transitioned to cluster-based studies, yet bottlenecks remain due to repeated restudies, document-heavy workflows, heterogeneous modeling requirements, and coordination overhead.\nThis project explores how Large Language Models (LLMs) and mult...",
+          "prerequisites": "Required:\n\u2022\tStrong Python programming skills\n\u2022\tExperience building structured software systems (not just scripts)\n\u2022\tInterest in LLM-based systems and agentic workflows\nHighly Preferred:\n\u2022\tExperience with agent frameworks (e.g., AutoGen, LangChain, CrewAI, etc.)\n\u2022\tExposure to optimization (linear programming, mixed-integer programming)\n\u2022\tExperience with UI frameworks (PySide6, Streamlit, etc.)\nBeneficial but Not Required:\n\u2022\tExposure to power systems, energy systems, or electricity markets\n"
+        }
+      ],
+      "grad_students": []
+    },
+    "azizan_azizan": {
+      "lab_id": "azizan_azizan",
+      "lab_name": "Azizan Lab",
+      "lab_url": "https://azizan.mit.edu/",
+      "lab_focus": "Adaptive LLM reasoning, instance-adaptive scaling, process reward models",
+      "pi": {
+        "name": "Navid Azizan",
+        "email": "azizan@mit.edu",
+        "title": "Assistant Professor, Mechanical Engineering; LIDS/IDSS",
+        "affiliations": [
+          "MechE",
+          "LIDS",
+          "IDSS"
+        ]
+      },
+      "category": "LLM Reasoning / Efficiency",
+      "priority": "MEDIUM",
+      "research_summary": "Developed adaptive reasoning methods for LLMs - instance-adaptive scaling that dynamically adjusts computational budget based on question difficulty, reducing computation by 50% while maintaining accuracy. Work on process reward model calibration.",
+      "links": {
+        "personal_page": "https://azizan.mit.edu/",
+        "research_page": "https://azizan.mit.edu/research.html",
+        "google_scholar": "https://scholar.google.com/citations?user=EaAi_VwAAAAJ"
+      },
+      "key_papers": [
+        "Instance-adaptive scaling for LLM reasoning (50% computation reduction)",
+        "Process reward model calibration for LLMs"
+      ],
+      "urop_relevance": "Medium",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "pentland_human": {
+      "lab_id": "pentland_human",
+      "lab_name": "Human Dynamics Group",
+      "lab_url": "https://www.media.mit.edu/groups/human-dynamics/overview/",
+      "lab_focus": "Data provenance for AI training, authenticated AI agents, LLMs for legal education",
+      "pi": {
+        "name": "Alex (Sandy) Pentland",
+        "email": "sandy@media.mit.edu",
+        "title": "Toshiba Professor of Media Arts and Sciences",
+        "affiliations": [
+          "MIT Media Lab"
+        ]
+      },
+      "category": "LLM Data / AI Agents",
+      "priority": "MEDIUM",
+      "research_summary": "Co-authored LLMs for learning legal concepts (ACL 2024). Leads the Data Provenance Initiative - massive audit of 1,800+ AI text datasets tracing provenance for training language models. Research on authenticated delegation and authorized AI agents.",
+      "links": {
+        "media_lab_profile": "https://www.media.mit.edu/people/sandy/overview/",
+        "group_page": "https://www.media.mit.edu/groups/human-dynamics/overview/",
+        "google_scholar": "https://scholar.google.com/citations?user=P4nfoKYAAAAJ"
+      },
+      "key_papers": [
+        "Data Provenance Initiative: audit of 1,800+ AI training datasets",
+        "Leveraging LLMs for Learning Complex Legal Concepts (ACL 2024)",
+        "Authenticated delegation and authorized AI agents (2025)"
+      ],
+      "urop_relevance": "Medium",
+      "elx_urops": [],
+      "grad_students": []
+    },
+    "elizabeth_a_wood_elx": {
+      "lab_id": "elizabeth_a_wood_elx",
+      "lab_name": "Digital Frontlines",
+      "lab_url": "",
+      "lab_focus": "",
+      "pi": {
+        "name": "Elizabeth A. Wood",
+        "email": "",
+        "title": "",
+        "affiliations": [
+          "History"
+        ]
+      },
+      "category": "ELX-only",
+      "priority": "MEDIUM",
+      "research_summary": "",
+      "links": {},
+      "key_papers": [],
+      "urop_relevance": "Has active ELX listing",
+      "elx_urops": [
+        {
+          "title": "Digital Frontlines",
+          "department": "History",
+          "contact": "Phil Tinn",
+          "contact_email": "svitkras@mit.edu",
+          "eligible_years": [],
+          "overview": "Since the full-scale Russian invasion of Ukraine in 2022, Russian propaganda has pervasively extended into frontline territories through identity-based influence operations (IOs). This research examines how the media content of Russian IOs spreads on Ukrainian Telegram channels and how it impacts people's sense of identity. We focus specifically on visual media\u2014its rhetoric, participatory reproduction, and the role of bots\u2014to understand how propaganda spreads across different channels and what m",
+          "prerequisites": null
+        }
+      ],
+      "grad_students": []
+    }
+  },
+  "eliminated": [
+    {
+      "name": "Dylan Hadfield-Menell",
+      "reason": "Alignment - AI alignment is primary focus"
+    },
+    {
+      "name": "Marzyeh Ghassemi",
+      "reason": "Ethics - fairness/trustworthiness in AI healthcare"
+    },
+    {
+      "name": "Max Tegmark",
+      "reason": "Alignment/Safety - AI existential risk focus"
+    },
+    {
+      "name": "Thomas W. Malone",
+      "reason": "Business - organizational collective intelligence"
+    },
+    {
+      "name": "Andrew W. Lo",
+      "reason": "Business - financial advisor LLMs"
+    },
+    {
+      "name": "Sinan Aral",
+      "reason": "Business - AI deployment and productivity"
+    },
+    {
+      "name": "John J. Horton",
+      "reason": "Business - experimental economics with AI"
+    },
+    {
+      "name": "Kate Kellogg",
+      "reason": "Business - organizational deployment of GenAI"
+    },
+    {
+      "name": "Danielle Li",
+      "reason": "Business - productivity studies"
+    },
+    {
+      "name": "Vivek Farias",
+      "reason": "Business - LLM alignment for utility models"
+    },
+    {
+      "name": "Rama Ramakrishnan",
+      "reason": "Business - practical LLM applications for business leaders"
+    },
+    {
+      "name": "Dimitris Bertsimas",
+      "reason": "Business - teaching deep learning, not LLM research"
+    },
+    {
+      "name": "Chara Podimata",
+      "reason": "Ethics - auditing with LLM agents"
+    },
+    {
+      "name": "Alexandre Jacquillat",
+      "reason": "Business - transportation logistics with LLMs"
+    },
+    {
+      "name": "Manish Raghavan",
+      "reason": "Business/Ethics - labor market impact"
+    },
+    {
+      "name": "Daron Acemoglu",
+      "reason": "Economics - macroeconomic analysis of AI"
+    },
+    {
+      "name": "David Autor",
+      "reason": "Economics - policy proposals for AI"
+    },
+    {
+      "name": "Ashesh Rambachan",
+      "reason": "Economics - LLM world models for development econ"
+    },
+    {
+      "name": "Karrie Karahalios",
+      "reason": "Ethics - algorithmic audits, civic tech"
+    },
+    {
+      "name": "Tomaso Poggio",
+      "reason": "Stretch-ML - mathematics of deep learning, not LLM-specific"
+    },
+    {
+      "name": "Robert Berwick",
+      "reason": "Stretch-ML - theoretical computational linguistics"
+    },
+    {
+      "name": "Devavrat Shah",
+      "reason": "Stretch-ML - optimization theory, tangentially LLM"
+    },
+    {
+      "name": "Asuman Ozdaglar",
+      "reason": "Stretch-ML - optimization/game theory foundations"
+    },
+    {
+      "name": "Stefanie Jegelka",
+      "reason": "Stretch-ML - theoretical ML, position bias is one result among many non-LLM topics"
+    },
+    {
+      "name": "Peter Szolovits",
+      "reason": "Stretch-ML - traditional medical AI/NLP, less LLM-specific"
+    },
+    {
+      "name": "Mitchel Resnick",
+      "reason": "Stretch - education-focused, not LLM research"
+    },
+    {
+      "name": "Rosalind Picard",
+      "reason": "Stretch - affective computing, GenAI is tangential"
+    },
+    {
+      "name": "Sendhil Mullainathan",
+      "reason": "Economics - LLM evaluation from econ perspective"
+    },
+    {
+      "name": "Mitchell Gordon",
+      "reason": "Stretch - HCI with ML, hasn't started yet"
+    },
+    {
+      "name": "Evelina Fedorenko",
+      "reason": "Stretch - cognitive science studying LLMs, not building them"
+    },
+    {
+      "name": "James Glass",
+      "reason": "Stretch-ML - speech/NLP, less LLM-specific"
+    },
+    {
+      "name": "Aleksander Madry",
+      "reason": "Ethics-adjacent - LLM trustworthiness, robustness, bias analysis"
+    }
+  ],
+  "eliminated_elx": [
+    {
+      "title": "AI and the Future of Work",
+      "sponsor": "Thomas W Malone",
+      "reason": "Business - organizational ontology"
+    },
+    {
+      "title": "AI for Finance, Science and Systems",
+      "sponsor": "Arvind Arvind",
+      "reason": "Stretch-ML - general ML systems, not LLM-specific"
+    },
+    {
+      "title": "AICube: Using AI-Optimized Processors on Earth-Observing CubeSats for Autonomous Image Analysis and Intelligent Data Handling",
+      "sponsor": "Kerri Cahoy",
+      "reason": "Stretch-ML - embedded image processing on CubeSats, not LLM"
+    },
+    {
+      "title": "AttentivU: AI/ML",
+      "sponsor": "Patricia Maes",
+      "reason": "Stretch-ML - BCI/EEG wearable, not LLM"
+    },
+    {
+      "title": "BASS: Big-data Algorithms & Scalable Systems",
+      "sponsor": "Charles E. Leiserson",
+      "reason": "Stretch-ML - HPC systems, not LLM"
+    },
+    {
+      "title": "Building a Culture of AI Security in Organizations",
+      "sponsor": "Keri Pearlson",
+      "reason": "Business/Ethics - AI security culture study"
+    },
+    {
+      "title": "Computer Vision for Automating Colony Counting in Biology Laboratories",
+      "sponsor": "Lydia Bourouiba",
+      "reason": "Stretch-ML - computer vision for biology, not LLM"
+    },
+    {
+      "title": "Deep Gaussian process and ML method for closure modeling of fluid flows",
+      "sponsor": "Pierre F.J. Lermusiaux",
+      "reason": "Stretch-ML - Gaussian processes for fluid dynamics"
+    },
+    {
+      "title": "Deep Learning for Imaging-Genomics-Transcriptomics Single-cell Integration",
+      "sponsor": "Manolis Kellis",
+      "reason": "Stretch-ML - deep learning for genomics, not LLM"
+    },
+    {
+      "title": "Digital Swimming \u2013 High-Speed Video Analysis for Performance Enhancement",
+      "sponsor": "Andrew Bennett",
+      "reason": "Stretch-ML - video analysis for sports"
+    },
+    {
+      "title": "Digital Twin of Lunar Recycling System",
+      "sponsor": "George Lordos",
+      "reason": "Not ML - lunar recycling simulation"
+    },
+    {
+      "title": "Explainable and Trustworthy AI for Geography and Urban Science",
+      "sponsor": "Fabio Duarte",
+      "reason": "Ethics - explainable AI"
+    },
+    {
+      "title": "LEANSense: Real-Time Sensor Streaming for Energy-Efficient Autonomy",
+      "sponsor": "Vivienne Sze",
+      "reason": "Stretch-ML - sensor streaming for autonomy, not LLM"
+    },
+    {
+      "title": "Machine Learning for Fisheries Management",
+      "sponsor": "Michael S. Triantafyllou",
+      "reason": "Stretch-ML - ML for fisheries, not LLM"
+    },
+    {
+      "title": "Machine Learning on Android Phones",
+      "sponsor": "Richard Ribon Fletcher",
+      "reason": "Stretch-ML - mobile ML, not LLM"
+    },
+    {
+      "title": "Mathematics of Big Data & Machine Learning",
+      "sponsor": "Alex Paul Pentland",
+      "reason": "Stretch-ML - math foundations, not LLM"
+    },
+    {
+      "title": "Modeling Disease States through Integrated Analysis of Spatial, Molecular, and Clinical Data",
+      "sponsor": "Manolis Kellis",
+      "reason": "Stretch-ML - spatial/molecular analysis, not LLM"
+    },
+    {
+      "title": "Physics-Informed and Constraint-Aware Learning for Spacecraft Trajectory Optimization",
+      "sponsor": "Richard Linares",
+      "reason": "Stretch-ML - physics-informed learning for spacecraft"
+    },
+    {
+      "title": "Predicting Demand in Bike-Sharing Systems",
+      "sponsor": "Kent Larson",
+      "reason": "Stretch-ML - demand prediction, not LLM"
+    },
+    {
+      "title": "Research on Building an AI-powered Negotiation Assessment Tool",
+      "sponsor": "Jared Curhan",
+      "reason": "Business - negotiation assessment tool"
+    },
+    {
+      "title": "Robotic \"X-Ray\" Vision for Sensing and Manipulation",
+      "sponsor": "Fadel Adib",
+      "reason": "Stretch-ML - RF sensing, not LLM"
+    },
+    {
+      "title": "Robotic Fabrication For Novel Wearable Design ",
+      "sponsor": "Behnaz Farahi",
+      "reason": "Stretch-ML - robotic arm fabrication, not LLM"
+    },
+    {
+      "title": "The MIT AI Risk Initiative",
+      "sponsor": "Neil Thompson",
+      "reason": "Ethics - AI risk assessment"
+    }
+  ]
+}
