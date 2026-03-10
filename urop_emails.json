@@ -33,9 +33,9 @@
       "body": "Hi Professor Raskar,\n\nI'm a first-year Course 6-4 student reaching out about the LLM Agent Benchmarking & Multi-Modal Data Selection UROP. Both tracks are compelling \u2014 the agent benchmarking side because static leaderboards don't capture multi-step tool use, and the data valuation side because quantifying marginal contribution of multimodal data seems like an increasingly important problem as post-training data pipelines scale.\n\nI've spent this year doing LLM fine-tuning work \u2014 LoRA-based adaptation of Llama models, evaluation pipelines, quantization \u2014 so I have a working knowledge of the stack. I realize the posting lists upperclassmen. I wanted to ask whether there's flexibility there, and whether summer involvement is possible. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -55,9 +55,9 @@
       "body": "Hi Charles,\n\nI saw the LLM Agent Benchmarking & Multi-Modal Data Selection listing on ELX and wanted to reach out. I'm particularly interested in the agent benchmarking track \u2014 the idea of moving past static leaderboards toward adaptive evaluation feels like the right problem to be working on, especially as agents start handling multi-step tool use where a single accuracy number doesn't tell you much.\n\nI've been reading your NeurIPS 2024 paper on data acquisition via experimental design, and the framework for quantifying data value seems like it would connect well with the data valuation track too. One thing I've been curious about is how those valuation methods scale when the data is multimodal \u2014 whether image-text pairs behave differently from text-only in terms of marginal contribution.\n\nI'm a first-year Course 6-4 student. I've spent this year doing LLM fine-tuning work \u2014 mostly running LoRA-based adaptation of Llama models for client-specific tasks on short cycles. It's been hands-on work with PyTorch, quantization, and evaluation pipelines rather than anything I'd call novel research, but it's given me a solid working knowledge of the fine-tuning stack.\n\nI realize the posting lists upperclassmen. I wanted to ask whether there's flexibility there, and whether summer involvement is possible. I wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "Primary UROP contact. PhD student, NSF fellow. Data-centric ML focus.",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -77,9 +77,9 @@
       "body": "Hi Professor Andreas,\n\nI'm reaching out about potential UROP opportunities in the LINGO group. Your work on Breakpoint \u2014 building scalable evaluation for LLM agents through environment perturbations \u2014 caught my attention because it tackles a problem I keep running into: how do you actually know if an agent is reasoning vs. pattern-matching when the benchmark was designed for the latter?\n\nI've spent this year doing LLM fine-tuning work \u2014 LoRA-based adaptation of Llama models, evaluation pipelines, quantization \u2014 so I have a working knowledge of the stack. I'm a first-year student, so I want to be upfront about that \u2014 but I've been doing hands-on LLM work since arriving at MIT and am looking for a deeper research experience. I wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -99,9 +99,9 @@
       "body": "Hi Belinda,\n\nI've been following your work on how language models track state (ICML 2025) and QuestBench \u2014 the idea of evaluating whether LLMs can ask the right questions rather than just answer them is a really compelling reframing of what we should be measuring.\n\nI'm interested in UROP opportunities in the LINGO group, particularly anything touching LLM evaluation or reasoning capabilities. I'm a first-year Course 6-4 student. I've spent this year doing LLM fine-tuning work \u2014 mostly running LoRA-based adaptation of Llama models for client-specific tasks on short cycles. It's been hands-on work with PyTorch, quantization, and evaluation pipelines rather than anything I'd call novel research, but it's given me a solid working knowledge of the fine-tuning stack.\n\nI wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "Senior PhD candidate. QuestBench, LLM state tracking, preference elicitation.",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -121,9 +121,9 @@
       "body": "Hi Ekin,\n\nYour ICML 2025 paper on test-time training for few-shot learning got me thinking about how this intersects with the fine-tuning work I've been doing. The idea that you can get meaningful adaptation at inference time without touching weights feels like it could change how we think about deploying task-specific models.\n\nI'm a first-year Course 6-4 student looking for UROP opportunities in the LINGO group. I've spent this year doing LLM fine-tuning work \u2014 LoRA-based adaptation of Llama models, evaluation pipelines, quantization \u2014 so I have a working knowledge of the stack. Most of my work has been LoRA-based Llama adaptation, so I'm curious how test-time training compares in practice for similar task-specific scenarios.\n\nI wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "PhD student. In-context learning, test-time training, algorithmic capabilities of transformers.",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -143,9 +143,9 @@
       "body": "Hi Mehul,\n\nYour work on input-adaptive allocation of LM computation is interesting to me because it connects to something I've been thinking about from the fine-tuning side \u2014 not all tasks need the same amount of model capacity, and figuring out how to allocate that dynamically seems like a much better approach than one-size-fits-all inference.\n\nI'm looking for UROP opportunities in the LINGO group. I've spent this year doing LLM fine-tuning work \u2014 LoRA-based adaptation of Llama models, evaluation pipelines, quantization \u2014 so I have a working knowledge of the stack. I'm a first-year student, so I want to be upfront about that \u2014 but I've been doing hands-on LLM work since arriving at MIT and am looking for a deeper research experience.\n\nI wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "PhD student. Adaptive computation, beyond binary rewards for LLMs.",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -165,9 +165,9 @@
       "body": "Hi Gabe,\n\nI came across your CogSci 2024 work on language-informed program sampling in Battleship \u2014 using natural language to guide search in program spaces is a clever approach to a problem that usually gets brute-forced. The connection between that and the broader DisCIPL / self-steering work in the group is what drew me to LINGO.\n\nI'm looking for UROP opportunities. I've spent this year doing LLM fine-tuning work \u2014 LoRA-based adaptation of Llama models, evaluation pipelines, quantization \u2014 so I have a working knowledge of the stack. I'm a first-year student, so I want to be upfront about that \u2014 but I've been doing hands-on LLM work since arriving at MIT and am looking for a deeper research experience.\n\nI wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "PhD student (co-advised with Tenenbaum). Language-informed program synthesis, DisCIPL.",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -319,9 +319,9 @@
       "body": "Hi Professor Han,\n\nI'm reaching out about UROP opportunities in the HAN Lab. I've been doing LoRA-based Llama fine-tuning this year and have used AWQ quantization in my workflow, so your group's work is directly relevant to what I've been doing hands-on. The StreamingLLM approach to infinite-length generation with fixed memory is particularly interesting to me because it solves a practical bottleneck I've run into with long-context tasks.\n\nI'm a first-year student, so I want to be upfront about that \u2014 but I've been doing hands-on LLM work since arriving at MIT and am looking for a deeper research experience. I wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -341,9 +341,9 @@
       "body": "Hi Professor Agrawal,\n\nI saw the World Models for Robotics UROP listing and wanted to reach out. The SEAL work with Professor Kim \u2014 enabling LLMs to permanently learn from new inputs via RL-based self-editing \u2014 is interesting to me because it addresses a limitation I've encountered directly: fine-tuned models that can't update themselves after deployment without a full retraining cycle.\n\nI've spent this year doing LLM fine-tuning work \u2014 LoRA-based adaptation of Llama models, evaluation pipelines, quantization \u2014 so I have a working knowledge of the stack. I'm a first-year student, so I want to be upfront about that \u2014 but I've been doing hands-on LLM work since arriving at MIT and am looking for a deeper research experience. I wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -363,9 +363,9 @@
       "body": "Hi Richard,\n\nI saw the World Models for Robotics UROP listing on ELX and wanted to reach out. The intersection of world modeling and human pose estimation as a path to general-purpose robotics data is a compelling framing \u2014 especially the idea that you can extract embodied knowledge from human video rather than needing robot-specific demonstrations.\n\nI'm a first-year Course 6-4 student. I've spent this year doing LLM fine-tuning work \u2014 mostly running LoRA-based adaptation of Llama models for client-specific tasks on short cycles. It's been hands-on work with PyTorch, quantization, and evaluation pipelines rather than anything I'd call novel research, but it's given me a solid working knowledge of the fine-tuning stack. I'm interested in how language model representations might complement the visual world models you're building \u2014 whether there's useful signal in LLM-generated task descriptions for grounding video-derived models.\n\nI wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "Listed ELX contact for World Models UROP.",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -407,9 +407,9 @@
       "body": "Hi Professor He,\n\nI saw the AI + Chaotic Systems UROP listing and wanted to reach out. Building multi-scale foundation models that leverage consistency across domains is an ambitious goal \u2014 the question of whether emergent behaviors manifest beyond the training scale is especially interesting because it parallels what we see in language models with scaling.\n\nI've spent this year doing LLM fine-tuning work \u2014 LoRA-based adaptation of Llama models, evaluation pipelines, quantization \u2014 so I have a working knowledge of the stack. My background is more on the language model side than PDEs, but the training infrastructure (PyTorch, multi-GPU workflows, evaluation design) overlaps significantly. I'm a first-year student, so I want to be upfront about that \u2014 but I've been doing hands-on LLM work since arriving at MIT and am looking for a deeper research experience.\n\nI wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -429,9 +429,9 @@
       "body": "Hi Zongyi,\n\nI saw the AI + Chaotic Systems UROP on ELX and wanted to reach out. The idea of building foundation models that generalize across scales by exploiting PDE consistency properties is compelling \u2014 it's a different take on the kind of scale-dependent generalization we see in language models.\n\nI'm a first-year Course 6-4 student. I've spent this year doing LLM fine-tuning work \u2014 mostly running LoRA-based adaptation of Llama models for client-specific tasks on short cycles. It's been hands-on work with PyTorch, quantization, and evaluation pipelines rather than anything I'd call novel research, but it's given me a solid working knowledge of the fine-tuning stack. My experience is primarily in language models rather than scientific computing, but I have solid PyTorch skills and experience managing multi-GPU training workflows.\n\nI wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "Listed ELX contact. Postdoc/researcher.",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -495,9 +495,9 @@
       "body": "Hi Professor Solar-Lezama,\n\nI'm reaching out about UROP opportunities in the Computer-Aided Programming group. The EnCompass framework for AI agent search is interesting because it treats the problem of getting good outputs from LLM agents as a search problem with principled exploration \u2014 which is a more systematic approach than the trial-and-error prompt engineering most people do.\n\nI've spent this year doing LLM fine-tuning work \u2014 LoRA-based adaptation of Llama models, evaluation pipelines, quantization \u2014 so I have a working knowledge of the stack. I'm a first-year student, so I want to be upfront about that \u2014 but I've been doing hands-on LLM work since arriving at MIT and am looking for a deeper research experience. I wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -517,9 +517,9 @@
       "body": "Hi Professor Kraska,\n\nI'm reaching out about UROP opportunities in DSAIL. The KramaBench work \u2014 building a benchmark specifically for data-science agents \u2014 addresses something I think is underexplored: most agent benchmarks test general reasoning, but the messy reality of working with actual datasets requires a different kind of evaluation. The fact that current agents still struggle with multi-step data workflows suggests there's a lot of room for improvement.\n\nI've spent this year doing LLM fine-tuning work \u2014 LoRA-based adaptation of Llama models, evaluation pipelines, quantization \u2014 so I have a working knowledge of the stack. I'm a first-year student, so I want to be upfront about that \u2014 but I've been doing hands-on LLM work since arriving at MIT and am looking for a deeper research experience. I wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -539,9 +539,9 @@
       "body": "Hi Professor Bobu,\n\nI saw the Designing Jet Engines with AI UROP listing and also your broader work on ALGAE \u2014 using contrastive explanations to help LLMs build better task abstractions for robots. The idea that you can ground language-guided planning through human feedback rather than just pretraining is a nice middle ground between fully autonomous and fully supervised approaches.\n\nI've spent this year doing LLM fine-tuning work \u2014 LoRA-based adaptation of Llama models, evaluation pipelines, quantization \u2014 so I have a working knowledge of the stack. My experience is on the language model side, and I'm interested in how these models interface with physical systems. I'm a first-year student, so I want to be upfront about that \u2014 but I've been doing hands-on LLM work since arriving at MIT and am looking for a deeper research experience. I wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -561,9 +561,9 @@
       "body": "Hi Nathan,\n\nI saw the Designing Jet Engines with AI UROP on ELX \u2014 analyzing longitudinal Human-LLM collaboration data from IAP teams is a unique dataset. I'm interested in the qualitative analysis side: how students' interaction patterns with LLMs shift over a sustained build is something that could inform how we design better agent interfaces.\n\nI'm a first-year Course 6-4 student. I've spent this year doing LLM fine-tuning work \u2014 mostly running LoRA-based adaptation of Llama models for client-specific tasks on short cycles. It's been hands-on work with PyTorch, quantization, and evaluation pipelines rather than anything I'd call novel research, but it's given me a solid working knowledge of the fine-tuning stack.\n\nI wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "Listed ELX contact for Jet Engines UROP.",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -583,9 +583,9 @@
       "body": "Hi Professor Maes,\n\nI'm reaching out about UROP opportunities in the Fluid Interfaces group. The LLMR work on real-time prompting of interactive worlds (CHI 2024) is interesting because it shows LLMs can do more than generate text \u2014 they can act as controllers for spatial environments. The Memoro project takes that in a different direction by using LLMs as a memory prosthetic, which feels like a natural application of retrieval-augmented generation.\n\nI've spent this year doing LLM fine-tuning work \u2014 LoRA-based adaptation of Llama models, evaluation pipelines, quantization \u2014 so I have a working knowledge of the stack. I'm a first-year student, so I want to be upfront about that \u2014 but I've been doing hands-on LLM work since arriving at MIT and am looking for a deeper research experience. I wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -605,9 +605,9 @@
       "body": "Hi Dr. Katz,\n\nI saw the Programming by Example for Agentic AI UROP on ELX and wanted to reach out. The idea of making programming accessible through demonstration rather than explicit coding is interesting, and combining that with agentic AI seems like it could make the approach much more practical \u2014 an LLM agent that can generalize from a few examples into reusable procedures.\n\nI've spent this year doing LLM fine-tuning work \u2014 LoRA-based adaptation of Llama models, evaluation pipelines, quantization \u2014 so I have a working knowledge of the stack. I'm a first-year student, so I want to be upfront about that \u2014 but I've been doing hands-on LLM work since arriving at MIT and am looking for a deeper research experience. I wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -627,9 +627,9 @@
       "body": "Hi Henry,\n\nI saw the Programming by Example for Agentic AI listing on ELX. The approach of combining PBE with agentic AI to let non-technical users instruct systems through demonstration is compelling \u2014 especially now that LLM agents can handle the generalization step that traditional PBE struggled with.\n\nI'm a first-year Course 6-4 student. I've spent this year doing LLM fine-tuning work \u2014 mostly running LoRA-based adaptation of Llama models for client-specific tasks on short cycles. It's been hands-on work with PyTorch, quantization, and evaluation pipelines rather than anything I'd call novel research, but it's given me a solid working knowledge of the fine-tuning stack. I've seen firsthand with my ed-tech startup how much people struggle to communicate what they want to software, so the problem this project tackles resonates.\n\nI wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "Listed ELX contact. Senior research scientist.",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -649,9 +649,9 @@
       "body": "Hi Professor Kellis,\n\nI'm reaching out about the AI agents UROPs for the Mantis platform \u2014 specifically the Interactive AI Agents track. Building orchestrator and narrator agents that coordinate across biological datasets and provide real-time contextual explanations is a challenging multi-agent design problem. The requirement that these agents interact with the Sandbox computation environment adds another layer of complexity that makes it more interesting than typical chatbot-style agents.\n\nI've spent this year doing LLM fine-tuning work \u2014 LoRA-based adaptation of Llama models, evaluation pipelines, quantization \u2014 so I have a working knowledge of the stack. I'm a first-year student, so I want to be upfront about that \u2014 but I've been doing hands-on LLM work since arriving at MIT and am looking for a deeper research experience. I wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -693,9 +693,9 @@
       "body": "Hi Professor Breazeal,\n\nI'm reaching out about UROP opportunities in the Personal Robots Group. The HEART-felt Narratives work on empathy in LLMs (EMNLP 2024) touches on something I think about from the product side \u2014 I built an ed-tech startup using LLMs for personalized curricula, and the question of how these models handle emotional and social dimensions of interaction keeps coming up.\n\nI've spent this year doing LLM fine-tuning work \u2014 LoRA-based adaptation of Llama models, evaluation pipelines, quantization \u2014 so I have a working knowledge of the stack. I'm a first-year student, so I want to be upfront about that \u2014 but I've been doing hands-on LLM work since arriving at MIT and am looking for a deeper research experience. I wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -737,9 +737,9 @@
       "body": "Hi Professor Ishii,\n\nI saw the Tangible AI UROP on ELX. The idea of turning visual sketchnotes into interactive inputs for generative AI systems is a compelling interface \u2014 it moves the interaction model away from pure text prompting toward something more spatial and intuitive.\n\nI've spent this year doing LLM fine-tuning work \u2014 LoRA-based adaptation of Llama models, evaluation pipelines, quantization \u2014 so I have a working knowledge of the stack. I'm a first-year student, so I want to be upfront about that \u2014 but I've been doing hands-on LLM work since arriving at MIT and am looking for a deeper research experience. I wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -759,9 +759,9 @@
       "body": "Hi Professor Lippman,\n\nI saw the Latent Lab UROP on ELX. Challenging the desktop/file system metaphor with AI-driven organization is interesting because it's one of those problems that's been stale for decades \u2014 the way we organize files hasn't fundamentally changed, but the way we think about information has.\n\nI've spent this year doing LLM fine-tuning work \u2014 LoRA-based adaptation of Llama models, evaluation pipelines, quantization \u2014 so I have a working knowledge of the stack. I'm a first-year student, so I want to be upfront about that \u2014 but I've been doing hands-on LLM work since arriving at MIT and am looking for a deeper research experience. I wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -781,9 +781,9 @@
       "body": "Hi Kevin,\n\nI saw the Latent Lab UROP on ELX and wanted to reach out about the Filescape sub-project. Reimagining file organization with AI feels like the right problem at the right time \u2014 current file systems were designed for an era when people knew exactly what they saved and where.\n\nI'm a first-year Course 6-4 student. I've spent this year doing LLM fine-tuning work \u2014 mostly running LoRA-based adaptation of Llama models for client-specific tasks on short cycles. It's been hands-on work with PyTorch, quantization, and evaluation pipelines rather than anything I'd call novel research, but it's given me a solid working knowledge of the fine-tuning stack. I'd be curious how LLM-based semantic understanding of file contents could replace or augment traditional folder hierarchies.\n\nI wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "Listed ELX contact for Latent Lab UROP.",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -803,9 +803,9 @@
       "body": "Hi Professor Amin,\n\nI saw the Agentic AI for Streamlining the Power Grid Interconnection Process UROP on ELX. The multi-agent architecture \u2014 with separate agents for prompt parsing, data curation, planning/optimization, and output handling \u2014 is a practical decomposition of a genuinely complex workflow. The 2,600 GW backlog makes the problem feel urgent rather than theoretical.\n\nI've spent this year doing LLM fine-tuning work \u2014 LoRA-based adaptation of Llama models, evaluation pipelines, quantization \u2014 so I have a working knowledge of the stack. I have experience with LLM-based systems and am familiar with agent frameworks. I'm a first-year student, so I want to be upfront about that \u2014 but I've been doing hands-on LLM work since arriving at MIT and am looking for a deeper research experience. I wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -825,9 +825,9 @@
       "body": "Hi Rahman,\n\nI saw the Agentic AI for Power Grid Interconnection UROP on ELX and wanted to reach out. The multi-agent LLM workflow you've built \u2014 parsing developer descriptions into structured data, integrating with grid models, and running optimization-based screening \u2014 is the kind of practical agentic system that I want to learn how to build.\n\nI'm a first-year Course 6-4 student. I've spent this year doing LLM fine-tuning work \u2014 mostly running LoRA-based adaptation of Llama models for client-specific tasks on short cycles. It's been hands-on work with PyTorch, quantization, and evaluation pipelines rather than anything I'd call novel research, but it's given me a solid working knowledge of the fine-tuning stack. I've worked with LLM APIs and have experience building structured software systems. The agent framework side (AutoGen, LangChain) is something I want to get deeper into.\n\nI wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "Listed ELX contact. PhD student/postdoc.",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -935,9 +935,9 @@
       "body": "Hi Dr. Mansinghka,\n\nI'm reaching out about UROP opportunities in the Probabilistic Computing Project. LLaMPPL \u2014 giving principled probabilistic control over language model generation \u2014 addresses something I've found frustrating in practice: the gap between what you want an LLM to do and what you can actually express through prompting alone.\n\nI've spent this year doing LLM fine-tuning work \u2014 LoRA-based adaptation of Llama models, evaluation pipelines, quantization \u2014 so I have a working knowledge of the stack. I'm a first-year student, so I want to be upfront about that \u2014 but I've been doing hands-on LLM work since arriving at MIT and am looking for a deeper research experience. I wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -957,9 +957,9 @@
       "body": "Hi Dr. Cafarella,\n\nI'm reaching out about UROP opportunities in the Data Systems Group. The Log-Augmented Generation work (ICLR 2026) on scaling test-time reasoning is interesting because it suggests that giving LLMs access to structured logs of their own reasoning process can improve output quality \u2014 which is a more grounded approach than just increasing model size.\n\nI've spent this year doing LLM fine-tuning work \u2014 LoRA-based adaptation of Llama models, evaluation pipelines, quantization \u2014 so I have a working knowledge of the stack. I'm a first-year student, so I want to be upfront about that \u2014 but I've been doing hands-on LLM work since arriving at MIT and am looking for a deeper research experience. I wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -1045,9 +1045,9 @@
       "body": "Hi Professor Levy,\n\nI'm reaching out about UROP opportunities. The EWoK framework for evaluating world knowledge in language models is interesting because it tests something more fundamental than task performance \u2014 whether models actually have the basic knowledge humans take for granted. Combined with your LINC work on hybridizing LLMs with logic provers, it seems like you're systematically mapping where LLMs work and where they need external scaffolding.\n\nI've spent this year doing LLM fine-tuning work \u2014 LoRA-based adaptation of Llama models, evaluation pipelines, quantization \u2014 so I have a working knowledge of the stack. I'm a first-year student, so I want to be upfront about that \u2014 but I've been doing hands-on LLM work since arriving at MIT and am looking for a deeper research experience. I wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -1243,9 +1243,9 @@
       "body": "Hi Pratyusha,\n\nYour NeurIPS 2025 paper on the spectral understanding of LoRA fine-tuning caught my attention because I've been doing LoRA-based Llama adaptation all year and have mostly been treating it as a black box. Understanding what LoRA actually does to the weight spectrum could help explain some of the inconsistencies I've seen across tasks.\n\nI'm looking for UROP opportunities in the LINGO group. I'm a first-year Course 6-4 student. I've spent this year doing LLM fine-tuning work \u2014 mostly running LoRA-based adaptation of Llama models for client-specific tasks on short cycles. It's been hands-on work with PyTorch, quantization, and evaluation pipelines rather than anything I'd call novel research, but it's given me a solid working knowledge of the fine-tuning stack.\n\nI wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "PhD student. LoRA spectral analysis, multimodal interpretability, LaMPP.",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -1265,9 +1265,9 @@
       "body": "Hi Alexis,\n\nYour work on in-context teaching \u2014 adapting examples to students' misconceptions \u2014 is relevant to something I've been working on outside of research. I built an ed-tech startup that uses LLMs for personalized curricula, and the idea of modeling what a learner gets wrong to improve instruction is something I've been trying to implement less rigorously on the product side.\n\nI'm looking for UROP opportunities in the LINGO group. I've spent this year doing LLM fine-tuning work \u2014 LoRA-based adaptation of Llama models, evaluation pipelines, quantization \u2014 so I have a working knowledge of the stack. I'm a first-year student, so I want to be upfront about that \u2014 but I've been doing hands-on LLM work since arriving at MIT and am looking for a deeper research experience.\n\nI wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "PhD student. Student modeling, learning from LM mistakes.",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -1397,9 +1397,9 @@
       "body": "Hi Nikhil,\n\nI'm reaching out about UROP opportunities in the Camera Culture group. I saw the LLM Agent Benchmarking listing and the broader NANDA project on building an Internet of AI Agents, and both are areas I'd be interested in contributing to.\n\nI'm a first-year Course 6-4 student. I've spent this year doing LLM fine-tuning work \u2014 mostly running LoRA-based adaptation of Llama models for client-specific tasks on short cycles. It's been hands-on work with PyTorch, quantization, and evaluation pipelines rather than anything I'd call novel research, but it's given me a solid working knowledge of the fine-tuning stack.\n\nI wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "PhD student.",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -1419,9 +1419,9 @@
       "body": "Hi Aaron,\n\nI'm reaching out about UROP opportunities in the Camera Culture group, specifically around the LLM Agent Benchmarking and NANDA projects. Building evaluation infrastructure for AI agents and the foundational protocols for agent-to-agent communication are both problems I'd like to work on.\n\nI'm a first-year Course 6-4 student. I've spent this year doing LLM fine-tuning work \u2014 mostly running LoRA-based adaptation of Llama models for client-specific tasks on short cycles. It's been hands-on work with PyTorch, quantization, and evaluation pipelines rather than anything I'd call novel research, but it's given me a solid working knowledge of the fine-tuning stack.\n\nI wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "PhD student.",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -1441,9 +1441,9 @@
       "body": "Hi Lucy,\n\nI saw the Tangible AI UROP on ELX. The idea of converting sketchnotes into inputs for generative AI is an interesting interface challenge. I'm curious how the system handles the ambiguity of hand-drawn sketches \u2014 whether the LLM component needs to do interpretation or if there's a more structured pipeline.\n\nI'm a first-year Course 6-4 student. I've spent this year doing LLM fine-tuning work \u2014 mostly running LoRA-based adaptation of Llama models for client-specific tasks on short cycles. It's been hands-on work with PyTorch, quantization, and evaluation pipelines rather than anything I'd call novel research, but it's given me a solid working knowledge of the fine-tuning stack.\n\nI wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "ELX contact for Tangible AI.",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -1463,9 +1463,9 @@
       "body": "Hi Nataliya,\n\nI'm reaching out about UROP opportunities in the Fluid Interfaces group, particularly around projects that use LLMs for cognitive enhancement or interactive AI systems. I saw the AttentivU listing but am more interested in the group's LLM-focused projects like LLMR and Memoro.\n\nI'm a first-year Course 6-4 student. I've spent this year doing LLM fine-tuning work \u2014 mostly running LoRA-based adaptation of Llama models for client-specific tasks on short cycles. It's been hands-on work with PyTorch, quantization, and evaluation pipelines rather than anything I'd call novel research, but it's given me a solid working knowledge of the fine-tuning stack.\n\nI wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "Listed ELX contact. Research scientist.",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -1485,9 +1485,9 @@
       "body": "Hi Amy,\n\nI'm writing to ask about the AI agents UROPs for the Mantis platform (both the Interactive AI Agents and the Compute Augmentation tracks). I'm particularly interested in the orchestrator agent architecture \u2014 decomposing complex biological data tasks into coordinated subtasks feels like a hard multi-agent design problem.\n\nI'm a first-year Course 6-4 student. I've spent this year doing LLM fine-tuning work \u2014 mostly running LoRA-based adaptation of Llama models for client-specific tasks on short cycles. It's been hands-on work with PyTorch, quantization, and evaluation pipelines rather than anything I'd call novel research, but it's given me a solid working knowledge of the fine-tuning stack.\n\nI wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "Admin contact for all Kellis UROPs.",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -1639,9 +1639,9 @@
       "body": "Hi Haotian,\n\nI've been using AWQ in my own LLM fine-tuning workflow this year, so the work that came out of HAN Lab on quantization has been directly useful to me. I'm interested in the serving-side challenges \u2014 QServe and LServe \u2014 because the bottleneck I keep hitting in practice is inference latency, not training.\n\nI'm looking for UROP opportunities in the HAN Lab. I'm a first-year student, so I want to be upfront about that \u2014 but I've been doing hands-on LLM work since arriving at MIT and am looking for a deeper research experience.\n\nI wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "PhD student. AWQ, efficient serving.",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -1661,9 +1661,9 @@
       "body": "Hi Guangxuan,\n\nStreamingLLM is one of the more elegant solutions I've seen to the long-context problem \u2014 preserving attention sinks to enable infinite-length generation with fixed memory is a clever insight. I'm curious whether the approach extends cleanly to multimodal inputs where the \"sinks\" might behave differently.\n\nI'm looking for UROP opportunities in the HAN Lab. I've spent this year doing LLM fine-tuning work \u2014 LoRA-based adaptation of Llama models, evaluation pipelines, quantization \u2014 so I have a working knowledge of the stack. I'm a first-year student, so I want to be upfront about that \u2014 but I've been doing hands-on LLM work since arriving at MIT and am looking for a deeper research experience.\n\nI wanted to ask whether there's any possibility of getting involved over the summer \u2014 remotely. Happy to send my resume if helpful.\n\nThanks for your time,\nDominik Bach\nMIT '29 \u2014 AI & Decision Making\nmit_bach@mit.edu",
       "notes": "PhD student. StreamingLLM, SmoothQuant.",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -1683,9 +1683,9 @@
       "body": "Hi,\n\nI'm a first-year 6-4 student looking for a UROP in the CAP group. I've been doing LLM fine-tuning this year (LoRA on Llama, evaluation pipelines, PyTorch) and am interested in the intersection of LLMs and program synthesis \u2014 specifically how you get LLMs to generate code that's actually correct rather than just plausible.\n\nI saw Professor Solar-Lezama's note about emailing this address. Happy to send my resume and a description of my background.\n\nDominik Bach\nMIT '29 \u2014 Course 6-4\nmit_bach@mit.edu",
       "notes": "Dedicated UROP email per Solar-Lezama's website.",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -1705,9 +1705,9 @@
       "body": "Hi Zhening,\n\nI'm looking for a UROP in the CAP group. The ICLR 2025 workshop paper on randomly sampled problems revealing LLM reasoning limits is directly relevant \u2014 I fine-tune Llama models and have noticed that performance on reasoning tasks drops unpredictably when you change surface features that shouldn't matter. A systematic way to expose those failures would be useful.\n\nFirst-year 6-4 student. Looking for summer or fall. Happy to send my resume.\n\nDominik Bach\nMIT '29 \u2014 Course 6-4\nmit_bach@mit.edu",
       "notes": "PhD. LLM reasoning limits (ICLR 2025 workshop), skills in RL, neurosymbolic.",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -1727,9 +1727,9 @@
       "body": "Hi Kensen,\n\nI'm looking for a UROP in the CAP group. I saw you co-authored the work on randomly sampled problems revealing LLM limits. I fine-tune Llama models and want to understand these failure modes more rigorously. Looking for summer or fall.\n\nHappy to send my resume.\n\nDominik Bach\nMIT '29 \u2014 Course 6-4\nmit_bach@mit.edu",
       "notes": "PhD. Co-author LLM reasoning limits paper.",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -1749,9 +1749,9 @@
       "body": "Hi Peter,\n\nI'm looking for a UROP in DSAIL. The Log-Augmented Generation work (ICLR 2026) \u2014 scaling test-time reasoning by giving LLMs access to reusable computation logs \u2014 is a clean idea. I've been doing LLM fine-tuning and the question of how to improve output quality without just making models bigger is something I think about practically.\n\nFirst-year 6-4 student. Looking for summer or fall. Happy to send my resume.\n\nDominik Bach\nMIT '29 \u2014 Course 6-4\nmit_bach@mit.edu",
       "notes": "PhD. Log-Augmented Generation (ICLR 2026), ARM retrieval (ACL 2025), MDCR (EMNLP 2024).",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -1771,9 +1771,9 @@
       "body": "Hi Eugenie,\n\nI'm looking for a UROP in DSAIL. I saw you're lead author on KramaBench \u2014 building a benchmark specifically for data-science agents working over data lakes. I've been doing LLM work and am interested in how you evaluate agents on tasks that don't have a single right answer.\n\nFirst-year 6-4 student. Looking for summer or fall. Happy to send my resume.\n\nDominik Bach\nMIT '29 \u2014 Course 6-4\nmit_bach@mit.edu",
       "notes": "PhD. KramaBench (2025), data preparation standardization (EDBT 2025).",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -1793,9 +1793,9 @@
       "body": "Hi Matthew,\n\nI'm looking for a UROP in DSAIL. The Abacus work on cost-based optimization for semantic operator systems is interesting \u2014 applying database-style query optimization to LLM-based pipelines. I do LLM fine-tuning and want to understand the systems side of making LLM pipelines efficient.\n\nFirst-year 6-4 student. Looking for summer or fall. Happy to send my resume.\n\nDominik Bach\nMIT '29 \u2014 Course 6-4\nmit_bach@mit.edu",
       "notes": "PhD. Abacus optimizer (2025), Palimpzest.",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -1859,9 +1859,9 @@
       "body": "Hi Dong Won,\n\nI'm looking for a UROP in the Personal Robots Group. Your EMNLP 2024 work on improving dialogue agents by decomposing global explicit annotation with local implicit multimodal feedback addresses a real bottleneck \u2014 getting useful training signal from natural human interaction rather than expensive manual labels.\n\nFirst-year 6-4 student. I do LLM fine-tuning. Looking for summer or fall. Happy to send my resume.\n\nDominik Bach\nMIT '29 \u2014 Course 6-4\nmit_bach@mit.edu",
       "notes": "PhD. Dialogue agents with multimodal feedback (EMNLP 2024, co-authored with Yoon Kim).",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -1881,9 +1881,9 @@
       "body": "Hi Anna,\n\nI'm looking for a UROP in the Data Systems Group. The CausaLens work on summarizing causal DAGs is interesting from an LLM perspective \u2014 if you can give a language model a compressed causal graph rather than raw data, it might reason about cause and effect more reliably.\n\nFirst-year 6-4 student. I do LLM fine-tuning. Looking for summer or fall. Happy to send my resume.\n\nDominik Bach\nMIT '29 \u2014 Course 6-4\nmit_bach@mit.edu",
       "notes": "PhD. CausaLens / Causal DAG Summarization (VLDB 2025), KramaBench co-author.",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -1903,9 +1903,9 @@
       "body": "Hi Alex,\n\nI'm looking for a UROP in the Probabilistic Computing group. The DisCIPL work on self-steering language models that you co-authored is the kind of LLM control I want to learn \u2014 using probabilistic programs to govern inference rather than relying on prompting alone.\n\nFirst-year 6-4 student. I do LLM fine-tuning. Looking for summer or fall. Happy to send my resume.\n\nDominik Bach\nMIT '29 \u2014 Course 6-4\nmit_bach@mit.edu",
       "notes": "PhD. DisCIPL co-author, LLaMPPL developer.",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
@@ -1925,9 +1925,9 @@
       "body": "Hi Anna,\n\nI'm looking for a UROP with Professor Levy's group. I saw you're a co-author on EWoK. The cognition-inspired approach to evaluating world knowledge in LLMs \u2014 testing for basic knowledge that humans take for granted \u2014 would help me think more carefully about what my fine-tuned models actually know vs. what they pattern-match.\n\nFirst-year 6-4 student. I do LLM fine-tuning. Looking for summer or fall. Happy to send my resume.\n\nDominik Bach\nMIT '29 \u2014 Course 6-4\nmit_bach@mit.edu",
       "notes": "Former postdoc (now may be at another institution \u2014 verify). EWoK co-author.",
       "tracking": {
-        "status": "draft",
-        "sent_date": null,
-        "followup_date": null,
+        "status": "sent",
+        "sent_date": "2026-03-10",
+        "followup_date": "2026-03-20",
         "response_date": null
       }
     },
